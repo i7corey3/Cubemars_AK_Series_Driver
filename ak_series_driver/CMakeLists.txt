@@ -15,7 +15,9 @@ add_library(
   ${PROJECT_NAME}
   SHARED
   src/test_node.cpp
- 
+  src/tmotor_ak_actuators.cpp
+  src/mcp2515.cpp
+
 
 )
 
@@ -32,9 +34,18 @@ ament_target_dependencies(
   
 )
 
-add_executable(testCode src/test_node.cpp)
-ament_target_dependencies(testCode rclcpp)
+add_executable(testCode 
+  src/test_node.cpp
+  src/tmotor_ak_actuators.cpp
+  src/mcp2515.cpp
 
+)
+ament_target_dependencies(testCode rclcpp)
+target_link_libraries(
+  testCode
+  ${PROJECT_NAME}
+
+)
 install(
   TARGETS 
   ${PROJECT_NAME}
