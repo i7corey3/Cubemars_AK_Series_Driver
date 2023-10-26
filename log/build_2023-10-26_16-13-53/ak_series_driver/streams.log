@@ -1,0 +1,168 @@
+[0.159s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.197s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:63:12:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.294s]    63 |     printf([01;35m[K"[m[KWelcome to the CubMars motor tutorial\n\n
+[0.294s]       |            [01;35m[K^[m[K
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:63:12:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[0.294s]    63 |     printf([01;31m[K"Welcome to the CubMars motor tutorial\n\n[m[K
+[0.294s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:64:64:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.294s]    64 |             Start by typing the motor commands, the inputs are:[01;31m[K\[m[Kn
+[0.294s]       |                                                                [01;31m[K^[m[K
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:65:33:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.294s]    65 |                 Desired Position[01;31m[K\[m[Kn
+[0.294s]       |                                 [01;31m[K^[m[K
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:66:33:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.294s]    66 |                 Desired Velocity[01;31m[K\[m[Kn
+[0.294s]       |                                 [01;31m[K^[m[K
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:67:31:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.294s]    67 |                 Desired Torque[01;31m[K\[m[Kn
+[0.294s]       |                               [01;31m[K^[m[K
+[0.294s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:68:25:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.294s]    68 |                 Kp Value[01;31m[K\[m[Kn
+[0.295s]       |                         [01;31m[K^[m[K
+[0.295s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:69:25:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.295s]    69 |                 Kd Value[01;31m[K\[m[Kn\n");
+[0.295s]       |                         [01;31m[K^[m[K
+[0.295s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:69:27:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[0.295s]    69 |                 Kd Value\n[01;31m[K\[m[Kn");
+[0.295s]       |                           [01;31m[K^[m[K
+[0.295s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:69:29:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.295s]    69 |                 Kd Value\n\n[01;35m[K"[m[K);
+[0.295s]       |                             [01;35m[K^[m[K
+[0.295s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:69:29:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[0.295s]    69 |                 Kd Value\n\n[01;31m[K");[m[K
+[0.295s]       |                             [01;31m[K^~~[m[K
+[1.477s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:16[m[K:
+[1.477s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::set_motor_param(float, float, float, float, float)[m[K’:
+[1.477s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:34:50:[m[K [01;31m[Kerror: [m[K‘[01m[KKp[m[K’ was not declared in this scope; did you mean ‘[01m[KKi[m[K’?
+[1.477s]    34 |             pack_cmd(position, velocity, torque, [01;31m[KKp[m[K, Kd);
+[1.477s]       |                                                  [01;31m[K^~[m[K
+[1.477s]       |                                                  [32m[KKi[m[K
+[1.477s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:32:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KKi[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.477s]    32 |         void set_motor_param(float position, float velocity, float torque, [01;35m[Kfloat Ki[m[K, float Kd)
+[1.477s]       |                                                                            [01;35m[K~~~~~~^~[m[K
+[1.479s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.479s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[KStart[m[K’ was not declared in this scope
+[1.479s]    64 |             [01;31m[KStart[m[K by typing the motor commands, the inputs are:\n
+[1.479s]       |             [01;31m[K^~~~~[m[K
+[1.480s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:64:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kthe[m[K’ was not declared in this scope
+[1.480s]    64 |             Start by typing the motor commands, [01;31m[Kthe[m[K inputs are:\n
+[1.480s]       |                                                 [01;31m[K^~~[m[K
+[1.481s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:81:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ktxt[m[K’ was not declared in this scope
+[1.481s]    81 |         inputs.push_back( [01;31m[Ktxt[m[K.substr( initialPos, std::min( pos, cmd.size() ) - initialPos + 1 ) );
+[1.481s]       |                           [01;31m[K^~~[m[K
+[1.481s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:85:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.481s]    85 |     driver.set_motor_param(std::atof(inputs[0][01;31m[K)[m[K, std::atof(inputs[1]),
+[1.481s]       |                                               [01;31m[K^[m[K
+[1.481s]       |                                               [01;31m[K|[m[K
+[1.481s]       |                                               [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.482s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.482s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.482s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.482s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.482s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.482s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.482s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:85:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.482s]    85 |     driver.set_motor_param(std::atof(inputs[0]), std::atof(inputs[1][01;31m[K)[m[K,
+[1.482s]       |                                                                     [01;31m[K^[m[K
+[1.482s]       |                                                                     [01;31m[K|[m[K
+[1.482s]       |                                                                     [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.483s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.483s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.483s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.483s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.483s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.483s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.483s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:86:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.483s]    86 |             std::atof(inputs[2][01;31m[K)[m[K, std::atof(inputs[3]), std::atof(inputs[4]));
+[1.483s]       |                                [01;31m[K^[m[K
+[1.483s]       |                                [01;31m[K|[m[K
+[1.483s]       |                                [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.483s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.483s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.483s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.483s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.483s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.483s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.483s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:86:54:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.483s]    86 |             std::atof(inputs[2]), std::atof(inputs[3][01;31m[K)[m[K, std::atof(inputs[4]));
+[1.483s]       |                                                      [01;31m[K^[m[K
+[1.483s]       |                                                      [01;31m[K|[m[K
+[1.484s]       |                                                      [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.484s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.484s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.484s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.484s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.484s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.484s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.484s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:86:76:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.484s]    86 |             std::atof(inputs[2]), std::atof(inputs[3]), std::atof(inputs[4][01;31m[K)[m[K);
+[1.484s]       |                                                                            [01;31m[K^[m[K
+[1.484s]       |                                                                            [01;31m[K|[m[K
+[1.484s]       |                                                                            [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.484s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.484s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.484s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.484s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.484s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.484s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.484s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[1.484s]    89 |     printf("Position [01;35m[K%s[m[K, Velocity %s, Torque %s : Inputs %s %s %s %s %s",
+[1.484s]       |                      [01;35m[K~^[m[K
+[1.485s]       |                       [01;35m[K|[m[K
+[1.485s]       |                       [01;35m[Kchar*[m[K
+[1.485s]       |                      [32m[K%f[m[K
+[1.485s]    90 |             [32m[Kdata[0][m[K, data[1], data[2], inputs[0], inputs[1], inputs[2], inputs[3], inputs[4]);
+[1.485s]       |             [32m[K~~~~~~~[m[K    
+[1.485s]       |                   [32m[K|[m[K
+[1.485s]       |                   [32m[Kdouble[m[K
+[1.485s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 3 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[1.485s]    89 |     printf("Position %s, Velocity [01;35m[K%s[m[K, Torque %s : Inputs %s %s %s %s %s",
+[1.485s]       |                                   [01;35m[K~^[m[K
+[1.485s]       |                                    [01;35m[K|[m[K
+[1.485s]       |                                    [01;35m[Kchar*[m[K
+[1.485s]       |                                   [32m[K%f[m[K
+[1.485s]    90 |             data[0], [32m[Kdata[1][m[K, data[2], inputs[0], inputs[1], inputs[2], inputs[3], inputs[4]);
+[1.485s]       |                      [32m[K~~~~~~~[m[K        
+[1.485s]       |                            [32m[K|[m[K
+[1.485s]       |                            [32m[Kdouble[m[K
+[1.485s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 4 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[1.485s]    89 |     printf("Position %s, Velocity %s, Torque [01;35m[K%s[m[K : Inputs %s %s %s %s %s",
+[1.485s]       |                                              [01;35m[K~^[m[K
+[1.485s]       |                                               [01;35m[K|[m[K
+[1.486s]       |                                               [01;35m[Kchar*[m[K
+[1.486s]       |                                              [32m[K%f[m[K
+[1.486s]    90 |             data[0], data[1], [32m[Kdata[2][m[K, inputs[0], inputs[1], inputs[2], inputs[3], inputs[4]);
+[1.486s]       |                               [32m[K~~~~~~~[m[K          
+[1.486s]       |                                     [32m[K|[m[K
+[1.486s]       |                                     [32m[Kdouble[m[K
+[1.486s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.486s]    89 |     printf("Position %s, Velocity %s, Torque %s : Inputs [01;35m[K%s[m[K %s %s %s %s",
+[1.486s]       |                                                          [01;35m[K~^[m[K
+[1.486s]       |                                                           [01;35m[K|[m[K
+[1.486s]       |                                                           [01;35m[Kchar*[m[K
+[1.486s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:62:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.486s]    89 |     printf("Position %s, Velocity %s, Torque %s : Inputs %s [01;35m[K%s[m[K %s %s %s",
+[1.486s]       |                                                             [01;35m[K~^[m[K
+[1.486s]       |                                                              [01;35m[K|[m[K
+[1.486s]       |                                                              [01;35m[Kchar*[m[K
+[1.486s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:65:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 7 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.486s]    89 |     printf("Position %s, Velocity %s, Torque %s : Inputs %s %s [01;35m[K%s[m[K %s %s",
+[1.486s]       |                                                                [01;35m[K~^[m[K
+[1.486s]       |                                                                 [01;35m[K|[m[K
+[1.486s]       |                                                                 [01;35m[Kchar*[m[K
+[1.487s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:68:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 8 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.487s]    89 |     printf("Position %s, Velocity %s, Torque %s : Inputs %s %s %s [01;35m[K%s[m[K %s",
+[1.487s]       |                                                                   [01;35m[K~^[m[K
+[1.487s]       |                                                                    [01;35m[K|[m[K
+[1.487s]       |                                                                    [01;35m[Kchar*[m[K
+[1.487s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:89:71:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 9 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.487s]    89 |     printf("Position %s, Velocity %s, Torque %s : Inputs %s %s %s %s [01;35m[K%s[m[K",
+[1.487s]       |                                                                      [01;35m[K~^[m[K
+[1.487s]       |                                                                       [01;35m[K|[m[K
+[1.487s]       |                                                                       [01;35m[Kchar*[m[K
+[1.959s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[1.959s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.959s] make: *** [Makefile:146: all] Error 2
+[1.963s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16

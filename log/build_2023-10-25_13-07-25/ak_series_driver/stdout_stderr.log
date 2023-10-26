@@ -1,0 +1,33 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:23:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff[01;31m[K\[m[K,0xff\,0xff\,0xff\,0xff\,0xff\,0xff\,0xfc\};
+      |                       [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:29:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff[01;31m[K\[m[K,0xff\,0xff\,0xff\,0xff\,0xff\,0xfc\};
+      |                             [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:35:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff\,0xff[01;31m[K\[m[K,0xff\,0xff\,0xff\,0xff\,0xfc\};
+      |                                   [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:41:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff\,0xff\,0xff[01;31m[K\[m[K,0xff\,0xff\,0xff\,0xfc\};
+      |                                         [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:47:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff\,0xff\,0xff\,0xff[01;31m[K\[m[K,0xff\,0xff\,0xfc\};
+      |                                               [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:53:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff\,0xff\,0xff\,0xff\,0xff[01;31m[K\[m[K,0xff\,0xfc\};
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:59:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff\,0xff\,0xff\,0xff\,0xff\,0xff[01;31m[K\[m[K,0xfc\};
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:56:65:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+   56 |     int msg[8] = {0xff\,0xff\,0xff\,0xff\,0xff\,0xff\,0xff\,0xfc[01;31m[K\[m[K};
+      |                                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(int, int, int*)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:105:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  105 |                 for([01;31m[Ki[m[K = 0; i < 8; i++)
+      |                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

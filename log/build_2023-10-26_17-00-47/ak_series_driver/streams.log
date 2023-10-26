@@ -1,0 +1,40 @@
+[0.180s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.220s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.507s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.507s]    49 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+[1.507s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.507s]       |         [32m[Krcl_subscription_t[m[K
+[1.680s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In member function ‘[01m[Kvoid TestNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.681s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:74:23:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst TestNode[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[1.681s]    74 |                 setup([01;31m[K)[m[K;
+[1.681s]       |                       [01;31m[K^[m[K
+[1.681s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:52:14:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid TestNode::setup()[m[K’
+[1.681s]    52 |         void [01;36m[Ksetup[m[K()
+[1.681s]       |              [01;36m[K^~~~~[m[K
+[1.681s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:91:113:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst AKDriver[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[1.681s]    91 |                         std::atof(inputs[2].c_str()), std::atof(inputs[3].c_str()), std::atof(inputs[4].c_str())[01;31m[K)[m[K;
+[1.681s]       |                                                                                                                 [01;31m[K^[m[K
+[1.681s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:17[m[K:
+[1.681s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:32:14:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid AKDriver::set_motor_param(float, float, float, float, float)[m[K’
+[1.681s]    32 |         void [01;36m[Kset_motor_param[m[K(float position, float velocity, float torque, float Kp, float Kd)
+[1.681s]       |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[1.681s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:93:37:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst AKDriver[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[1.682s]    93 |                 driver.get_data(data[01;31m[K)[m[K;
+[1.682s]       |                                     [01;31m[K^[m[K
+[1.682s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:17[m[K:
+[1.682s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:50:14:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid AKDriver::get_data(float*)[m[K’
+[1.682s]    50 |         void [01;36m[Kget_data[m[K(float *data)
+[1.682s]       |              [01;36m[K^~~~~~~~[m[K
+[1.682s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:93:33:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst float*[m[K’ to ‘[01m[Kfloat*[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.682s]    93 |                 driver.get_data([01;31m[Kdata[m[K);
+[1.682s]       |                                 [01;31m[K^~~~[m[K
+[1.682s]       |                                 [01;31m[K|[m[K
+[1.682s]       |                                 [01;31m[Kconst float*[m[K
+[1.682s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:17[m[K:
+[1.682s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:50:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid AKDriver::get_data(float*)[m[K’
+[1.682s]    50 |         void get_data([01;36m[Kfloat *data[m[K)
+[1.682s]       |                       [01;36m[K~~~~~~~^~~~[m[K
+[2.008s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[2.008s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[2.008s] make: *** [Makefile:146: all] Error 2
+[2.012s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16

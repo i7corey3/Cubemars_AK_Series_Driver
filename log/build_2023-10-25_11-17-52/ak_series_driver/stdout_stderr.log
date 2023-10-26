@@ -1,0 +1,42 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:28:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 |         void start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                       [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library libak_series_driver.so[0m
+[ 50%] Built target ak_series_driver
+[ 75%] [32mBuilding CXX object CMakeFiles/testCode.dir/src/test_node.cpp.o[0m
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:28:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 |         void start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                       [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable testCode[0m
+[100%] Built target testCode
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can_communication.hpp
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/testCode
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.sh
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.dsv
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.bash
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.sh
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.zsh
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.dsv
+-- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.dsv
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake
+-- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.xml

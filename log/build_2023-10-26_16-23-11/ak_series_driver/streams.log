@@ -1,0 +1,62 @@
+[0.165s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.208s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.559s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.559s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:79:47:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.559s]    79 |     driver.set_motor_param(std::atof(inputs[0][01;31m[K)[m[K, std::atof(inputs[1]),
+[1.559s]       |                                               [01;31m[K^[m[K
+[1.559s]       |                                               [01;31m[K|[m[K
+[1.559s]       |                                               [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.560s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.560s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.560s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.560s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.560s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.560s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.560s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:79:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.560s]    79 |     driver.set_motor_param(std::atof(inputs[0]), std::atof(inputs[1][01;31m[K)[m[K,
+[1.560s]       |                                                                     [01;31m[K^[m[K
+[1.560s]       |                                                                     [01;31m[K|[m[K
+[1.560s]       |                                                                     [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.560s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.560s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.560s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.560s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.560s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.560s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.560s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:80:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.560s]    80 |             std::atof(inputs[2][01;31m[K)[m[K, std::atof(inputs[3]), std::atof(inputs[4]));
+[1.560s]       |                                [01;31m[K^[m[K
+[1.561s]       |                                [01;31m[K|[m[K
+[1.561s]       |                                [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.561s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.561s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.561s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.561s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.561s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.561s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.561s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:80:54:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.561s]    80 |             std::atof(inputs[2]), std::atof(inputs[3][01;31m[K)[m[K, std::atof(inputs[4]));
+[1.561s]       |                                                      [01;31m[K^[m[K
+[1.561s]       |                                                      [01;31m[K|[m[K
+[1.561s]       |                                                      [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.561s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.561s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.561s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.561s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.561s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.561s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[1.561s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:80:76:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[1.561s]    80 |             std::atof(inputs[2]), std::atof(inputs[3]), std::atof(inputs[4][01;31m[K)[m[K);
+[1.561s]       |                                                                            [01;31m[K^[m[K
+[1.562s]       |                                                                            [01;31m[K|[m[K
+[1.562s]       |                                                                            [01;31m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type {aka std::__cxx11::basic_string<char>}[m[K
+[1.562s] In file included from [01m[K/usr/include/c++/9/cstdlib:75[m[K,
+[1.562s]                  from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+[1.562s]                  from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:2[m[K:
+[1.562s] [01m[K/usr/include/stdlib.h:101:33:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble atof(const char*)[m[K’
+[1.562s]   101 | extern double atof ([01;36m[Kconst char *__nptr[m[K)
+[1.562s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[2.091s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[2.091s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[2.092s] make: *** [Makefile:146: all] Error 2
+[2.096s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16

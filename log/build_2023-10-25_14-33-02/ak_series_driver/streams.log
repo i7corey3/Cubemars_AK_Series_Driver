@@ -1,0 +1,47 @@
+[0.164s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.203s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.502s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:15[m[K:
+[1.503s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::pack_cmd(float, float, float, float, float)[m[K’:
+[1.503s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:42:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTest_Pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.503s]    42 |             float [01;35m[KTest_Pos[m[K=0.0;
+[1.503s]       |                   [01;35m[K^~~~~~~~[m[K
+[2.004s] [ 50%] [32m[1mLinking CXX shared library libak_series_driver.so[0m
+[2.077s] [ 50%] Built target ak_series_driver
+[2.089s] [ 75%] [32mBuilding CXX object CMakeFiles/testCode.dir/src/test_node.cpp.o[0m
+[3.321s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:15[m[K:
+[3.322s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::pack_cmd(float, float, float, float, float)[m[K’:
+[3.322s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:42:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTest_Pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.322s]    42 |             float [01;35m[KTest_Pos[m[K=0.0;
+[3.322s]       |                   [01;35m[K^~~~~~~~[m[K
+[3.853s] [100%] [32m[1mLinking CXX executable testCode[0m
+[3.936s] [100%] Built target testCode
+[3.943s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[4.004s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/ros2_ws/build/ak_series_driver
+[4.025s] -- Install configuration: ""
+[4.025s] -- Execute custom install script
+[4.026s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so
+[4.026s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//ak_driver.hpp
+[4.026s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can_communication.hpp
+[4.026s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
+[4.027s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/testCode
+[4.027s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
+[4.027s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
+[4.027s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
+[4.027s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver
+[4.028s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh
+[4.028s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv
+[4.028s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.sh
+[4.028s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.dsv
+[4.028s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.bash
+[4.028s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.sh
+[4.029s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.zsh
+[4.029s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.dsv
+[4.029s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.dsv
+[4.031s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver
+[4.031s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.031s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.032s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.032s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake
+[4.032s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake
+[4.032s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.xml
+[4.036s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/ros2_ws/build/ak_series_driver

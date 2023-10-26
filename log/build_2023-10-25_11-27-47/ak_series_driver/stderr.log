@@ -1,0 +1,29 @@
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:39:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’}
+   39 |                 send_command([01;31m[Kcmd << "sudo ifconfig can" << channel << " down"[m[K);
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+      |                                                                    [01;31m[K|[m[K
+      |                                                                    [01;31m[Kstd::basic_ostream<char>[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:59:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CanCommunication::send_command(std::stringstream)[m[K’
+   59 |         void send_command([01;36m[Kstd::stringstream str[m[K)
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:41:95:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’}
+   41 |                 send_command([01;31m[Kcmd << "sudo ip link set can" << channel << " type can bitrate " << bitrate[m[K);
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+      |                                                                                               [01;31m[K|[m[K
+      |                                                                                               [01;31m[Kstd::basic_ostream<char>[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:59:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CanCommunication::send_command(std::stringstream)[m[K’
+   59 |         void send_command([01;36m[Kstd::stringstream str[m[K)
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:43:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’}
+   43 |                 send_command([01;31m[Kcmd << "sudo ifconfig can" << channel << " up"[m[K);
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+      |                                                                    [01;31m[K|[m[K
+      |                                                                    [01;31m[Kstd::basic_ostream<char>[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:59:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CanCommunication::send_command(std::stringstream)[m[K’
+   59 |         void send_command([01;36m[Kstd::stringstream str[m[K)
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

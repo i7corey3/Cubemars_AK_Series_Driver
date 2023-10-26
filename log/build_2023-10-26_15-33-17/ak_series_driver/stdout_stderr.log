@@ -1,0 +1,12 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:59:21:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kfloat&[m[K’ to an rvalue of type ‘[01m[Kfloat[m[K’
+   59 |     driver.get_data([01;31m[Kposition[m[K, speed, torque);
+      |                     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:15[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp:60:30:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid AKDriver::get_data(float&, float&, float&)[m[K’
+   60 |         void get_data([01;36m[Kfloat &position[m[K, float &speed, float &torque)
+      |                       [01;36m[K~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

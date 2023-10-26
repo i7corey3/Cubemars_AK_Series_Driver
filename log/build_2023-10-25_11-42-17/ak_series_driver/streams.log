@@ -1,0 +1,27 @@
+[0.157s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.195s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.430s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[1.430s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::write(uint8_t, int, int*)[m[K’:
+[1.430s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:88:31:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kcan_frame*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.431s]    88 |             nbytes = write(s, [01;31m[K&frame[m[K, sizeof(frame));
+[1.431s]       |                               [01;31m[K^~~~~~[m[K
+[1.431s]       |                               [01;31m[K|[m[K
+[1.431s]       |                               [01;31m[Kcan_frame*[m[K
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:68:40:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid CanCommunication::write(uint8_t, int, int*)[m[K’
+[1.431s]    68 |         void write(uint8_t can_id, [01;36m[Kint can_dlc[m[K, int *data)
+[1.431s]       |                                    [01;36m[K~~~~^~~~~~~[m[K
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:88:39:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Klong unsigned int[m[K’ to ‘[01m[Kint*[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.431s]    88 |             nbytes = write(s, &frame, [01;31m[Ksizeof(frame)[m[K);
+[1.431s]       |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.431s]       |                                       [01;31m[K|[m[K
+[1.431s]       |                                       [01;31m[Klong unsigned int[m[K
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:68:54:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid CanCommunication::write(uint8_t, int, int*)[m[K’
+[1.431s]    68 |         void write(uint8_t can_id, int can_dlc, [01;36m[Kint *data[m[K)
+[1.431s]       |                                                 [01;36m[K~~~~~^~~~[m[K
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:88:27:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[1.431s]    88 |             nbytes = [01;31m[Kwrite(s, &frame, sizeof(frame))[m[K;
+[1.431s]       |                      [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.891s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[1.891s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.891s] make: *** [Makefile:146: all] Error 2
+[1.895s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16

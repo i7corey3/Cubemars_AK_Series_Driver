@@ -1,0 +1,94 @@
+[0.122s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/ros2_ws/install/ak_series_driver
+[0.225s] -- The C compiler identification is GNU 9.4.0
+[0.289s] -- The CXX compiler identification is GNU 9.4.0
+[0.306s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.366s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.367s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.448s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.448s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.448s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.448s]   the cmake_policy command to set the policy and suppress this warning.
+[0.448s] 
+[0.448s] Call Stack (most recent call first):
+[0.448s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.448s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.449s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.449s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.449s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.449s]   CMakeLists.txt:9 (find_package)
+[0.449s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.449s] [0m
+[0.463s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.463s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.535s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.651s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.676s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.807s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.811s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.829s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.872s] -- Looking for pthread_create in pthreads
+[0.903s] -- Looking for pthread_create in pthreads - not found
+[0.903s] -- Looking for pthread_create in pthread
+[0.944s] -- Looking for pthread_create in pthread - found
+[0.945s] -- Found Threads: TRUE  
+[1.128s] -- Configuring done (1.0s)
+[1.137s] -- Generating done (0.0s)
+[1.138s] -- Build files have been written to: /home/corey/ros2_ws/build/ak_series_driver
+[1.150s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/ros2_ws/install/ak_series_driver
+[1.153s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[1.183s] [ 12%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.183s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/tmotor_ak_actuators.cpp.o[0m
+[1.184s] [ 37%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/mcp2515.cpp.o[0m
+[2.891s] [ 50%] [32m[1mLinking CXX shared library libak_series_driver.so[0m
+[2.968s] [ 50%] Built target ak_series_driver
+[2.974s] [ 62%] [32mBuilding CXX object CMakeFiles/testCode.dir/src/test_node.cpp.o[0m
+[2.974s] [ 75%] [32mBuilding CXX object CMakeFiles/testCode.dir/src/tmotor_ak_actuators.cpp.o[0m
+[2.974s] [ 87%] [32mBuilding CXX object CMakeFiles/testCode.dir/src/mcp2515.cpp.o[0m
+[4.604s] [100%] [32m[1mLinking CXX executable testCode[0m
+[4.671s] [100%] Built target testCode
+[4.678s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[4.733s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/ros2_ws/build/ak_series_driver
+[4.751s] -- Install configuration: ""
+[4.751s] -- Execute custom install script
+[4.752s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so
+[4.754s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can.h
+[4.755s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//mcp2515.h
+[4.757s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//mcp2515_speed_cfg.h
+[4.758s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
+[4.759s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//tmotor_ak_actuators.hpp
+[4.761s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/testCode
+[4.763s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
+[4.764s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
+[4.766s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
+[4.767s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver
+[4.769s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh
+[4.770s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv
+[4.771s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.sh
+[4.773s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.dsv
+[4.774s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.bash
+[4.776s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.sh
+[4.777s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.zsh
+[4.779s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.dsv
+[4.780s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.dsv
+[4.782s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver
+[4.783s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.785s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.786s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.787s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake
+[4.789s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake
+[4.790s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.xml
+[4.795s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/ros2_ws/build/ak_series_driver

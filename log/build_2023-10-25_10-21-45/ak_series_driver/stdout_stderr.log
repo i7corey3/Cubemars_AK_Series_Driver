@@ -1,0 +1,7 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMCP2515[m[K’ does not name a type
+   17 | [01;31m[KMCP2515[m[K *mcp2515;
+      | [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

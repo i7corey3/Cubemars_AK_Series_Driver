@@ -1,0 +1,14 @@
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:48:41:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::basic_stringstream<char>::__string_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+   48 |             strcpy(ifr.ifr_name, [01;31m[Kcmd.str()[m[K);
+      |                                  [01;31m[K~~~~~~~^~[m[K
+      |                                         [01;31m[K|[m[K
+      |                                         [01;31m[Kstd::__cxx11::basic_stringstream<char>::__string_type {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:3[m[K:
+[01m[K/usr/include/string.h:122:70:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kchar* strcpy(char*, const char*)[m[K’
+  122 | extern char *strcpy (char *__restrict __dest, [01;36m[Kconst char *__restrict __src[m[K)
+      |                                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

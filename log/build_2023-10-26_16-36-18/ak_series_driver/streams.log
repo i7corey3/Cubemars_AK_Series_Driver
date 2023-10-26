@@ -1,0 +1,19 @@
+[0.158s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.196s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:66:16:[m[K [01;31m[Kerror: [m[K‘[01m[KPosition[m[K’ was not declared in this scope
+[1.431s]    66 |         printf([01;31m[KPosition[m[K %f, Velocity %f, Torque %f, data[0], data[1], data[2]);
+[1.431s]       |                [01;31m[K^~~~~~~~[m[K
+[1.431s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:66:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+[1.431s]    66 |         printf(Position %[01;31m[Kf[m[K, Velocity %f, Torque %f, data[0], data[1], data[2]);
+[1.431s]       |                          [01;31m[K^[m[K
+[1.432s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[KVelocity[m[K’ was not declared in this scope
+[1.432s]    66 |         printf(Position %f, [01;31m[KVelocity[m[K %f, Torque %f, data[0], data[1], data[2]);
+[1.432s]       |                             [01;31m[K^~~~~~~~[m[K
+[1.433s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:66:42:[m[K [01;31m[Kerror: [m[K‘[01m[KTorque[m[K’ was not declared in this scope
+[1.433s]    66 |         printf(Position %f, Velocity %f, [01;31m[KTorque[m[K %f, data[0], data[1], data[2]);
+[1.433s]       |                                          [01;31m[K^~~~~~[m[K
+[1.892s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[1.893s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.893s] make: *** [Makefile:146: all] Error 2
+[1.897s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16

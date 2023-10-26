@@ -1,0 +1,32 @@
+[0.159s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.199s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.469s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[1.469s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::start(int, int)[m[K’:
+[1.469s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:39:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’}
+[1.469s]    39 |                 send_command([01;31m[Kcmd << "sudo ifconfig can" << channel << " down"[m[K);
+[1.469s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.469s]       |                                                                    [01;31m[K|[m[K
+[1.469s]       |                                                                    [01;31m[Kstd::basic_ostream<char>[m[K
+[1.469s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:59:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CanCommunication::send_command(std::stringstream)[m[K’
+[1.469s]    59 |         void send_command([01;36m[Kstd::stringstream str[m[K)
+[1.469s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.470s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:41:95:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’}
+[1.470s]    41 |                 send_command([01;31m[Kcmd << "sudo ip link set can" << channel << " type can bitrate " << bitrate[m[K);
+[1.470s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.470s]       |                                                                                               [01;31m[K|[m[K
+[1.470s]       |                                                                                               [01;31m[Kstd::basic_ostream<char>[m[K
+[1.470s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:59:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CanCommunication::send_command(std::stringstream)[m[K’
+[1.470s]    59 |         void send_command([01;36m[Kstd::stringstream str[m[K)
+[1.470s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.470s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:43:68:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’}
+[1.470s]    43 |                 send_command([01;31m[Kcmd << "sudo ifconfig can" << channel << " up"[m[K);
+[1.470s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.470s]       |                                                                    [01;31m[K|[m[K
+[1.470s]       |                                                                    [01;31m[Kstd::basic_ostream<char>[m[K
+[1.470s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:59:45:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CanCommunication::send_command(std::stringstream)[m[K’
+[1.470s]    59 |         void send_command([01;36m[Kstd::stringstream str[m[K)
+[1.470s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.958s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[1.958s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.959s] make: *** [Makefile:146: all] Error 2
+[1.962s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16

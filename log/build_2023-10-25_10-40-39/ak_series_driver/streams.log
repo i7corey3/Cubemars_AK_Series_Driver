@@ -1,0 +1,93 @@
+[0.122s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.156s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.821s] [ 50%] [32m[1mLinking CXX shared library libak_series_driver.so[0m
+[1.878s] [ 50%] Built target ak_series_driver
+[1.887s] [ 75%] [32mBuilding CXX object CMakeFiles/testCode.dir/src/test_node.cpp.o[0m
+[3.582s] [100%] [32m[1mLinking CXX executable testCode[0m
+[3.650s] [100%] Built target testCode
+[3.657s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[3.719s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/ros2_ws/build/ak_series_driver
+[3.738s] -- Install configuration: ""
+[3.738s] -- Execute custom install script
+[3.738s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so
+[3.739s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/.gitignore
+[3.741s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/.travis.yml
+[3.743s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/Android.mk
+[3.744s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/GNUmakefile.am
+[3.745s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/Makefile
+[3.747s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/README.md
+[3.749s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/asc2log.c
+[3.750s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/autogen.sh
+[3.752s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/bcmserver.c
+[3.753s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/can-calc-bit-timing.c
+[3.755s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/can-j1939-kickstart.md
+[3.756s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/can-j1939.md
+[3.758s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/canbusload.c
+[3.759s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/candump.c
+[3.761s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/canfdtest.c
+[3.762s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/canframelen.c
+[3.764s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/canframelen.h
+[3.765s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/cangen.c
+[3.767s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/cangw.c
+[3.768s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/canlogserver.c
+[3.770s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/canplayer.c
+[3.771s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/cansend.c
+[3.773s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/cansniffer.c
+[3.774s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/cantest-sh
+[3.776s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/config/m4/.secret-world-domination-project
+[3.777s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/configure.ac
+[3.779s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can.h
+[3.780s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/bcm.h
+[3.782s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/error.h
+[3.783s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/gw.h
+[3.785s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/isotp.h
+[3.786s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/j1939.h
+[3.788s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/netlink.h
+[3.789s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/raw.h
+[3.791s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/include/linux/can/vxcan.h
+[3.792s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotpdump.c
+[3.794s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotpperf.c
+[3.795s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotprecv.c
+[3.797s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotpsend.c
+[3.799s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotpserver.c
+[3.800s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotpsniffer.c
+[3.802s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/isotptun.c
+[3.804s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/jacd.c
+[3.805s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/jspy.c
+[3.807s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/jsr.c
+[3.808s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/lib.c
+[3.810s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/lib.h
+[3.811s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/libj1939.c
+[3.812s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/libj1939.h
+[3.814s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/log2asc.c
+[3.816s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/log2long.c
+[3.818s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/page.theme
+[3.819s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/slcan_attach.c
+[3.821s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/slcand.c
+[3.822s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/slcanpty.c
+[3.824s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/style.css
+[3.825s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/terminal.h
+[3.826s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//can-utils-master/testj1939.c
+[3.828s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
+[3.828s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/lib/ak_series_driver/testCode
+[3.828s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
+[3.828s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.sh
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/environment/path.dsv
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.bash
+[3.829s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.sh
+[3.830s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.zsh
+[3.830s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/local_setup.dsv
+[3.830s] -- Symlinking: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.dsv
+[3.832s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver
+[3.832s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.832s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.832s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.833s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake
+[3.833s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake
+[3.833s] -- Up-to-date symlink: /home/corey/ros2_ws/install/ak_series_driver/share/ak_series_driver/package.xml
+[3.837s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --install /home/corey/ros2_ws/build/ak_series_driver

@@ -1,0 +1,8 @@
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:57:19:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K291[m[K’ to ‘[01m[K35[m[K’ [[01;35m[K-Woverflow[m[K]
+   57 |     can.can_write([01;35m[K0x123[m[K, 8, msg);
+      |                   [01;35m[K^~~~~[m[K
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:57:19:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K291[m[K’ to ‘[01m[K35[m[K’ [[01;35m[K-Woverflow[m[K]
+   57 |     can.can_write([01;35m[K0x123[m[K, 8, msg);
+      |                   [01;35m[K^~~~~[m[K

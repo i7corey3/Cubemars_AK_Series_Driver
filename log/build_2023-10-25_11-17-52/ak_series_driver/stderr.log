@@ -1,0 +1,10 @@
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:28:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 |         void start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                       [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:28:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   28 |         void start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                       [01;35m[K~~~~~~~~~~^~~~~~~[m[K

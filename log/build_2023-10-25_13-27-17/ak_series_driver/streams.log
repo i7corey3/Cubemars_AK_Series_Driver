@@ -1,0 +1,17 @@
+[0.125s] Invoking command in '/home/corey/ros2_ws/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
+[0.164s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.407s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:14[m[K:
+[1.407s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(uint8_t, uint8_t, uint8_t*)[m[K’:
+[1.407s] [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp:112:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’} to ‘[01m[Kint[m[K’
+[1.407s]   112 |                 nbytes = read([01;31m[Ks[m[K, &frame, sizeof(frame));
+[1.407s]       |                               [01;31m[K^[m[K
+[1.408s]       |                               [01;31m[K|[m[K
+[1.408s]       |                               [01;31m[Kstd::stringstream {aka std::__cxx11::basic_stringstream<char>}[m[K
+[1.408s] In file included from [01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:4[m[K:
+[1.408s] [01m[K/usr/include/unistd.h:360:26:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kssize_t read(int, void*, size_t)[m[K’
+[1.408s]   360 | extern ssize_t read ([01;36m[Kint __fd[m[K, void *__buf, size_t __nbytes) __wur;
+[1.408s]       |                      [01;36m[K~~~~^~~~[m[K
+[1.872s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[1.873s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.873s] make: *** [Makefile:146: all] Error 2
+[1.876s] Invoked command in '/home/corey/ros2_ws/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/ros2_ws/build/ak_series_driver -- -j16 -l16
