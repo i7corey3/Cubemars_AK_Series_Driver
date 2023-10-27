@@ -1,0 +1,17 @@
+[0.781s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/test_topic': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/test_topic/prefix_override:/home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/test_topic/build --no-deps install_data
+[0.967s] running develop
+[1.093s] running egg_info
+[1.093s] writing test_topic.egg-info/PKG-INFO
+[1.094s] writing dependency_links to test_topic.egg-info/dependency_links.txt
+[1.094s] writing entry points to test_topic.egg-info/entry_points.txt
+[1.094s] writing requirements to test_topic.egg-info/requires.txt
+[1.094s] writing top-level names to test_topic.egg-info/top_level.txt
+[1.119s] reading manifest file 'test_topic.egg-info/SOURCES.txt'
+[1.120s] writing manifest file 'test_topic.egg-info/SOURCES.txt'
+[1.146s] running build_ext
+[1.146s] Creating /home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/python3.8/site-packages/test-topic.egg-link (link to .)
+[1.147s] Installing preform_test script to /home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/test_topic
+[1.147s] 
+[1.147s] Installed /home/corey/Cubemars_AK_Series_Driver/build/test_topic
+[1.147s] running install_data
+[1.166s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/test_topic' returned '0': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/test_topic/prefix_override:/home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/test_topic/build --no-deps install_data

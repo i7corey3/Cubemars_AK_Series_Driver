@@ -1,8 +1,8 @@
-# Install script for directory: /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver
+# Install script for directory: /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/corey/ros2_ws/install/ak_series_driver")
+  set(CMAKE_INSTALL_PREFIX "/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/corey/ros2_ws/build/ak_series_driver/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/corey/ros2_ws/build/ak_series_driver/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

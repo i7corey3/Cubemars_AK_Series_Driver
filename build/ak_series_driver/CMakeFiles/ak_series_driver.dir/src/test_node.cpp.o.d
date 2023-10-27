@@ -1,5 +1,5 @@
 CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
- /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp \
+ /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -122,49 +122,48 @@ CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
  /usr/include/c++/9/bits/stl_bvector.h \
  /usr/include/c++/9/bits/functional_hash.h \
  /usr/include/c++/9/bits/range_access.h \
- /usr/include/c++/9/bits/vector.tcc \
- /opt/ros/galactic/include/std_msgs/msg/string.hpp \
- /opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp \
- /opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp \
- /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
- /usr/include/c++/9/bits/algorithmfwd.h \
- /usr/include/c++/9/bits/stl_heap.h /usr/include/c++/9/bits/stl_tempbuf.h \
- /usr/include/c++/9/bits/uniform_int_dist.h /usr/include/c++/9/limits \
- /usr/include/c++/9/pstl/glue_algorithm_defs.h \
- /usr/include/c++/9/functional /usr/include/c++/9/bits/stl_function.h \
- /usr/include/c++/9/backward/binders.h /usr/include/c++/9/tuple \
- /usr/include/c++/9/array /usr/include/c++/9/stdexcept \
- /usr/include/c++/9/string /usr/include/c++/9/bits/stringfwd.h \
- /usr/include/c++/9/bits/char_traits.h /usr/include/c++/9/bits/postypes.h \
- /usr/include/c++/9/cwchar /usr/include/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/c++/9/bits/vector.tcc /usr/include/c++/9/thread \
+ /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
  /usr/include/c++/9/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/9/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
- /usr/include/c++/9/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/9/iosfwd \
- /usr/include/c++/9/cctype /usr/include/ctype.h \
- /usr/include/c++/9/bits/ostream_insert.h \
- /usr/include/c++/9/bits/cxxabi_forced.h \
- /usr/include/c++/9/bits/basic_string.h \
+ /usr/include/c++/9/limits /usr/include/c++/9/ctime /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/memory \
+ /usr/include/c++/9/bits/stl_tempbuf.h \
+ /usr/include/c++/9/bits/stl_raw_storage_iter.h /usr/include/c++/9/iosfwd \
+ /usr/include/c++/9/bits/stringfwd.h /usr/include/c++/9/bits/postypes.h \
+ /usr/include/c++/9/cwchar /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/c++/9/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
- /usr/include/c++/9/string_view /usr/include/c++/9/bits/string_view.tcc \
+ /usr/include/c++/9/ext/concurrence.h \
+ /usr/include/c++/9/bits/stl_function.h \
+ /usr/include/c++/9/backward/binders.h \
+ /usr/include/c++/9/bits/uses_allocator.h \
+ /usr/include/c++/9/bits/unique_ptr.h /usr/include/c++/9/tuple \
+ /usr/include/c++/9/array /usr/include/c++/9/stdexcept \
+ /usr/include/c++/9/string /usr/include/c++/9/bits/char_traits.h \
+ /usr/include/c++/9/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
+ /usr/include/c++/9/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/9/cctype \
+ /usr/include/ctype.h /usr/include/c++/9/bits/ostream_insert.h \
+ /usr/include/c++/9/bits/cxxabi_forced.h \
+ /usr/include/c++/9/bits/basic_string.h /usr/include/c++/9/string_view \
+ /usr/include/c++/9/bits/string_view.tcc \
  /usr/include/c++/9/ext/string_conversions.h /usr/include/c++/9/cstdio \
  /usr/include/c++/9/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
@@ -172,28 +171,32 @@ CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc \
- /usr/include/c++/9/bits/uses_allocator.h \
- /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/bits/refwrap.h \
- /usr/include/c++/9/bits/std_function.h /usr/include/c++/9/unordered_map \
- /usr/include/c++/9/ext/aligned_buffer.h \
- /usr/include/c++/9/bits/hashtable.h \
- /usr/include/c++/9/bits/hashtable_policy.h \
- /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
- /usr/include/c++/9/bits/enable_special_members.h \
- /usr/include/c++/9/bits/unordered_map.h \
- /usr/include/c++/9/bits/erase_if.h \
- /usr/include/c++/9/pstl/execution_defs.h /usr/include/c++/9/memory \
- /usr/include/c++/9/bits/stl_raw_storage_iter.h \
- /usr/include/c++/9/ext/concurrence.h \
- /usr/include/c++/9/bits/unique_ptr.h \
- /usr/include/c++/9/bits/shared_ptr.h \
+ /usr/include/c++/9/bits/invoke.h /usr/include/c++/9/bits/shared_ptr.h \
  /usr/include/c++/9/bits/shared_ptr_base.h \
  /usr/include/c++/9/bits/allocated_ptr.h \
+ /usr/include/c++/9/bits/refwrap.h \
+ /usr/include/c++/9/ext/aligned_buffer.h \
  /usr/include/c++/9/bits/shared_ptr_atomic.h \
  /usr/include/c++/9/bits/atomic_base.h \
  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
  /usr/include/c++/9/backward/auto_ptr.h \
  /usr/include/c++/9/pstl/glue_memory_defs.h \
+ /usr/include/c++/9/pstl/execution_defs.h \
+ /opt/ros/galactic/include/std_msgs/msg/string.hpp \
+ /opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp \
+ /usr/include/c++/9/algorithm /usr/include/c++/9/bits/stl_algo.h \
+ /usr/include/c++/9/bits/algorithmfwd.h \
+ /usr/include/c++/9/bits/stl_heap.h \
+ /usr/include/c++/9/bits/uniform_int_dist.h \
+ /usr/include/c++/9/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
+ /usr/include/c++/9/unordered_map /usr/include/c++/9/bits/hashtable.h \
+ /usr/include/c++/9/bits/hashtable_policy.h \
+ /usr/include/c++/9/bits/node_handle.h /usr/include/c++/9/optional \
+ /usr/include/c++/9/bits/enable_special_members.h \
+ /usr/include/c++/9/bits/unordered_map.h \
+ /usr/include/c++/9/bits/erase_if.h \
  /opt/ros/galactic/include/rosidl_runtime_cpp/message_initialization.hpp \
  /opt/ros/galactic/include/rosidl_runtime_c/message_initialization.h \
  /opt/ros/galactic/include/std_msgs/msg/detail/string__builder.hpp \
@@ -212,7 +215,7 @@ CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
  /usr/include/c++/9/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
  /usr/include/c++/9/bits/locale_facets.tcc \
- /usr/include/c++/9/bits/locale_facets_nonio.h /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/9/bits/locale_facets_nonio.tcc \
@@ -225,7 +228,7 @@ CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
  /usr/include/c++/9/bits/sstream.tcc \
  /opt/ros/galactic/include/ament_index_cpp/get_package_share_directory.hpp \
  /opt/ros/galactic/include/ament_index_cpp/visibility_control.h \
- /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/mit_params.hpp \
+ /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/mit_params.hpp \
  /opt/ros/galactic/include/rclcpp/rclcpp.hpp /usr/include/c++/9/csignal \
  /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -248,10 +251,8 @@ CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /opt/ros/galactic/include/rclcpp/executors.hpp /usr/include/c++/9/future \
- /usr/include/c++/9/mutex /usr/include/c++/9/chrono \
- /usr/include/c++/9/ratio /usr/include/c++/9/bits/parse_numbers.h \
- /usr/include/c++/9/bits/std_mutex.h \
- /usr/include/c++/9/bits/unique_lock.h /usr/include/c++/9/thread \
+ /usr/include/c++/9/mutex /usr/include/c++/9/bits/std_mutex.h \
+ /usr/include/c++/9/bits/unique_lock.h \
  /usr/include/c++/9/condition_variable /usr/include/c++/9/atomic \
  /usr/include/c++/9/bits/atomic_futex.h \
  /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp \
@@ -597,5 +598,5 @@ CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o: \
  /opt/ros/galactic/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/galactic/include/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/galactic/include/rclcpp/wait_set_template.hpp \
- /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/can_communication.hpp \
- /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include/ak_series_driver/ak_driver.hpp
+ /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp \
+ /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp

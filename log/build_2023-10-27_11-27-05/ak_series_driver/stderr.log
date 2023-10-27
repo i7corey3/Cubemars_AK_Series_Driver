@@ -1,0 +1,13 @@
+/usr/bin/ld: CMakeFiles/testCode.dir/src/test_node.cpp.o: in function `boost::detail::thread_data_base::thread_data_base()':
+test_node.cpp:(.text._ZN5boost6detail16thread_data_baseC2Ev[_ZN5boost6detail16thread_data_baseC5Ev]+0x24): undefined reference to `vtable for boost::detail::thread_data_base'
+/usr/bin/ld: CMakeFiles/testCode.dir/src/test_node.cpp.o: in function `boost::thread::start_thread()':
+test_node.cpp:(.text._ZN5boost6thread12start_threadEv[_ZN5boost6thread12start_threadEv]+0x28): undefined reference to `boost::thread::start_thread_noexcept()'
+/usr/bin/ld: CMakeFiles/testCode.dir/src/test_node.cpp.o: in function `boost::thread::~thread()':
+test_node.cpp:(.text._ZN5boost6threadD2Ev[_ZN5boost6threadD5Ev]+0x18): undefined reference to `boost::thread::detach()'
+/usr/bin/ld: CMakeFiles/testCode.dir/src/test_node.cpp.o: in function `boost::detail::thread_data<void (*)()>::~thread_data()':
+test_node.cpp:(.text._ZN5boost6detail11thread_dataIPFvvEED2Ev[_ZN5boost6detail11thread_dataIPFvvEED5Ev]+0x26): undefined reference to `boost::detail::thread_data_base::~thread_data_base()'
+/usr/bin/ld: CMakeFiles/testCode.dir/src/test_node.cpp.o:(.data.rel.ro._ZTIN5boost6detail11thread_dataIPFvvEEE[_ZTIN5boost6detail11thread_dataIPFvvEEE]+0x10): undefined reference to `typeinfo for boost::detail::thread_data_base'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/testCode.dir/build.make:146: testCode] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/testCode.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

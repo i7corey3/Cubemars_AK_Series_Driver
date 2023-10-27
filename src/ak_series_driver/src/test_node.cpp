@@ -8,6 +8,8 @@
 #include <linux/can.h>
 #include <linux/can/raw.h>
 #include <vector>
+#include <thread>
+#include <chrono>
 
 #include "std_msgs/msg/string.hpp"
 #include <ament_index_cpp/get_package_share_directory.hpp>
@@ -41,52 +43,81 @@ class TestNode : public rclcpp::Node
     
     public:
 
-
+        
+        
         TestNode()
         : Node("driver")
         { 
             subscription_ = this->create_subscription<std_msgs::msg::String>(
                 "test_node", 10, std::bind(&TestNode::topic_callback, this, _1));
 
-            publisher_ = this->create_publisher<std_msgs::msg::String>("test_node", 10);
+            // publisher_ = this->create_publisher<std_msgs::msg::String>("test_node", 10);
+            //std::thread t(&TestNode::read, this);
+            setup();
+            
             
         }
+        // ~TestNode()
+        // {
+        //     if (t.joinable())
+        //     {
+        //         t.join();
+        //     }
+        // }
 
-        void publisher()
-        {
-            auto message = std_msgs::msg::String();
-            std::string str(data.begin(), data.end());
-            message.data = str;
-            publisher_->publish(message);
-        }
+        // void publisher()
+        // {
+        //     auto message = std_msgs::msg::String();
+        //     std::string str(data.begin(), data.end());
+        //     message.data = str;
+        //     publisher_->publish(message);
+        //     // timer_->reset();
+        //     // timer_->execute_callback();
+        // }
         void setup()
         {
             driver.setup(0, 1000000);
         }
 
-        void read()
-        {
-            driver.get_data(data);
-            printf("Position %f Velocity %f Torque %f", data[0], data[1], data[2]);
-        }
+        // void read()
+        // {
+        //     while (rclcpp::ok())
+        //     {
+        //         if (write_ == false)
+        //         {
+        //             driver.get_data(data);
+        //             printf("Position %f Velocity %f Torque %f", data[0], data[1], data[2]);
+        //         }
+        //     }
+        // }
 
     private:
         AKDriver driver;
         std::vector<float> data = {0.0, 0.0, 0.0};
-
+     
        
 
         void topic_callback(const std_msgs::msg::String::SharedPtr msg) 
         {
+         
             std::string cmd;
             std::vector<std::string> inputs;
             cmd = msg->data.c_str();
             if (cmd == "start")
             {
-                setup();
+                driver.start_motor();
+            }
+            else if (cmd == "stop")
+            {
+                driver.stop_motor();
+            }
+            else if (cmd == "reset")
+            {
+                driver.reset_position();
             }
             else 
             {
+                
                 size_t pos = cmd.find(' ');
                 size_t initialPos = 0;
                 while( pos != std::string::npos)
@@ -102,13 +133,16 @@ class TestNode : public rclcpp::Node
                 driver.set_motor_param(std::atof(inputs[0].c_str()), std::atof(inputs[1].c_str()), 
                         std::atof(inputs[2].c_str()), std::atof(inputs[3].c_str()), std::atof(inputs[4].c_str()));
                 
-                driver.get_data(data);
+                
                 
             }
+            driver.get_data(data);
+            printf("Position %f Velocity %f Torque %f", data[0], data[1], data[2]);
+            
         }
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
-        rclcpp::TimerBase::SharedPtr timer_;
-        rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+        // rclcpp::TimerBase::SharedPtr timer_;
+        // rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
 
 };
 
@@ -119,12 +153,12 @@ int main(int argc, char * argv[])
 {
     
     rclcpp::init(argc, argv);
-    TestNode T;
-    while (rclcpp::ok())
-    {
-        rclcpp::spin(std::make_shared<TestNode>());
-        T.publisher();
-    }
+    // TestNode T;
+    // while (rclcpp::ok())
+    // {
+    rclcpp::spin(std::make_shared<TestNode>());
+    //     T.publisher();
+    // }
     
     
     rclcpp::shutdown();

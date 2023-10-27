@@ -1,0 +1,42 @@
+[0.352s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/test_topic:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16
+[0.385s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.388s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.388s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.388s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.388s]   the cmake_policy command to set the policy and suppress this warning.
+[0.388s] 
+[0.388s] Call Stack (most recent call first):
+[0.388s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.388s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.388s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.388s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.388s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.388s]   CMakeLists.txt:9 (find_package)
+[0.388s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.388s] [0m
+[0.405s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.455s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.470s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.510s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.664s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.681s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.809s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[0.810s] [31mCMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+[0.810s]   The plain signature for target_link_libraries has already been used with
+[0.811s]   the target "ak_series_driver".  All uses of target_link_libraries with a
+[0.811s]   target must be either all-keyword or all-plain.
+[0.811s] 
+[0.811s]   The uses of the plain signature are here:
+[0.811s] 
+[0.811s]    * CMakeLists.txt:23 (target_link_libraries)
+[0.811s] 
+[0.811s] Call Stack (most recent call first):
+[0.811s]   CMakeLists.txt:34 (ament_target_dependencies)
+[0.811s] 
+[0.811s] [0m
+[0.863s] -- Configuring incomplete, errors occurred!
+[0.868s] make: *** [Makefile:284: cmake_check_build_system] Error 1
+[0.872s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/test_topic:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16

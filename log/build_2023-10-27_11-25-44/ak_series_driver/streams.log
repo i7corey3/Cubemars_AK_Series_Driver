@@ -1,0 +1,14 @@
+[0.360s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/test_topic:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16
+[0.406s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[3.710s] In file included from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[3.710s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[3.710s]                  from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp:13[m[K:
+[3.711s] /usr/include/boost/thread/detail/thread.hpp: In instantiation of ‘[01m[Kvoid boost::detail::thread_data<F>::run() [with F = void (TestNode::*)()][m[K’:
+[3.711s] [01m[K/usr/include/boost/thread/detail/thread.hpp:118:18:[m[K   required from here
+[3.711s] [01m[K/usr/include/boost/thread/detail/thread.hpp:120:17:[m[K [01;31m[Kerror: [m[Kmust use ‘[01m[K.*[m[K’ or ‘[01m[K->*[m[K’ to call pointer-to-member function in ‘[01m[K((boost::detail::thread_data<void (TestNode::*)()>*)this)->boost::detail::thread_data<void (TestNode::*)()>::f (...)[m[K’, e.g. ‘[01m[K(... ->* ((boost::detail::thread_data<void (TestNode::*)()>*)this)->boost::detail::thread_data<void (TestNode::*)()>::f) (...)[m[K’
+[3.711s]   120 |                 [01;31m[Kf[m[K();
+[3.711s]       |                 [01;31m[K^[m[K
+[4.137s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[4.137s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[4.137s] make: *** [Makefile:146: all] Error 2
+[4.142s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/test_topic:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16

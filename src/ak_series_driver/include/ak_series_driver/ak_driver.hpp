@@ -22,12 +22,17 @@ class AKDriver
         void setup(int channel, int bitrate)
         {
             can_.start(channel, bitrate);
-            uint8_t msg[8] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0Xfc};
-            can_.send_cmd(1, sizeof(msg), msg);
+            
             reset_position();
             
             
 
+        }
+
+        void start_motor()
+        {
+            uint8_t msg[8] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0Xfc};
+            can_.send_cmd(1, sizeof(msg), msg);
         }
 
         void set_motor_param(float position, float velocity, float torque, float Kp, float Kd)

@@ -53,10 +53,10 @@ RM = /home/corey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver
+CMAKE_SOURCE_DIR = /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/corey/ros2_ws/build/ak_series_driver
+CMAKE_BINARY_DIR = /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/corey/ros2_ws/build/ak_series_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver /home/corey/ros2_ws/build/ak_series_driver /home/corey/ros2_ws/build/ak_series_driver /home/corey/ros2_ws/build/ak_series_driver/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

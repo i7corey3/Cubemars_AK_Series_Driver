@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION
 
-CXX_INCLUDES = -I/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/include -isystem /opt/ros/galactic/include
+CXX_INCLUDES = -I/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include -isystem /opt/ros/galactic/include
 
 CXX_FLAGS = -std=gnu++17 -Wall -Wextra -Wpedantic
 

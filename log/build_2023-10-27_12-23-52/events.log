@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (ak_series_driver) JobQueued: {'identifier': 'ak_series_driver', 'dependencies': OrderedDict()}
+[0.000165] (test_topic) JobQueued: {'identifier': 'test_topic', 'dependencies': OrderedDict()}
+[0.000183] (ak_series_driver) JobStarted: {'identifier': 'ak_series_driver'}
+[0.099894] (-) TimerEvent: {}
+[0.119808] (test_topic) JobStarted: {'identifier': 'test_topic'}
+[0.200018] (-) TimerEvent: {}
+[0.280995] (ak_series_driver) JobProgress: {'identifier': 'ak_series_driver', 'progress': 'cmake'}
+[0.281549] (ak_series_driver) JobProgress: {'identifier': 'ak_series_driver', 'progress': 'build'}
+[0.282154] (ak_series_driver) Command: {'cmd': ['/home/corey/.local/bin/cmake', '--build', '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver', '--', '-j16', '-l16'], 'cwd': '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'corey'), ('GIO_MODULE_DIR', '/home/corey/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1783'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/corey'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/143/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('JETSON_L4T', ''), ('GTK_IM_MODULE_FILE', '/home/corey/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/143/usr/share/code/code'), ('MANAGERPID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15614'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'corey'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('JOURNAL_STREAM', '8:56432'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'corey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/corey/.local/bin:/opt/ros/galactic/bin:/home/corey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/corey-Inspiron-3880:@/tmp/.ICE-unix/1821,unix/corey-Inspiron-3880:/tmp/.ICE-unix/1821'), ('GTK_EXE_PREFIX', '/snap/code/143/usr'), ('INVOCATION_ID', '1012c77b8342482592787576d42b8584'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/143/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c1927b6966.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/corey/snap/code/143/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/corey/snap/code/143/.local/share:/home/corey/snap/code/143:/snap/code/143/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.300200] (-) TimerEvent: {}
+[0.325120] (ak_series_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o\x1b[0m\n'}
+[0.400326] (-) TimerEvent: {}
+[0.501334] (-) TimerEvent: {}
+[0.602825] (-) TimerEvent: {}
+[0.703765] (-) TimerEvent: {}
+[0.804069] (-) TimerEvent: {}
+[0.904346] (-) TimerEvent: {}
+[0.913382] (test_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/corey/Cubemars_AK_Series_Driver/build/test_topic/build', '--no-deps', 'install_data'], 'cwd': '/home/corey/Cubemars_AK_Series_Driver/build/test_topic', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'corey', 'GIO_MODULE_DIR': '/home/corey/snap/code/common/.cache/gio-modules', 'SSH_AGENT_PID': '1783', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/corey', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.83.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/143/usr/lib/x86_64-linux-gnu/gtk-3.0', 'JETSON_L4T': '', 'GTK_IM_MODULE_FILE': '/home/corey/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': '', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/143/usr/share/code/code', 'MANAGERPID': '1567', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '15614', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'corey', 'JETSON_MODULE': '', 'JETSON_SERIAL_NUMBER': '', 'JOURNAL_STREAM': '8:56432', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'corey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/corey/.local/bin:/opt/ros/galactic/bin:/home/corey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/corey-Inspiron-3880:@/tmp/.ICE-unix/1821,unix/corey-Inspiron-3880:/tmp/.ICE-unix/1821', 'GTK_EXE_PREFIX': '/snap/code/143/usr', 'INVOCATION_ID': '1012c77b8342482592787576d42b8584', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/143/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': '', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c1927b6966.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/corey/snap/code/143/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '', 'PWD': '/home/corey/Cubemars_AK_Series_Driver/build/test_topic', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/corey/snap/code/143/.local/share:/home/corey/snap/code/143:/snap/code/143/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/corey/Cubemars_AK_Series_Driver/build/test_topic/prefix_override:/home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'JETSON_JETPACK': ''}, 'shell': False}
+[1.004451] (-) TimerEvent: {}
+[1.104754] (-) TimerEvent: {}
+[1.109111] (test_topic) StdoutLine: {'line': b'running develop\n'}
+[1.204869] (-) TimerEvent: {}
+[1.249232] (test_topic) StdoutLine: {'line': b'running egg_info\n'}
+[1.249524] (test_topic) StdoutLine: {'line': b'writing test_topic.egg-info/PKG-INFO\n'}
+[1.249656] (test_topic) StdoutLine: {'line': b'writing dependency_links to test_topic.egg-info/dependency_links.txt\n'}
+[1.249943] (test_topic) StdoutLine: {'line': b'writing entry points to test_topic.egg-info/entry_points.txt\n'}
+[1.250114] (test_topic) StdoutLine: {'line': b'writing requirements to test_topic.egg-info/requires.txt\n'}
+[1.250171] (test_topic) StdoutLine: {'line': b'writing top-level names to test_topic.egg-info/top_level.txt\n'}
+[1.275360] (test_topic) StdoutLine: {'line': b"reading manifest file 'test_topic.egg-info/SOURCES.txt'\n"}
+[1.275975] (test_topic) StdoutLine: {'line': b"writing manifest file 'test_topic.egg-info/SOURCES.txt'\n"}
+[1.303253] (test_topic) StdoutLine: {'line': b'running build_ext\n'}
+[1.303949] (test_topic) StdoutLine: {'line': b'Creating /home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/python3.8/site-packages/test-topic.egg-link (link to .)\n'}
+[1.304568] (test_topic) StdoutLine: {'line': b'Installing preform_test script to /home/corey/Cubemars_AK_Series_Driver/install/test_topic/lib/test_topic\n'}
+[1.304754] (test_topic) StdoutLine: {'line': b'\n'}
+[1.304846] (test_topic) StdoutLine: {'line': b'Installed /home/corey/Cubemars_AK_Series_Driver/build/test_topic\n'}
+[1.304928] (-) TimerEvent: {}
+[1.305060] (test_topic) StdoutLine: {'line': b'running install_data\n'}
+[1.326113] (test_topic) CommandEnded: {'returncode': 0}
+[1.405212] (-) TimerEvent: {}
+[1.505086] (test_topic) JobEnded: {'identifier': 'test_topic', 'rc': 0}
+[1.505598] (-) TimerEvent: {}
+[1.605869] (-) TimerEvent: {}
+[1.706233] (-) TimerEvent: {}
+[1.806693] (-) TimerEvent: {}
+[1.907222] (-) TimerEvent: {}
+[2.007546] (-) TimerEvent: {}
+[2.107926] (-) TimerEvent: {}
+[2.208214] (-) TimerEvent: {}
+[2.308482] (-) TimerEvent: {}
+[2.408755] (-) TimerEvent: {}
+[2.508986] (-) TimerEvent: {}
+[2.609241] (-) TimerEvent: {}
+[2.709507] (-) TimerEvent: {}
+[2.809801] (-) TimerEvent: {}
+[2.910048] (-) TimerEvent: {}
+[3.010315] (-) TimerEvent: {}
+[3.110548] (-) TimerEvent: {}
+[3.210819] (-) TimerEvent: {}
+[3.311090] (-) TimerEvent: {}
+[3.411349] (-) TimerEvent: {}
+[3.511611] (-) TimerEvent: {}
+[3.611874] (-) TimerEvent: {}
+[3.712144] (-) TimerEvent: {}
+[3.812418] (-) TimerEvent: {}
+[3.912645] (-) TimerEvent: {}
+[4.012919] (-) TimerEvent: {}
+[4.113207] (-) TimerEvent: {}
+[4.213489] (-) TimerEvent: {}
+[4.313784] (-) TimerEvent: {}
+[4.414017] (-) TimerEvent: {}
+[4.514303] (-) TimerEvent: {}
+[4.614623] (-) TimerEvent: {}
+[4.714893] (-) TimerEvent: {}
+[4.815150] (-) TimerEvent: {}
+[4.915431] (-) TimerEvent: {}
+[5.015686] (-) TimerEvent: {}
+[5.115939] (-) TimerEvent: {}
+[5.216245] (-) TimerEvent: {}
+[5.316542] (-) TimerEvent: {}
+[5.416933] (-) TimerEvent: {}
+[5.517222] (-) TimerEvent: {}
+[5.617723] (-) TimerEvent: {}
+[5.692446] (ak_series_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libak_series_driver.so\x1b[0m\n'}
+[5.718004] (-) TimerEvent: {}
+[5.818820] (-) TimerEvent: {}
+[5.919372] (-) TimerEvent: {}
+[5.919670] (ak_series_driver) StdoutLine: {'line': b'[ 50%] Built target ak_series_driver\n'}
+[5.932118] (ak_series_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/testCode.dir/src/test_node.cpp.o\x1b[0m\n'}
+[6.019492] (-) TimerEvent: {}
+[6.119819] (-) TimerEvent: {}
+[6.220079] (-) TimerEvent: {}
+[6.320338] (-) TimerEvent: {}
+[6.420635] (-) TimerEvent: {}
+[6.520918] (-) TimerEvent: {}
+[6.621286] (-) TimerEvent: {}
+[6.721575] (-) TimerEvent: {}
+[6.821973] (-) TimerEvent: {}
+[6.922296] (-) TimerEvent: {}
+[7.022692] (-) TimerEvent: {}
+[7.123016] (-) TimerEvent: {}
+[7.223339] (-) TimerEvent: {}
+[7.323601] (-) TimerEvent: {}
+[7.423884] (-) TimerEvent: {}
+[7.524173] (-) TimerEvent: {}
+[7.624588] (-) TimerEvent: {}
+[7.724866] (-) TimerEvent: {}
+[7.825141] (-) TimerEvent: {}
+[7.925407] (-) TimerEvent: {}
+[8.025672] (-) TimerEvent: {}
+[8.125972] (-) TimerEvent: {}
+[8.226199] (-) TimerEvent: {}
+[8.326460] (-) TimerEvent: {}
+[8.426741] (-) TimerEvent: {}
+[8.526997] (-) TimerEvent: {}
+[8.627256] (-) TimerEvent: {}
+[8.727541] (-) TimerEvent: {}
+[8.827809] (-) TimerEvent: {}
+[8.928071] (-) TimerEvent: {}
+[9.028346] (-) TimerEvent: {}
+[9.128602] (-) TimerEvent: {}
+[9.228912] (-) TimerEvent: {}
+[9.329176] (-) TimerEvent: {}
+[9.429482] (-) TimerEvent: {}
+[9.529743] (-) TimerEvent: {}
+[9.630015] (-) TimerEvent: {}
+[9.730281] (-) TimerEvent: {}
+[9.830535] (-) TimerEvent: {}
+[9.930799] (-) TimerEvent: {}
+[10.031053] (-) TimerEvent: {}
+[10.131305] (-) TimerEvent: {}
+[10.231570] (-) TimerEvent: {}
+[10.331840] (-) TimerEvent: {}
+[10.432138] (-) TimerEvent: {}
+[10.532431] (-) TimerEvent: {}
+[10.632691] (-) TimerEvent: {}
+[10.732960] (-) TimerEvent: {}
+[10.833212] (-) TimerEvent: {}
+[10.933477] (-) TimerEvent: {}
+[11.033736] (-) TimerEvent: {}
+[11.134050] (-) TimerEvent: {}
+[11.181559] (ak_series_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable testCode\x1b[0m\n'}
+[11.234181] (-) TimerEvent: {}
+[11.334469] (-) TimerEvent: {}
+[11.395896] (ak_series_driver) StdoutLine: {'line': b'[100%] Built target testCode\n'}
+[11.403575] (ak_series_driver) CommandEnded: {'returncode': 0}
+[11.434576] (-) TimerEvent: {}
+[11.435145] (ak_series_driver) JobProgress: {'identifier': 'ak_series_driver', 'progress': 'install'}
+[11.460335] (ak_series_driver) Command: {'cmd': ['/home/corey/.local/bin/cmake', '--install', '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver'], 'cwd': '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'corey'), ('GIO_MODULE_DIR', '/home/corey/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1783'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/corey'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/143/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('JETSON_L4T', ''), ('GTK_IM_MODULE_FILE', '/home/corey/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/143/usr/share/code/code'), ('MANAGERPID', '1567'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15614'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'corey'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('JOURNAL_STREAM', '8:56432'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'corey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/corey/.local/bin:/opt/ros/galactic/bin:/home/corey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/corey-Inspiron-3880:@/tmp/.ICE-unix/1821,unix/corey-Inspiron-3880:/tmp/.ICE-unix/1821'), ('GTK_EXE_PREFIX', '/snap/code/143/usr'), ('INVOCATION_ID', '1012c77b8342482592787576d42b8584'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/143/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c1927b6966.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/corey/snap/code/143/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/corey/snap/code/143/.local/share:/home/corey/snap/code/143:/snap/code/143/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[11.480393] (ak_series_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.480704] (ak_series_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.480931] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so\n'}
+[11.481177] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//ak_driver.hpp\n'}
+[11.481274] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//can_communication.hpp\n'}
+[11.481342] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//mit_params.hpp\n'}
+[11.481545] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/testCode\n'}
+[11.481657] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh\n'}
+[11.481959] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv\n'}
+[11.482138] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver\n'}
+[11.482323] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver\n'}
+[11.482526] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh\n'}
+[11.482693] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv\n'}
+[11.482846] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/path.sh\n'}
+[11.482923] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/path.dsv\n'}
+[11.483147] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.bash\n'}
+[11.483336] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.sh\n'}
+[11.483471] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.zsh\n'}
+[11.483671] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.dsv\n'}
+[11.483773] (ak_series_driver) StdoutLine: {'line': b'-- Symlinking: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/package.dsv\n'}
+[11.486854] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver\n'}
+[11.487047] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.487130] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.487206] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.487309] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake\n'}
+[11.487469] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake\n'}
+[11.487570] (ak_series_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/package.xml\n'}
+[11.491155] (ak_series_driver) CommandEnded: {'returncode': 0}
+[11.535031] (-) TimerEvent: {}
+[11.635444] (-) TimerEvent: {}
+[11.737238] (-) TimerEvent: {}
+[11.830459] (ak_series_driver) JobEnded: {'identifier': 'ak_series_driver', 'rc': 0}
+[11.831284] (-) EventReactorShutdown: {}

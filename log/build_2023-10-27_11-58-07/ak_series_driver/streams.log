@@ -1,0 +1,11 @@
+[0.281s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16
+[0.321s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o[0m
+[1.751s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp:[m[K In destructor ‘[01m[Kvirtual TestNode::~TestNode()[m[K’:
+[1.751s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp:62:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+[1.751s]    62 |             if ([01;31m[Kt[m[K.joinable())
+[1.751s]       |                 [01;31m[K^[m[K
+[1.751s]       |                 [32m[Ktm[m[K
+[3.271s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+[3.271s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+[3.271s] make: *** [Makefile:146: all] Error 2
+[3.275s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16

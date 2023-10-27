@@ -1,0 +1,7 @@
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp:[m[K In member function ‘[01m[Kvoid TestNode::publisher()[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp:62:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kexploring_timer_[m[K’ was not declared in this scope
+   62 |             [01;31m[Kexploring_timer_[m[K->reset();
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

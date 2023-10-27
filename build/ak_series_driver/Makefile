@@ -57,10 +57,10 @@ RM = /home/corey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver
+CMAKE_SOURCE_DIR = /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/corey/ros2_ws/build/ak_series_driver
+CMAKE_BINARY_DIR = /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/corey/ros2_ws/build/ak_series_driver/CMakeFiles /home/corey/ros2_ws/build/ak_series_driver//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/corey/ros2_ws/build/ak_series_driver/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
