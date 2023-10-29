@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/test_node.cpp" "CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o" "gcc" "CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

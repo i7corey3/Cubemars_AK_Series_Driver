@@ -2,10 +2,12 @@ import rclpy
 from rclpy.node import Node
 import time
 from std_msgs.msg import String
+import threading
  
 class TestTopic(Node):
    def __init__(self):
       super().__init__('test_topic')
+
 
       self.publisher = self.create_publisher(
          String,
@@ -14,19 +16,27 @@ class TestTopic(Node):
       )
 
       time.sleep(1)
+
+      #threading.Thread(target=self.publish_read, args=()).start()
  
+   def publish_read(self):
+      while rclpy.ok():
+         s = String()
+         s.data = "read"
+         self.publisher.publish(s)
+
    def preformTest(self):
       s = String()
       
       print("""
-      Welcome to the CubMars motor tutorial
+Welcome to the CubMars motor tutorial
             
-      Start by typing the motor commands, the inputs are:
-            Desired Position  
-            Desired Velocity  
-            Desired Torque  
-            Kp Value  
-            Kd Value
+Start by typing the motor commands, the inputs are:
+   Desired Position  
+   Desired Velocity  
+   Desired Torque  
+   Kp Value  
+   Kd Value
             """)
       
       cmd = input("Enter Command: ")

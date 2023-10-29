@@ -93,13 +93,15 @@ class TestNode : public rclcpp::Node
 
     private:
         AKDriver driver;
-        std::vector<float> data = {0.0, 0.0, 0.0};
-     
+        std::vector<float> data = {0.0, 0.0, 0.0, 0.0, 0.0};
+        rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+        // rclcpp::TimerBase::SharedPtr timer_;
+        // rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
        
 
         void topic_callback(const std_msgs::msg::String::SharedPtr msg) 
         {
-         
+            
             std::string cmd;
             std::vector<std::string> inputs;
             cmd = msg->data.c_str();
@@ -115,9 +117,16 @@ class TestNode : public rclcpp::Node
             {
                 driver.reset_position();
             }
+            else if (cmd == "")
+            {
+                driver.start_motor();
+                
+            }
             else 
             {
                 
+                try 
+                {
                 size_t pos = cmd.find(' ');
                 size_t initialPos = 0;
                 while( pos != std::string::npos)
@@ -129,20 +138,32 @@ class TestNode : public rclcpp::Node
 
                 }
                 inputs.push_back( cmd.substr( initialPos, std::min( pos, cmd.size() ) - initialPos + 1 ) );
-
+                for (int i=0; i < 5; i++)
+                {
+                    std::cout << inputs[i] << " ";
+                }
+                std::cout << std::endl;
+                
                 driver.set_motor_param(std::atof(inputs[0].c_str()), std::atof(inputs[1].c_str()), 
                         std::atof(inputs[2].c_str()), std::atof(inputs[3].c_str()), std::atof(inputs[4].c_str()));
                 
-                
+                }
+
+                catch(const std::exception& e)
+                {
+                    //std::cerr << e.what() << '\n';
+                    driver.start_motor();
+                }
                 
             }
             driver.get_data(data);
-            printf("Position %f Velocity %f Torque %f", data[0], data[1], data[2]);
+            std::cout << "Position: " << data[0] << "\nVelocity: " << data[1] 
+            << "\nTorque: " << data[2] << "\nTemp " << data[3] << "\nError: " << data[4] 
+            << std::endl;
+            //printf("Position %f Velocity %f Torque %f", data[0], data[1], data[2]);
             
         }
-        rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
-        // rclcpp::TimerBase::SharedPtr timer_;
-        // rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+        
 
 };
 

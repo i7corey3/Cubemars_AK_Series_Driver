@@ -1,0 +1,4 @@
+[0.052s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[0.056s] make: /home/corey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake: No such file or directory
+[0.056s] make: *** [Makefile:284: cmake_check_build_system] Error 127
+[0.195s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32

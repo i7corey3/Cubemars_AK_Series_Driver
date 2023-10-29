@@ -98,8 +98,8 @@ class CanCommunication
             // printf("can_id  = 0x%X\r\n", frame.can_id);
             // printf("can_dlc = %d\r\n", frame.can_dlc);
             
-            // for(int i = 0; i < 8; i++)
-            //     printf("data[%d] = %d\r\n", i, frame.data[i]);
+            for(int i = 0; i < 8; i++)
+                printf("data[%d] = %d\r\n", i, frame.data[i]);
             
             /*Send message out */
             nbytes = write(s, &frame, sizeof(frame)); 

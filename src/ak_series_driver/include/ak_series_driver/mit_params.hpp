@@ -73,8 +73,8 @@ struct AK60_6
 {
     float P_min = -12.5;
     float P_max = 12.5;
-    float V_min = -50.0;
-    float V_max = 50.0;
+    float V_min = -45.0;
+    float V_max = 45.0;
     float T_min = -15.0;
     float T_max = 15.0;
     float Kp_min = 0.0;
