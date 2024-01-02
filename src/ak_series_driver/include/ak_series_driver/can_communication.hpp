@@ -67,16 +67,7 @@ class CanCommunication
                 perror("bind failed!");
                 return 1;
             }
-            // struct can_filter rfilter[2];
-            // rfilter[0].can_id = 0x01;//Standard frame id !
-            // rfilter[0].can_mask = CAN_SFF_MASK;
-            // // rfilter[1].can_id = 0x12345678;//extend frame id!
-            // // rfilter[1].can_mask = CAN_EFF_MASK;
-            // //mask below sentense to receive all the message from CAN BUS!
-            // setsockopt(s, SOL_CAN_RAW, CAN_RAW_FILTER, &rfilter, sizeof(rfilter));
-            
-            
-
+         
             return 0;
                 
         }
@@ -90,16 +81,6 @@ class CanCommunication
             {
                 frame.data[i] = data[i];
             }
-
-            // if(!(frame.can_id&CAN_EFF_FLAG))
-            //     printf("Transmit standard frame!\n");
-            // else
-            //     printf("Transmit extended frame!\n");
-            // printf("can_id  = 0x%X\r\n", frame.can_id);
-            // printf("can_dlc = %d\r\n", frame.can_dlc);
-            
-            // for(int i = 0; i < 8; i++)
-            //     printf("data[%d] = %d\r\n", i, frame.data[i]);
             
             /*Send message out */
             nbytes = write(s, &frame, sizeof(frame)); 
@@ -109,36 +90,12 @@ class CanCommunication
                 
             }
             sleep_for(nanoseconds(1000));
-            // std::stringstream str;
-            // str << nbytes;
-            // std::cout << str.str() << std::endl;
-         
-            // while(1) {
-                
-            
-            
-                // mask below sentense to receive all the time other wise can only receive one time!
-            //     break;
-            //     }
-            // }
         }
 
         void can_read()
         {
             nbytes = read(s, &frame, sizeof(frame));
-            // if(nbytes > 0) {
-            //     if(!(frame.can_id&CAN_EFF_FLAG))
-            //     //if(frame.can_id&0x80000000==0)
-            //         printf("Received standard frame!\n");
-            //     else
-            //         printf("Received extended frame!\n");
-            //     printf("can_id = 0x%X\r\ncan_dlc = %d \r\n", frame.can_id&0x1FFFFFFF, frame.can_dlc);
-            //     for(int i = 0; i < 8; i++)
-            //     {
-            //         // response[i] = frame.data[i];
-            //         printf("data[%d] = %d\r\n", i, frame.data[i]);
-            //     }
-            // }
+
             
         }
 
