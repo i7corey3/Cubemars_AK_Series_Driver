@@ -2,7 +2,7 @@
 
 This repository allows the ability to control the CubeMars AK series motors through CAN communication.
 
-> Tested on Ubuntu 20.04
+> Tested on Ubuntu 20.04 with ROS2 Galactic
 
 ## Hardware 
 
