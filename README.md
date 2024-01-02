@@ -62,7 +62,7 @@ ros2 run control control
 Inside the second terminal, follow the instructions to set the motors parameters and run the motor.
 To change the motor to control type m1 or m2
 
-# Discaimer
+# Disclaimer
 
 This code has not been fully tested, Use at your own risk!
 
