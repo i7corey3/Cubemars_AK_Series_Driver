@@ -15,35 +15,32 @@ class AKDriver
         void setup(int channel, int bitrate)
         {
             can_.start(channel, bitrate);
-            
-            reset_position();
-            
-            
-
+                        
         }
 
-        void start_motor()
+        void start_motor(int addr)
         {
             uint8_t msg[8] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0Xfc};
-            can_.send_cmd(1, sizeof(msg), msg);
+            can_.send_cmd(addr, sizeof(msg), msg);
         }
 
-        void set_motor_param(float position, float velocity, float torque, float Kp, float Kd)
+        void set_motor_param(int addr, float position, float velocity, float torque, float Kp, float Kd)
         {
 
-            pack_cmd(position, velocity, Kp, Kd, torque);
+            pack_cmd(addr, position, velocity, Kp, Kd, torque);
         }
 
-        void stop_motor()
+        void stop_motor(int addr)
         {
             uint8_t msg[8] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0Xfd};
-            can_.send_cmd(1, sizeof(msg), msg);
+            can_.send_cmd(addr, sizeof(msg), msg);
         }
 
-        void reset_position()
+        void reset_position(int addr)
         {
+            set_motor_param(addr, 0.0, 0.0, 0.0, 0.0, 0.0);
             uint8_t msg[8] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0Xfe};
-            can_.send_cmd(1, sizeof(msg), msg);
+            can_.send_cmd(addr, sizeof(msg), msg);
         }
         
 
@@ -87,7 +84,7 @@ class AKDriver
             
             if(x < x_min) x = x_min;
             else if(x > x_max) x = x_max;
-            return (int) ((x-x_min)*((float) (((1<<bits) - 1)/span)));
+            return (int) ((x-x_min)*((float) ((1<<bits)/span)));
         }
 
         float uint_to_float(int x_int, float x_min, float x_max, int bits)
@@ -116,7 +113,7 @@ class AKDriver
             float t = uint_to_float(i_int, param_.T_min, param_.T_max, 12);
             
             
-            if(id == 1)
+            if(id == 1 || id == 0)
             {
                 position_ = p; //Read the corresponding data according to the ID code
                 speed_ = v;
@@ -127,9 +124,9 @@ class AKDriver
             }
         }
 
-        void pack_cmd(float p_des, float v_des, float kp, float kd, float t_ff)
+        void pack_cmd(int addr, float p_des, float v_des, float kp, float kd, float t_ff)
         {
-            std::cout << p_des << v_des << kp << kd << t_ff << std::endl;
+            //std::cout << p_des << v_des << kp << kd << t_ff << std::endl;
             /// limit data to be within bounds ///
             float p_des_, v_des_, kp_, kd_, t_ff_;
             
@@ -145,19 +142,19 @@ class AKDriver
             int kd_int = float_to_uint(kd_, param_.Kd_min, param_.Kd_max, 12);
             int t_int = float_to_uint(t_ff_, param_.T_min, param_.T_max, 12);
 
-            std::cout << p_int << "\n" << v_int << "\n" << kp_int << "\n" << kd_int << "\n" << t_int << std::endl;
+            //std::cout << p_int << "\n" << v_int << "\n" << kp_int << "\n" << kd_int << "\n" << t_int << std::endl;
             /// pack ints into the can buffer ///
             uint8_t msg[8];
             msg[0] = p_int>>8; // Position 8 higher
             msg[1] = p_int&0xFF; // Position 8 lower
             msg[2] = v_int>>4; // Speed 8 higher
-            msg[3] = ((v_int&0xF)<<4)|(kp_int>>7); //Speed 4 bit lower KP 4bit higher
+            msg[3] = ((v_int&0xF)<<4)|(kp_int>>8); //Speed 4 bit lower KP 4bit higher
             msg[4] = kp_int&0xFF; // KP 8 bit lower
             msg[5] = kd_int>>4; // Kd 8 bit higher
-            msg[6] = ((kd_int&0xF)<<4)|(t_int>>7); //KP 4 bit lower torque 4 bit higher https://www.cubemars.com/ 51 / 52
+            msg[6] = ((kd_int&0xF)<<4)|(t_int>>8); //KP 4 bit lower torque 4 bit higher https://www.cubemars.com/ 51 / 52
             msg[7] = t_int&0xff; // torque 4 bit lower
             
-            can_.send_cmd(1, sizeof(msg), msg);
+            can_.send_cmd(addr, sizeof(msg), msg);
 
             }
 

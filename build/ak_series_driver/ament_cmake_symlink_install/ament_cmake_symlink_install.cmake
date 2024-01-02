@@ -292,7 +292,7 @@ function(_ament_cmake_symlink_install_create_symlink absolute_file symlink)
   endif()
 
   execute_process(
-    COMMAND "/usr/bin/cmake" "-E" "create_symlink"
+    COMMAND "/home/corey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake" "-E" "create_symlink"
       "${absolute_file}"
       "${symlink}"
   )
@@ -316,11 +316,11 @@ include("/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmak
 # install(DIRECTORY "include/ak_series_driver/" "DESTINATION" "include/ak_series_driver/")
 ament_cmake_symlink_install_directory("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" DIRECTORY "include/ak_series_driver/" "DESTINATION" "include/ak_series_driver/")
 
-# install("TARGETS" "testCode" "DESTINATION" "lib/ak_series_driver")
+# install("TARGETS" "single" "dual" "DESTINATION" "lib/ak_series_driver")
 include("/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ak_series_driver/environment")
-ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ak_series_driver/environment")
+# install(FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ak_series_driver/environment")
+ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ak_series_driver/environment")
 
 # install(FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ak_series_driver/environment")
 ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/ak_series_driver/environment")
@@ -331,14 +331,14 @@ ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_
 # install(FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ak_series_driver" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ak_series_driver" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ak_series_driver/environment")
-ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ak_series_driver/environment")
+# install(FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ak_series_driver/environment")
+ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ak_series_driver/environment")
 
 # install(FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ak_series_driver/environment")
 ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ak_series_driver/environment")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ak_series_driver/environment")
-ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ak_series_driver/environment")
+# install(FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ak_series_driver/environment")
+ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ak_series_driver/environment")
 
 # install(FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ak_series_driver/environment")
 ament_cmake_symlink_install_files("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" FILES "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ak_series_driver/environment")

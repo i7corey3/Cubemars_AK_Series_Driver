@@ -1,3 +1,0 @@
-[console_scripts]
-preform_test = test_topic.test_topic:main
-

@@ -1,7 +1,0 @@
-[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:[m[K In constructor ‘[01m[KTestNode::TestNode()[m[K’:
-[01m[K/home/corey/ros2_ws/src/Cubemars_AK_Series_Driver/ak_series_driver/src/test_node.cpp:49:45:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
-   49 |                 "test_node", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
-      |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:76: CMakeFiles/ak_series_driver.dir/src/test_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ak_series_driver.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

@@ -1,7 +1,8 @@
 /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/uninstall.dir
 /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/ak_series_driver_uninstall.dir
 /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/ak_series_driver.dir
-/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/testCode.dir
+/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/single.dir
+/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/dual.dir
 /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/test.dir
 /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/edit_cache.dir
 /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/rebuild_cache.dir
