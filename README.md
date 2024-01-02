@@ -28,7 +28,7 @@ colcon build --symlink-install
 
 ## Single Motor Demo
 
-To control one motor source the ros workspace then in one terminal run:
+To control one motor, source the ros workspace then in one terminal run:
 
 ```
 ros2 run ak_series_driver single
@@ -43,8 +43,24 @@ ros2 run control control
 Inside the second terminal, follow the instructions to set the motors parameters and run the motor.
 
 Make sure to add spaces between each of the five values before sending.
-
 Additional commands to use are start, stop and reset.
+
+## Dual Motor Demo
+
+To control two motors, source the ros workspace then in one terminal run:
+
+```
+ros2 run ak_series_driver dual
+```
+
+Then in another terminal run:
+
+```
+ros2 run control control
+```
+
+Inside the second terminal, follow the instructions to set the motors parameters and run the motor.
+To change the motor to control type m1 or m2
 
 # Discaimer
 
