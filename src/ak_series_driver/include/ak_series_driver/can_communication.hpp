@@ -36,9 +36,9 @@ class CanCommunication
             memset(&frame, 0, sizeof(struct canfd_frame));
 
             std::stringstream cmd;
-            cmd << "echo Guitar14 | sudo -S ifconfig can" << channel << " down && sudo -S ip link set can" << channel << " up type can bitrate " << bitrate << " dbitrate 800000 fd on";
+            cmd << "sudo ifconfig can" << channel << " down && sudo -S ip link set can" << channel << " up type can bitrate " << bitrate << " dbitrate 800000 fd on";
            // system(cmd.str().c_str());
-            cmd << "echo Guitar14 | sudo -S ip link set can" << channel << " up type can bitrate " << bitrate << " dbitrate 800000 fd on";
+            cmd << "sudo ip link set can" << channel << " up type can bitrate " << bitrate << " dbitrate 800000 fd on";
             //system(cmd.str().c_str());
             cmd << "sudo ifconfig can" << channel << " up\n";
             //system(cmd.str().c_str());
