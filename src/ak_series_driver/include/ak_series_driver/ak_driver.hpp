@@ -7,6 +7,7 @@
 #include <cmath>
 #include <vector>
 
+
 typedef enum {
     CAN_PACKET_SET_DUTY = 0, // Duty Cycle Mode
     CAN_PACKET_SET_CURRENT, // Current Loop Mode
@@ -53,21 +54,6 @@ class AKDriver
                 set_motor_param(addr, 0, 3.14, 0, 3, 3);
                 start_motor(addr);
             }
-            while (position_ > pos + 0.2 || position_ < pos - 0.2)
-            {
-               
-                // else 
-                // {
-                //     double final_val = motor1_.get_local_position();
-                    
-                //     set_motor_param(addr, (float) final_val, 0, 0, 3, 3);
-                //     start_motor(addr);
-                //     break;
-                // }
-                // motor1_.get_position(position_, pos, motor1_.angle);
-                
-                
-            }
         }
 
         void comm_can_set_pos(uint8_t controller_id, float pos) {
@@ -85,33 +71,18 @@ class AKDriver
             buffer_append_int32(buffer, (int32_t)(pos * 10000.0), &send_index);
             buffer_append_int16(buffer,spd/ 10.0, &send_index1);
             buffer_append_int16(buffer,RPA/10.0, &send_index1);
-            // std::cout << "buffer " << std::endl;
-            // for (auto i : buffer) {
-            //     printf(std::to_string(i).c_str());
-            //     std::cout << std::endl;
-            // }
-            // std::cout << send_index1;
-            // std::cout << std::endl;
            
             comm_can_transmit_eid(controller_id |
-            ((uint32_t)CAN_PACKET_SET_POS_SPD << 8), buffer, send_index1);
+                    ((uint32_t)CAN_PACKET_SET_POS_SPD << 8), buffer, send_index1);
             
         }
         void comm_can_set_rpm(uint8_t controller_id, float rpm) {
             int32_t send_index = 0;
             uint8_t buffer[4];
             buffer_append_int32(buffer, (int32_t)rpm, &send_index);
-            //std::cout << "buffer " << std::endl;
-            // for (auto i : buffer) {
-            //     printf("%X", std::to_string(i).c_str());
-            //     std::cout << std::endl;
-            // }
             
-            // std::cout << std::endl;
-            std::cout << "canID" << std::hex << static_cast<int>(controller_id |
-            ((uint32_t)CAN_PACKET_SET_RPM << 8)) << std::endl;
             comm_can_transmit_eid(controller_id |
-            ((uint32_t)CAN_PACKET_SET_RPM << 8), buffer, send_index);
+                    ((uint32_t)CAN_PACKET_SET_RPM << 8), buffer, send_index);
         }
 
         void stop_motor(int addr)
@@ -158,17 +129,12 @@ class AKDriver
             {
                 len = 8;
             }
-            //std::cout << std::hex << id << std::endl;
-             //printf("%s", std::to_string(len).c_str());
-             //std::cout << std::endl;
-            uint8_t msg[64];
+            uint8_t msg[8];
             for (uint8_t i = 0; i < len; i++)
             {
                 msg[i] = data[i];
-                //std::cout << std::hex << data[i] << " ";
             }
-            //std::cout << std::endl;
-            
+        
             
             can_.send_cmd(id, len, msg); //CAN port sends TxMessage data
         }
@@ -184,10 +150,6 @@ class AKDriver
             buffer[(*index)++] = number >> 16;
             buffer[(*index)++] = number >> 8;
             buffer[(*index)++] = number;
-            for (int i = 0; i < sizeof(buffer); i++)
-            {
-                std::cout << std::hex << static_cast<int>(buffer[i]) << " " << std::endl;
-            }
         }
         
         int map_range(float x, float in_min, float in_max, float out_min, float out_max)

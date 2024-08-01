@@ -1,0 +1,11 @@
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:28[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:22[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:16[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:21:10:[m[K [01;31m[Kfatal error: [m[Kstm32f10x_type.h: No such file or directory
+   21 | #include [01;31m[K"stm32f10x_type.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

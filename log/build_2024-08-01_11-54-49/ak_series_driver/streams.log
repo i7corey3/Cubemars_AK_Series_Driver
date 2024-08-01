@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16
+[0.052s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.106s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.112s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.269s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.284s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.399s] CMake Error at CMakeLists.txt:12 (find_package):
+[0.399s]   By not providing "Findstm32f10x.cmake" in CMAKE_MODULE_PATH this project
+[0.399s]   has asked CMake to find a package configuration file provided by
+[0.399s]   "stm32f10x", but CMake did not find one.
+[0.399s] 
+[0.399s]   Could not find a package configuration file provided by "stm32f10x" with
+[0.399s]   any of the following names:
+[0.399s] 
+[0.399s]     stm32f10xConfig.cmake
+[0.399s]     stm32f10x-config.cmake
+[0.399s] 
+[0.399s]   Add the installation prefix of "stm32f10x" to CMAKE_PREFIX_PATH or set
+[0.399s]   "stm32f10x_DIR" to a directory containing one of the above files.  If
+[0.399s]   "stm32f10x" provides a separate development package or SDK, be sure it has
+[0.399s]   been installed.
+[0.399s] 
+[0.400s] 
+[0.400s] -- Configuring incomplete, errors occurred!
+[0.400s] See also "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/CMakeOutput.log".
+[0.400s] See also "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/CMakeError.log".
+[0.404s] make: *** [Makefile:327: cmake_check_build_system] Error 1
+[0.408s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16

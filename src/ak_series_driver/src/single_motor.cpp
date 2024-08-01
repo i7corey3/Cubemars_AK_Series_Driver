@@ -64,8 +64,9 @@ class SingleMotor : public rclcpp::Node
             // 
             // driver.setup_motor("motor1", 0, 0.0, 17.0);
             printf("Setup Complete\r\n");
-            //driver.comm_can_set_pos_spd(0, 10.0, 10000, 10000);
-            driver.comm_can_set_rpm(0, 20);
+            driver.comm_can_set_pos_spd(0x68, 10.0, 10000, 10000);
+            
+            //driver.comm_can_set_rpm(0x68, 20000);
             
             //driver.start_motor(addr);
             

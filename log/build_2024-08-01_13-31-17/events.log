@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (ak_series_driver) JobQueued: {'identifier': 'ak_series_driver', 'dependencies': OrderedDict()}
+[0.000393] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000422] (ak_series_driver) JobStarted: {'identifier': 'ak_series_driver'}
+[0.006561] (control) JobStarted: {'identifier': 'control'}
+[0.012423] (ak_series_driver) JobProgress: {'identifier': 'ak_series_driver', 'progress': 'cmake'}
+[0.013502] (ak_series_driver) JobProgress: {'identifier': 'ak_series_driver', 'progress': 'build'}
+[0.013608] (ak_series_driver) Command: {'cmd': ['/home/corey/.local/bin/cmake', '--build', '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver', '--', '-j16', '-l16'], 'cwd': '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'corey'), ('GIO_MODULE_DIR', '/home/corey/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '1939'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/corey'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/164/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('JETSON_L4T', ''), ('GTK_IM_MODULE_FILE', '/home/corey/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('MANAGERPID', '1815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3295'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/corey/Cubemars_AK_Series_Driver/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'corey'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('JOURNAL_STREAM', '8:52091'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'corey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/corey/.local/bin:/opt/ros/galactic/bin:/home/corey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/corey-Inspiron-3880:@/tmp/.ICE-unix/2013,unix/corey-Inspiron-3880:/tmp/.ICE-unix/2013'), ('GTK_EXE_PREFIX', '/snap/code/164/usr'), ('INVOCATION_ID', 'fc85a5f9a407400d925dd1703707576a'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/164/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a50527008.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/corey/snap/code/164/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/corey/Cubemars_AK_Series_Driver/install/control:/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/corey/snap/code/164/.local/share:/home/corey/snap/code/164:/snap/code/164/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/corey/Cubemars_AK_Series_Driver/build/control:/home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic')]), 'shell': False}
+[0.065414] (ak_series_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ak_series_driver\x1b[0m\n'}
+[0.085819] (ak_series_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o\x1b[0m\n'}
+[0.099735] (-) TimerEvent: {}
+[0.200008] (-) TimerEvent: {}
+[0.300296] (-) TimerEvent: {}
+[0.400625] (-) TimerEvent: {}
+[0.500922] (-) TimerEvent: {}
+[0.536331] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/corey/Cubemars_AK_Series_Driver/build/control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/corey/Cubemars_AK_Series_Driver/build/control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'corey', 'GIO_MODULE_DIR': '/home/corey/snap/code/common/.cache/gio-modules', 'SSH_AGENT_PID': '1939', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/corey', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/164/usr/lib/x86_64-linux-gnu/gtk-3.0', 'JETSON_L4T': '', 'GTK_IM_MODULE_FILE': '/home/corey/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': '', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/164/usr/share/code/code', 'MANAGERPID': '1815', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3295', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/corey/Cubemars_AK_Series_Driver/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'corey', 'JETSON_MODULE': '', 'JETSON_SERIAL_NUMBER': '', 'JOURNAL_STREAM': '8:52091', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'corey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/corey/.local/bin:/opt/ros/galactic/bin:/home/corey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/corey-Inspiron-3880:@/tmp/.ICE-unix/2013,unix/corey-Inspiron-3880:/tmp/.ICE-unix/2013', 'GTK_EXE_PREFIX': '/snap/code/164/usr', 'INVOCATION_ID': 'fc85a5f9a407400d925dd1703707576a', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/164/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': '', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1a50527008.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/corey/snap/code/164/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/corey/Cubemars_AK_Series_Driver/install/control:/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver:/opt/ros/galactic', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '', 'PWD': '/home/corey/Cubemars_AK_Series_Driver/build/control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/corey/snap/code/164/.local/share:/home/corey/snap/code/164:/snap/code/164/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/corey/Cubemars_AK_Series_Driver/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages:/home/corey/Cubemars_AK_Series_Driver/build/control:/home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver'}, 'shell': False}
+[0.601009] (-) TimerEvent: {}
+[0.701262] (-) TimerEvent: {}
+[0.742521] (control) StdoutLine: {'line': b'running develop\n'}
+[0.801342] (-) TimerEvent: {}
+[0.881310] (control) StdoutLine: {'line': b'running egg_info\n'}
+[0.881550] (control) StdoutLine: {'line': b'writing control.egg-info/PKG-INFO\n'}
+[0.881774] (control) StdoutLine: {'line': b'writing dependency_links to control.egg-info/dependency_links.txt\n'}
+[0.882018] (control) StdoutLine: {'line': b'writing entry points to control.egg-info/entry_points.txt\n'}
+[0.882080] (control) StdoutLine: {'line': b'writing requirements to control.egg-info/requires.txt\n'}
+[0.882133] (control) StdoutLine: {'line': b'writing top-level names to control.egg-info/top_level.txt\n'}
+[0.901451] (-) TimerEvent: {}
+[0.906035] (control) StdoutLine: {'line': b"reading manifest file 'control.egg-info/SOURCES.txt'\n"}
+[0.906628] (control) StdoutLine: {'line': b"writing manifest file 'control.egg-info/SOURCES.txt'\n"}
+[0.936353] (control) StdoutLine: {'line': b'running build_ext\n'}
+[0.936548] (control) StdoutLine: {'line': b'Creating /home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages/control.egg-link (link to .)\n'}
+[0.937468] (control) StdoutLine: {'line': b'Installing control script to /home/corey/Cubemars_AK_Series_Driver/install/control/lib/control\n'}
+[0.937771] (control) StdoutLine: {'line': b'\n'}
+[0.937891] (control) StdoutLine: {'line': b'Installed /home/corey/Cubemars_AK_Series_Driver/build/control\n'}
+[0.937965] (control) StdoutLine: {'line': b'running symlink_data\n'}
+[0.959308] (control) CommandEnded: {'returncode': 0}
+[0.968262] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[1.001640] (-) TimerEvent: {}
+[1.102230] (-) TimerEvent: {}
+[1.202569] (-) TimerEvent: {}
+[1.302838] (-) TimerEvent: {}
+[1.373964] (ak_series_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18\x1b[m\x1b[K:\n'}
+[1.374122] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.374187] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:96:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.374241] (ak_series_driver) StderrLine: {'line': b'   96 |             for (unsigned int i = 0; \x1b[01;35m\x1b[Ki < offset\x1b[m\x1b[K; i++)\n'}
+[1.374291] (ak_series_driver) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.374339] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:100:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.374390] (ak_series_driver) StderrLine: {'line': b'  100 |             for (unsigned int i = offset; \x1b[01;35m\x1b[Ki < offset\x1b[m\x1b[K; i++)\n'}
+[1.374438] (ak_series_driver) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.375502] (ak_series_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19\x1b[m\x1b[K:\n'}
+[1.375580] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AKDriver::comm_can_set_pos_spd(uint8_t, float, int16_t, int16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.375637] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:81:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.375696] (ak_series_driver) StderrLine: {'line': b'   81 |         void comm_can_set_pos_spd(\x1b[01;35m\x1b[Kuint8_t controller_id\x1b[m\x1b[K, float pos,\n'}
+[1.375822] (ak_series_driver) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.375899] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AKDriver::comm_can_set_rpm(uint8_t, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.375958] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:105:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.376013] (ak_series_driver) StderrLine: {'line': b'  105 |             for (int i = 0; \x1b[01;35m\x1b[Ki < sizeof(buffer)\x1b[m\x1b[K; i++) {\n'}
+[1.376182] (ak_series_driver) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.376258] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:106:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[1.376323] (ak_series_driver) StderrLine: {'line': b'  106 |                 printf("\x1b[01;35m\x1b[K%X\x1b[m\x1b[K", \x1b[32m\x1b[Kstd::to_string(i).c_str()\x1b[m\x1b[K);\n'}
+[1.376376] (ak_series_driver) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.376426] (ak_series_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.376475] (ak_series_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K               \x1b[32m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.376524] (ak_series_driver) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%s\x1b[m\x1b[K\n'}
+[1.376578] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:100:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.376661] (ak_series_driver) StderrLine: {'line': b'  100 |         void comm_can_set_rpm(\x1b[01;35m\x1b[Kuint8_t controller_id\x1b[m\x1b[K, float rpm) {\n'}
+[1.376765] (ak_series_driver) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.402925] (-) TimerEvent: {}
+[1.503184] (-) TimerEvent: {}
+[1.603434] (-) TimerEvent: {}
+[1.703682] (-) TimerEvent: {}
+[1.803940] (-) TimerEvent: {}
+[1.904212] (-) TimerEvent: {}
+[2.004474] (-) TimerEvent: {}
+[2.104754] (-) TimerEvent: {}
+[2.205013] (-) TimerEvent: {}
+[2.305234] (-) TimerEvent: {}
+[2.405459] (-) TimerEvent: {}
+[2.505719] (-) TimerEvent: {}
+[2.605969] (-) TimerEvent: {}
+[2.706227] (-) TimerEvent: {}
+[2.806483] (-) TimerEvent: {}
+[2.906741] (-) TimerEvent: {}
+[3.006995] (-) TimerEvent: {}
+[3.107248] (-) TimerEvent: {}
+[3.207528] (-) TimerEvent: {}
+[3.307768] (-) TimerEvent: {}
+[3.408024] (-) TimerEvent: {}
+[3.508267] (-) TimerEvent: {}
+[3.608513] (-) TimerEvent: {}
+[3.708787] (-) TimerEvent: {}
+[3.809026] (-) TimerEvent: {}
+[3.909310] (-) TimerEvent: {}
+[4.009656] (-) TimerEvent: {}
+[4.110044] (-) TimerEvent: {}
+[4.210287] (-) TimerEvent: {}
+[4.310563] (-) TimerEvent: {}
+[4.410892] (-) TimerEvent: {}
+[4.511194] (-) TimerEvent: {}
+[4.611443] (-) TimerEvent: {}
+[4.711698] (-) TimerEvent: {}
+[4.811956] (-) TimerEvent: {}
+[4.912201] (-) TimerEvent: {}
+[5.012448] (-) TimerEvent: {}
+[5.112740] (-) TimerEvent: {}
+[5.212992] (-) TimerEvent: {}
+[5.313226] (-) TimerEvent: {}
+[5.318955] (ak_series_driver) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libak_series_driver.so\x1b[0m\n'}
+[5.413318] (-) TimerEvent: {}
+[5.513543] (-) TimerEvent: {}
+[5.562740] (ak_series_driver) StdoutLine: {'line': b'[ 33%] Built target ak_series_driver\n'}
+[5.573290] (ak_series_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target single\x1b[0m\n'}
+[5.573512] (ak_series_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dual\x1b[0m\n'}
+[5.598113] (ak_series_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/single.dir/src/single_motor.cpp.o\x1b[0m\n'}
+[5.601227] (ak_series_driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/dual.dir/src/dual_motor.cpp.o\x1b[0m\n'}
+[5.613691] (-) TimerEvent: {}
+[5.714130] (-) TimerEvent: {}
+[5.814441] (-) TimerEvent: {}
+[5.914717] (-) TimerEvent: {}
+[6.015084] (-) TimerEvent: {}
+[6.115337] (-) TimerEvent: {}
+[6.215619] (-) TimerEvent: {}
+[6.315917] (-) TimerEvent: {}
+[6.416206] (-) TimerEvent: {}
+[6.516481] (-) TimerEvent: {}
+[6.616937] (-) TimerEvent: {}
+[6.717288] (-) TimerEvent: {}
+[6.817730] (-) TimerEvent: {}
+[6.918018] (-) TimerEvent: {}
+[7.011886] (ak_series_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/dual_motor.cpp:18\x1b[m\x1b[K:\n'}
+[7.012110] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.012194] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:96:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.012256] (ak_series_driver) StderrLine: {'line': b'   96 |             for (unsigned int i = 0; \x1b[01;35m\x1b[Ki < offset\x1b[m\x1b[K; i++)\n'}
+[7.012312] (ak_series_driver) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.012365] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:100:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.012420] (ak_series_driver) StderrLine: {'line': b'  100 |             for (unsigned int i = offset; \x1b[01;35m\x1b[Ki < offset\x1b[m\x1b[K; i++)\n'}
+[7.012472] (ak_series_driver) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.013727] (ak_series_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/dual_motor.cpp:19\x1b[m\x1b[K:\n'}
+[7.013850] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AKDriver::comm_can_set_pos_spd(uint8_t, float, int16_t, int16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.013946] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:81:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.014035] (ak_series_driver) StderrLine: {'line': b'   81 |         void comm_can_set_pos_spd(\x1b[01;35m\x1b[Kuint8_t controller_id\x1b[m\x1b[K, float pos,\n'}
+[7.014118] (ak_series_driver) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.014292] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AKDriver::comm_can_set_rpm(uint8_t, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.014444] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:105:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.014648] (ak_series_driver) StderrLine: {'line': b'  105 |             for (int i = 0; \x1b[01;35m\x1b[Ki < sizeof(buffer)\x1b[m\x1b[K; i++) {\n'}
+[7.014735] (ak_series_driver) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.014816] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:106:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[7.014903] (ak_series_driver) StderrLine: {'line': b'  106 |                 printf("\x1b[01;35m\x1b[K%X\x1b[m\x1b[K", \x1b[32m\x1b[Kstd::to_string(i).c_str()\x1b[m\x1b[K);\n'}
+[7.014991] (ak_series_driver) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.015071] (ak_series_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[7.015151] (ak_series_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K               \x1b[32m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[7.015233] (ak_series_driver) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%s\x1b[m\x1b[K\n'}
+[7.015311] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:100:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.015387] (ak_series_driver) StderrLine: {'line': b'  100 |         void comm_can_set_rpm(\x1b[01;35m\x1b[Kuint8_t controller_id\x1b[m\x1b[K, float rpm) {\n'}
+[7.015461] (ak_series_driver) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.018114] (-) TimerEvent: {}
+[7.078995] (ak_series_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18\x1b[m\x1b[K:\n'}
+[7.079151] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.079208] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:96:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.079266] (ak_series_driver) StderrLine: {'line': b'   96 |             for (unsigned int i = 0; \x1b[01;35m\x1b[Ki < offset\x1b[m\x1b[K; i++)\n'}
+[7.079315] (ak_series_driver) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.079363] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:100:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.079415] (ak_series_driver) StderrLine: {'line': b'  100 |             for (unsigned int i = offset; \x1b[01;35m\x1b[Ki < offset\x1b[m\x1b[K; i++)\n'}
+[7.079462] (ak_series_driver) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.080490] (ak_series_driver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19\x1b[m\x1b[K:\n'}
+[7.080552] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AKDriver::comm_can_set_pos_spd(uint8_t, float, int16_t, int16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.080606] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:81:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.080699] (ak_series_driver) StderrLine: {'line': b'   81 |         void comm_can_set_pos_spd(\x1b[01;35m\x1b[Kuint8_t controller_id\x1b[m\x1b[K, float pos,\n'}
+[7.080746] (ak_series_driver) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.080957] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AKDriver::comm_can_set_rpm(uint8_t, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.081075] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:105:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[7.081168] (ak_series_driver) StderrLine: {'line': b'  105 |             for (int i = 0; \x1b[01;35m\x1b[Ki < sizeof(buffer)\x1b[m\x1b[K; i++) {\n'}
+[7.081222] (ak_series_driver) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.081300] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:106:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[7.081353] (ak_series_driver) StderrLine: {'line': b'  106 |                 printf("\x1b[01;35m\x1b[K%X\x1b[m\x1b[K", \x1b[32m\x1b[Kstd::to_string(i).c_str()\x1b[m\x1b[K);\n'}
+[7.081405] (ak_series_driver) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.081452] (ak_series_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[7.081500] (ak_series_driver) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K               \x1b[32m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[7.081546] (ak_series_driver) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%s\x1b[m\x1b[K\n'}
+[7.081592] (ak_series_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:100:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontroller_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.081643] (ak_series_driver) StderrLine: {'line': b'  100 |         void comm_can_set_rpm(\x1b[01;35m\x1b[Kuint8_t controller_id\x1b[m\x1b[K, float rpm) {\n'}
+[7.081690] (ak_series_driver) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.118192] (-) TimerEvent: {}
+[7.218532] (-) TimerEvent: {}
+[7.318856] (-) TimerEvent: {}
+[7.419175] (-) TimerEvent: {}
+[7.519441] (-) TimerEvent: {}
+[7.619720] (-) TimerEvent: {}
+[7.720048] (-) TimerEvent: {}
+[7.820351] (-) TimerEvent: {}
+[7.920678] (-) TimerEvent: {}
+[8.021009] (-) TimerEvent: {}
+[8.121269] (-) TimerEvent: {}
+[8.221618] (-) TimerEvent: {}
+[8.321918] (-) TimerEvent: {}
+[8.422145] (-) TimerEvent: {}
+[8.522473] (-) TimerEvent: {}
+[8.622749] (-) TimerEvent: {}
+[8.723057] (-) TimerEvent: {}
+[8.823403] (-) TimerEvent: {}
+[8.923668] (-) TimerEvent: {}
+[9.023986] (-) TimerEvent: {}
+[9.124360] (-) TimerEvent: {}
+[9.224694] (-) TimerEvent: {}
+[9.324925] (-) TimerEvent: {}
+[9.425217] (-) TimerEvent: {}
+[9.525616] (-) TimerEvent: {}
+[9.625914] (-) TimerEvent: {}
+[9.726195] (-) TimerEvent: {}
+[9.826450] (-) TimerEvent: {}
+[9.926780] (-) TimerEvent: {}
+[10.027096] (-) TimerEvent: {}
+[10.127315] (-) TimerEvent: {}
+[10.227549] (-) TimerEvent: {}
+[10.327766] (-) TimerEvent: {}
+[10.383205] (ak_series_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/dual.dir/build.make:63: CMakeFiles/dual.dir/src/dual_motor.cpp.o] Interrupt\n'}
+[10.383397] (ak_series_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/single.dir/build.make:63: CMakeFiles/single.dir/src/single_motor.cpp.o] Interrupt\n'}
+[10.383464] (ak_series_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/dual.dir/all] Interrupt\n'}
+[10.383546] (ak_series_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/single.dir/all] Interrupt\n'}
+[10.383600] (ak_series_driver) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[10.386039] (ak_series_driver) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[10.386187] (ak_series_driver) StderrLine: {'line': b'  File "/home/corey/.local/bin/cmake", line 8, in <module>\n'}
+[10.386243] (ak_series_driver) StderrLine: {'line': b'    sys.exit(cmake())\n'}
+[10.386294] (ak_series_driver) StderrLine: {'line': b'  File "/home/corey/.local/lib/python3.8/site-packages/cmake/__init__.py", line 43, in cmake\n'}
+[10.390298] (ak_series_driver) StderrLine: {'line': b"    raise SystemExit(_program('cmake', sys.argv[1:]))\n"}
+[10.390573] (ak_series_driver) StderrLine: {'line': b'  File "/home/corey/.local/lib/python3.8/site-packages/cmake/__init__.py", line 39, in _program\n'}
+[10.390747] (ak_series_driver) StderrLine: {'line': b'    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)\n'}
+[10.390926] (ak_series_driver) StderrLine: {'line': b'  File "/usr/lib/python3.8/subprocess.py", line 342, in call\n'}
+[10.390987] (ak_series_driver) StderrLine: {'line': b'    return p.wait(timeout=timeout)\n'}
+[10.391049] (ak_series_driver) StderrLine: {'line': b'  File "/usr/lib/python3.8/subprocess.py", line 1083, in wait\n'}
+[10.391124] (ak_series_driver) StderrLine: {'line': b'    return self._wait(timeout=timeout)\n'}
+[10.391197] (ak_series_driver) StderrLine: {'line': b'  File "/usr/lib/python3.8/subprocess.py", line 1806, in _wait\n'}
+[10.391279] (ak_series_driver) StderrLine: {'line': b'    (pid, sts) = self._try_wait(0)\n'}
+[10.391335] (ak_series_driver) StderrLine: {'line': b'  File "/usr/lib/python3.8/subprocess.py", line 1764, in _try_wait\n'}
+[10.391428] (ak_series_driver) StderrLine: {'line': b'    (pid, sts) = os.waitpid(self.pid, wait_flags)\n'}
+[10.391482] (ak_series_driver) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[10.427849] (-) TimerEvent: {}
+[10.446496] (ak_series_driver) CommandEnded: {'returncode': -2}
+[10.488478] (ak_series_driver) JobEnded: {'identifier': 'ak_series_driver', 'rc': 'SIGINT'}
+[10.498861] (-) EventReactorShutdown: {}

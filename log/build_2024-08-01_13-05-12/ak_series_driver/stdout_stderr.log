@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target ak_series_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:96:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   96 |             for (unsigned int i = 0; [01;35m[Ki < offset[m[K)
+      |                                      [01;35m[K~~^~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:96:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   96 |             for (unsigned int i = 0; i < offset[01;31m[K)[m[K
+      |                                                [01;31m[K^[m[K
+      |                                                [32m[K;[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_set_pos_spd(uint8_t, float, int16_t, int16_t)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:81:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontroller_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   81 |         void comm_can_set_pos_spd([01;35m[Kuint8_t controller_id[m[K, float pos,
+      |                                   [01;35m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_set_rpm(uint8_t, float)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:100:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontroller_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  100 |         void comm_can_set_rpm([01;35m[Kuint8_t controller_id[m[K, float rpm) {
+      |                               [01;35m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

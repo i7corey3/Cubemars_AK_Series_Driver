@@ -50,11 +50,13 @@ class DualMotor : public rclcpp::Node
      
         void setup()
         {
-            driver.setup(0, 1000000);
-            driver.reset_position(0);
-            driver.start_motor(0);
-            driver.reset_position(1);
-            driver.start_motor(1);
+             driver.setup(0, 1000000);
+            //driver.reset_position(addr);
+            // 
+            // driver.setup_motor("motor1", 0, 0.0, 17.0);
+            printf("Setup Complete\r\n");
+            //driver.comm_can_set_pos_spd(0, 10.0, 10000, 10000);
+            driver.comm_can_set_rpm(0, 20);
         }
 
  

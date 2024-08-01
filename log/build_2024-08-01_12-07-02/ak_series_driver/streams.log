@@ -1,0 +1,34 @@
+[0.014s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16
+[0.058s] [35m[1mScanning dependencies of target ak_series_driver[0m
+[0.078s] [ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[1.292s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:21[m[K,
+[1.292s]                  from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:28[m[K,
+[1.292s]                  from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:22[m[K,
+[1.292s]                  from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:16[m[K,
+[1.292s]                  from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[1.292s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_type.h:55:41:[m[K [01;31m[Kerror: [m[Kredeclaration of C++ built-in type ‘[01m[Kbool[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.292s]    55 | typedef enum {FALSE = 0, TRUE = !FALSE} [01;31m[Kbool[m[K;
+[1.292s]       |                                         [01;31m[K^~~~[m[K
+[1.295s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[1.295s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)[m[K’:
+[1.295s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:92:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+[1.295s]    92 |             printf("[01;35m[K%X[m[K", [32m[Kstd::to_string(frame.can_id).c_str()[m[K);
+[1.295s]       |                     [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.295s]       |                      [01;35m[K|[m[K                                     [32m[K|[m[K
+[1.295s]       |                      [01;35m[Kunsigned int[m[K                          [32m[Kconst char*[m[K
+[1.295s]       |                     [32m[K%s[m[K
+[1.295s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:98:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+[1.295s]    98 |                 printf("[01;35m[K%X[m[K", [32m[Kstd::to_string(data[i]).c_str()[m[K);
+[1.295s]       |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.295s]       |                          [01;35m[K|[m[K                                [32m[K|[m[K
+[1.295s]       |                          [01;35m[Kunsigned int[m[K                     [32m[Kconst char*[m[K
+[1.296s]       |                         [32m[K%s[m[K
+[1.297s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[1.297s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::buffer_append_int32(uint8_t*, int32_t, int32_t*)[m[K’:
+[1.298s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:187:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.298s]   187 |             for (int i = 0; [01;35m[Ki < sizeof(buffer)[m[K; i++)
+[1.298s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[2.916s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+[2.916s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+[2.916s] make: *** [Makefile:141: all] Error 2
+[2.920s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16

@@ -454,6 +454,9 @@ statistics_msgs_DIR:PATH=/opt/ros/galactic/share/statistics_msgs/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/galactic/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for stm32f10x.
+stm32f10x_DIR:PATH=stm32f10x_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/galactic/share/tracetools/cmake
 

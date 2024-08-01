@@ -1,0 +1,1136 @@
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:28[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:22[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:16[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:34:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   34 | [01;31m[Ku32[m[K __MRS_CONTROL(void);
+      | [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:35:20:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[K__MSR_CONTROL[m[K’ declared void
+   35 | void __MSR_CONTROL([01;31m[Ku32[m[K Control);
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:35:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:36:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   36 | [01;31m[Ku32[m[K __MRS_PSP(void);
+      | [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:37:16:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[K__MSR_PSP[m[K’ declared void
+   37 | void __MSR_PSP([01;31m[Ku32[m[K TopOfProcessStack);
+      |                [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:37:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:38:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   38 | [01;31m[Ku32[m[K __MRS_MSP(void);
+      | [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:39:16:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[K__MSR_MSP[m[K’ declared void
+   39 | void __MSR_MSP([01;31m[Ku32[m[K TopOfMainStack);
+      |                [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:39:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:44:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[K__BASEPRICONFIG[m[K’ declared void
+   44 | void __BASEPRICONFIG([01;31m[Ku32[m[K NewPriority);
+      |                      [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:44:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:45:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   45 | [01;31m[Ku32[m[K __GetBASEPRI(void);
+      | [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:46:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   46 | [01;31m[Ku16[m[K __REV_HalfWord(u16 Data);
+      | [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/cortexm3_macro.h:47:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   47 | [01;31m[Ku32[m[K __REV_Word(u32 Data);
+      | [01;31m[K^~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:22[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:16[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   38 |   [01;31m[Kvu32[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   39 |   [01;31m[Kvu32[m[K CR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   40 |   [01;31m[Kvu32[m[K CR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   41 |   [01;31m[Kvu32[m[K SMPR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   42 |   [01;31m[Kvu32[m[K SMPR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   43 |   [01;31m[Kvu32[m[K JOFR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   44 |   [01;31m[Kvu32[m[K JOFR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   45 |   [01;31m[Kvu32[m[K JOFR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   46 |   [01;31m[Kvu32[m[K JOFR4;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   47 |   [01;31m[Kvu32[m[K HTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   48 |   [01;31m[Kvu32[m[K LTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   49 |   [01;31m[Kvu32[m[K SQR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   50 |   [01;31m[Kvu32[m[K SQR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   51 |   [01;31m[Kvu32[m[K SQR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   52 |   [01;31m[Kvu32[m[K JSQR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:53:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   53 |   [01;31m[Kvu32[m[K JDR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:54:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   54 |   [01;31m[Kvu32[m[K JDR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   55 |   [01;31m[Kvu32[m[K JDR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   56 |   [01;31m[Kvu32[m[K JDR4;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   57 |   [01;31m[Kvu32[m[K DR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   63 |   [01;31m[Ku32[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   64 |   [01;31m[Kvu16[m[K DR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:65:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   65 |   [01;31m[Ku16[m[K  RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   66 |   [01;31m[Kvu16[m[K DR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   67 |   [01;31m[Ku16[m[K  RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:68:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   68 |   [01;31m[Kvu16[m[K DR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   69 |   [01;31m[Ku16[m[K  RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   70 |   [01;31m[Kvu16[m[K DR4;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   71 |   [01;31m[Ku16[m[K  RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   72 |   [01;31m[Kvu16[m[K DR5;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   73 |   [01;31m[Ku16[m[K  RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   74 |   [01;31m[Kvu16[m[K DR6;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   75 |   [01;31m[Ku16[m[K  RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:76:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   76 |   [01;31m[Kvu16[m[K DR7;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:77:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   77 |   [01;31m[Ku16[m[K  RESERVED7;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   78 |   [01;31m[Kvu16[m[K DR8;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:79:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   79 |   [01;31m[Ku16[m[K  RESERVED8;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:80:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   80 |   [01;31m[Kvu16[m[K DR9;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:81:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   81 |   [01;31m[Ku16[m[K  RESERVED9;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:82:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   82 |   [01;31m[Kvu16[m[K DR10;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:83:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   83 |   [01;31m[Ku16[m[K  RESERVED10;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   84 |   [01;31m[Kvu16[m[K RTCCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:85:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   85 |   [01;31m[Ku16[m[K  RESERVED11;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:86:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   86 |   [01;31m[Kvu16[m[K CR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:87:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   87 |   [01;31m[Ku16[m[K  RESERVED12;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:88:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+   88 |   [01;31m[Kvu16[m[K CSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:89:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   89 |   [01;31m[Ku16[m[K  RESERVED13;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   95 |   [01;31m[Kvu32[m[K TIR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:96:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   96 |   [01;31m[Kvu32[m[K TDTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:97:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   97 |   [01;31m[Kvu32[m[K TDLR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:98:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+   98 |   [01;31m[Kvu32[m[K TDHR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:103:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  103 |   [01;31m[Kvu32[m[K RIR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:104:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  104 |   [01;31m[Kvu32[m[K RDTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:105:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  105 |   [01;31m[Kvu32[m[K RDLR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:106:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  106 |   [01;31m[Kvu32[m[K RDHR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:111:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  111 |   [01;31m[Kvu32[m[K FR0;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:112:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  112 |   [01;31m[Kvu32[m[K FR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:117:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  117 |   [01;31m[Kvu32[m[K MCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:118:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  118 |   [01;31m[Kvu32[m[K MSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:119:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  119 |   [01;31m[Kvu32[m[K TSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:120:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  120 |   [01;31m[Kvu32[m[K RF0R;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:121:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  121 |   [01;31m[Kvu32[m[K RF1R;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:122:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  122 |   [01;31m[Kvu32[m[K IER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:123:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  123 |   [01;31m[Kvu32[m[K ESR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:124:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  124 |   [01;31m[Kvu32[m[K BTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:125:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  125 |   [01;31m[Ku32[m[K RESERVED0[88];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:128:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  128 |   [01;31m[Ku32[m[K RESERVED1[12];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:129:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  129 |   [01;31m[Kvu32[m[K FMR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:130:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  130 |   [01;31m[Kvu32[m[K FM0R;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:131:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  131 |   [01;31m[Ku32[m[K RESERVED2[1];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:132:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  132 |   [01;31m[Kvu32[m[K FS0R;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:133:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  133 |   [01;31m[Ku32[m[K RESERVED3[1];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:134:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  134 |   [01;31m[Kvu32[m[K FFA0R;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:135:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  135 |   [01;31m[Ku32[m[K RESERVED4[1];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:136:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  136 |   [01;31m[Kvu32[m[K FA0R;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:137:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  137 |   [01;31m[Ku32[m[K RESERVED5[8];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:144:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  144 |   [01;31m[Kvu32[m[K CCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:145:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  145 |   [01;31m[Kvu32[m[K CNDTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:146:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  146 |   [01;31m[Kvu32[m[K CPAR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:147:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  147 |   [01;31m[Kvu32[m[K CMAR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:152:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  152 |   [01;31m[Kvu32[m[K ISR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:153:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  153 |   [01;31m[Kvu32[m[K IFCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:159:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  159 |   [01;31m[Kvu32[m[K IMR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:160:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  160 |   [01;31m[Kvu32[m[K EMR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:161:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  161 |   [01;31m[Kvu32[m[K RTSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  162 |   [01;31m[Kvu32[m[K FTSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:163:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  163 |   [01;31m[Kvu32[m[K SWIER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:164:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  164 |   [01;31m[Kvu32[m[K PR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  170 |   [01;31m[Kvu32[m[K ACR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:171:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  171 |   [01;31m[Kvu32[m[K KEYR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  172 |   [01;31m[Kvu32[m[K OPTKEYR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:173:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  173 |   [01;31m[Kvu32[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:174:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  174 |   [01;31m[Kvu32[m[K CR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:175:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  175 |   [01;31m[Kvu32[m[K AR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:176:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  176 |   [01;31m[Kvu32[m[K RESERVED;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:177:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  177 |   [01;31m[Kvu32[m[K OBR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:178:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  178 |   [01;31m[Kvu32[m[K WRPR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:183:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  183 |   [01;31m[Kvu16[m[K RDP;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:184:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  184 |   [01;31m[Kvu16[m[K USER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:185:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  185 |   [01;31m[Kvu16[m[K Data0;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:186:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  186 |   [01;31m[Kvu16[m[K Data1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:187:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  187 |   [01;31m[Kvu16[m[K WRP0;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:188:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  188 |   [01;31m[Kvu16[m[K WRP1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:189:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  189 |   [01;31m[Kvu16[m[K WRP2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:190:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  190 |   [01;31m[Kvu16[m[K WRP3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:196:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  196 |   [01;31m[Kvu32[m[K CRL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:197:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  197 |   [01;31m[Kvu32[m[K CRH;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:198:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  198 |   [01;31m[Kvu32[m[K IDR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:199:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  199 |   [01;31m[Kvu32[m[K ODR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:200:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  200 |   [01;31m[Kvu32[m[K BSRR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:201:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  201 |   [01;31m[Kvu32[m[K BRR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:202:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  202 |   [01;31m[Kvu32[m[K LCKR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:207:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  207 |   [01;31m[Kvu32[m[K EVCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:208:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  208 |   [01;31m[Kvu32[m[K MAPR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:209:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  209 |   [01;31m[Kvu32[m[K EXTICR[4];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:215:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  215 |   [01;31m[Kvu16[m[K CR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:216:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  216 |   [01;31m[Ku16[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:217:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  217 |   [01;31m[Kvu16[m[K CR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:218:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  218 |   [01;31m[Ku16[m[K RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:219:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  219 |   [01;31m[Kvu16[m[K OAR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:220:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  220 |   [01;31m[Ku16[m[K RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:221:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  221 |   [01;31m[Kvu16[m[K OAR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:222:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  222 |   [01;31m[Ku16[m[K RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:223:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  223 |   [01;31m[Kvu16[m[K DR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:224:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  224 |   [01;31m[Ku16[m[K RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:225:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  225 |   [01;31m[Kvu16[m[K SR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:226:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  226 |   [01;31m[Ku16[m[K RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:227:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  227 |   [01;31m[Kvu16[m[K SR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:228:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  228 |   [01;31m[Ku16[m[K RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:229:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  229 |   [01;31m[Kvu16[m[K CCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:230:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  230 |   [01;31m[Ku16[m[K RESERVED7;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:231:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  231 |   [01;31m[Kvu16[m[K TRISE;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:232:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  232 |   [01;31m[Ku16[m[K RESERVED8;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:238:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  238 |   [01;31m[Kvu32[m[K KR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:239:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  239 |   [01;31m[Kvu32[m[K PR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:240:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  240 |   [01;31m[Kvu32[m[K RLR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:241:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  241 |   [01;31m[Kvu32[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:247:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  247 |   [01;31m[Kvu32[m[K ISER[2];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:248:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  248 |   [01;31m[Ku32[m[K RESERVED0[30];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:249:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  249 |   [01;31m[Kvu32[m[K ICER[2];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:250:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  250 |   [01;31m[Ku32[m[K RSERVED1[30];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:251:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  251 |   [01;31m[Kvu32[m[K ISPR[2];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:252:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  252 |   [01;31m[Ku32[m[K RESERVED2[30];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:253:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  253 |   [01;31m[Kvu32[m[K ICPR[2];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:254:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  254 |   [01;31m[Ku32[m[K RESERVED3[30];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:255:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  255 |   [01;31m[Kvu32[m[K IABR[2];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:256:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+  256 |   [01;31m[Ku32[m[K RESERVED4[62];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:257:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  257 |   [01;31m[Kvu32[m[K IPR[11];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:262:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvuc32[m[K’ does not name a type
+  262 |   [01;31m[Kvuc32[m[K CPUID;
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:263:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  263 |   [01;31m[Kvu32[m[K ICSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:264:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  264 |   [01;31m[Kvu32[m[K VTOR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:265:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  265 |   [01;31m[Kvu32[m[K AIRCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:266:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  266 |   [01;31m[Kvu32[m[K SCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:267:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  267 |   [01;31m[Kvu32[m[K CCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:268:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  268 |   [01;31m[Kvu32[m[K SHPR[3];
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:269:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  269 |   [01;31m[Kvu32[m[K SHCSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:270:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  270 |   [01;31m[Kvu32[m[K CFSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:271:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  271 |   [01;31m[Kvu32[m[K HFSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:272:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  272 |   [01;31m[Kvu32[m[K DFSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:273:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  273 |   [01;31m[Kvu32[m[K MMFAR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:274:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  274 |   [01;31m[Kvu32[m[K BFAR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:275:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  275 |   [01;31m[Kvu32[m[K AFSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:281:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  281 |   [01;31m[Kvu32[m[K CR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:282:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  282 |   [01;31m[Kvu32[m[K CSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:288:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  288 |   [01;31m[Kvu32[m[K CR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:289:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  289 |   [01;31m[Kvu32[m[K CFGR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:290:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  290 |   [01;31m[Kvu32[m[K CIR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:291:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  291 |   [01;31m[Kvu32[m[K APB2RSTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:292:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  292 |   [01;31m[Kvu32[m[K APB1RSTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:293:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  293 |   [01;31m[Kvu32[m[K AHBENR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:294:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  294 |   [01;31m[Kvu32[m[K APB2ENR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:295:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  295 |   [01;31m[Kvu32[m[K APB1ENR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:296:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  296 |   [01;31m[Kvu32[m[K BDCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:297:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  297 |   [01;31m[Kvu32[m[K CSR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:303:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  303 |   [01;31m[Kvu16[m[K CRH;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:304:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  304 |   [01;31m[Ku16[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:305:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  305 |   [01;31m[Kvu16[m[K CRL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:306:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  306 |   [01;31m[Ku16[m[K RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:307:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  307 |   [01;31m[Kvu16[m[K PRLH;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:308:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  308 |   [01;31m[Ku16[m[K RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:309:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  309 |   [01;31m[Kvu16[m[K PRLL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:310:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  310 |   [01;31m[Ku16[m[K RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:311:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  311 |   [01;31m[Kvu16[m[K DIVH;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:312:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  312 |   [01;31m[Ku16[m[K RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:313:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  313 |   [01;31m[Kvu16[m[K DIVL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:314:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  314 |   [01;31m[Ku16[m[K RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:315:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  315 |   [01;31m[Kvu16[m[K CNTH;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:316:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  316 |   [01;31m[Ku16[m[K RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:317:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  317 |   [01;31m[Kvu16[m[K CNTL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:318:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  318 |   [01;31m[Ku16[m[K RESERVED7;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:319:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  319 |   [01;31m[Kvu16[m[K ALRH;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:320:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  320 |   [01;31m[Ku16[m[K RESERVED8;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:321:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  321 |   [01;31m[Kvu16[m[K ALRL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:322:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  322 |   [01;31m[Ku16[m[K RESERVED9;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:328:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  328 |   [01;31m[Kvu16[m[K CR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:329:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  329 |   [01;31m[Ku16[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:330:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  330 |   [01;31m[Kvu16[m[K CR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:331:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  331 |   [01;31m[Ku16[m[K RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:332:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  332 |   [01;31m[Kvu16[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:333:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  333 |   [01;31m[Ku16[m[K  RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:334:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  334 |   [01;31m[Kvu16[m[K DR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:335:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  335 |   [01;31m[Ku16[m[K  RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:336:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  336 |   [01;31m[Kvu16[m[K CRCPR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:337:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  337 |   [01;31m[Ku16[m[K RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:338:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  338 |   [01;31m[Kvu16[m[K RXCRCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:339:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  339 |   [01;31m[Ku16[m[K  RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:340:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  340 |   [01;31m[Kvu16[m[K TXCRCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:341:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  341 |   [01;31m[Ku16[m[K  RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:347:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  347 |   [01;31m[Kvu32[m[K CTRL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:348:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  348 |   [01;31m[Kvu32[m[K LOAD;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:349:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  349 |   [01;31m[Kvu32[m[K VAL;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:350:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvuc32[m[K’ does not name a type
+  350 |   [01;31m[Kvuc32[m[K CALIB;
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:356:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  356 |   [01;31m[Kvu16[m[K CR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:357:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  357 |   [01;31m[Ku16[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:358:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  358 |   [01;31m[Kvu16[m[K CR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:359:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  359 |   [01;31m[Ku16[m[K RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:360:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  360 |   [01;31m[Kvu16[m[K SMCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:361:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  361 |   [01;31m[Ku16[m[K RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:362:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  362 |   [01;31m[Kvu16[m[K DIER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:363:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  363 |   [01;31m[Ku16[m[K RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:364:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  364 |   [01;31m[Kvu16[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:365:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  365 |   [01;31m[Ku16[m[K RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:366:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  366 |   [01;31m[Kvu16[m[K EGR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:367:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  367 |   [01;31m[Ku16[m[K RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:368:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  368 |   [01;31m[Kvu16[m[K CCMR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:369:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  369 |   [01;31m[Ku16[m[K RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:370:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  370 |   [01;31m[Kvu16[m[K CCMR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:371:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  371 |   [01;31m[Ku16[m[K RESERVED7;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:372:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  372 |   [01;31m[Kvu16[m[K CCER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:373:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  373 |   [01;31m[Ku16[m[K RESERVED8;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:374:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  374 |   [01;31m[Kvu16[m[K CNT;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:375:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  375 |   [01;31m[Ku16[m[K RESERVED9;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:376:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  376 |   [01;31m[Kvu16[m[K PSC;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:377:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  377 |   [01;31m[Ku16[m[K RESERVED10;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:378:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  378 |   [01;31m[Kvu16[m[K ARR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:379:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  379 |   [01;31m[Ku16[m[K RESERVED11;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:380:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  380 |   [01;31m[Kvu16[m[K RCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:381:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  381 |   [01;31m[Ku16[m[K RESERVED12;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:382:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  382 |   [01;31m[Kvu16[m[K CCR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:383:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  383 |   [01;31m[Ku16[m[K RESERVED13;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:384:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  384 |   [01;31m[Kvu16[m[K CCR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:385:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  385 |   [01;31m[Ku16[m[K RESERVED14;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:386:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  386 |   [01;31m[Kvu16[m[K CCR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:387:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  387 |   [01;31m[Ku16[m[K RESERVED15;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:388:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  388 |   [01;31m[Kvu16[m[K CCR4;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:389:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  389 |   [01;31m[Ku16[m[K RESERVED16;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:390:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  390 |   [01;31m[Kvu16[m[K BDTR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:391:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  391 |   [01;31m[Ku16[m[K RESERVED17;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:392:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  392 |   [01;31m[Kvu16[m[K DCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:393:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  393 |   [01;31m[Ku16[m[K RESERVED18;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:394:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  394 |   [01;31m[Kvu16[m[K DMAR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:395:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  395 |   [01;31m[Ku16[m[K RESERVED19;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:401:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  401 |   [01;31m[Kvu16[m[K CR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:402:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  402 |   [01;31m[Ku16[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:403:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  403 |   [01;31m[Kvu16[m[K CR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:404:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  404 |   [01;31m[Ku16[m[K RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:405:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  405 |   [01;31m[Kvu16[m[K SMCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:406:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  406 |   [01;31m[Ku16[m[K RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:407:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  407 |   [01;31m[Kvu16[m[K DIER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:408:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  408 |   [01;31m[Ku16[m[K RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:409:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  409 |   [01;31m[Kvu16[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:410:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  410 |   [01;31m[Ku16[m[K RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:411:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  411 |   [01;31m[Kvu16[m[K EGR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:412:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  412 |   [01;31m[Ku16[m[K RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:413:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  413 |   [01;31m[Kvu16[m[K CCMR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:414:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  414 |   [01;31m[Ku16[m[K RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:415:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  415 |   [01;31m[Kvu16[m[K CCMR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:416:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  416 |   [01;31m[Ku16[m[K RESERVED7;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:417:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  417 |   [01;31m[Kvu16[m[K CCER;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:418:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  418 |   [01;31m[Ku16[m[K RESERVED8;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:419:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  419 |   [01;31m[Kvu16[m[K CNT;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:420:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  420 |   [01;31m[Ku16[m[K RESERVED9;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:421:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  421 |   [01;31m[Kvu16[m[K PSC;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:422:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  422 |   [01;31m[Ku16[m[K RESERVED10;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:423:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  423 |   [01;31m[Kvu16[m[K ARR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:424:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  424 |   [01;31m[Ku16[m[K RESERVED11[3];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:425:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  425 |   [01;31m[Kvu16[m[K CCR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:426:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  426 |   [01;31m[Ku16[m[K RESERVED12;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:427:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  427 |   [01;31m[Kvu16[m[K CCR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:428:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  428 |   [01;31m[Ku16[m[K RESERVED13;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:429:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  429 |   [01;31m[Kvu16[m[K CCR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:430:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  430 |   [01;31m[Ku16[m[K RESERVED14;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:431:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  431 |   [01;31m[Kvu16[m[K CCR4;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:432:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  432 |   [01;31m[Ku16[m[K RESERVED15[3];
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:433:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  433 |   [01;31m[Kvu16[m[K DCR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:434:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  434 |   [01;31m[Ku16[m[K RESERVED16;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:435:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  435 |   [01;31m[Kvu16[m[K DMAR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:436:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  436 |   [01;31m[Ku16[m[K RESERVED17;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:442:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  442 |   [01;31m[Kvu16[m[K SR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:443:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  443 |   [01;31m[Ku16[m[K RESERVED0;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:444:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  444 |   [01;31m[Kvu16[m[K DR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:445:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  445 |   [01;31m[Ku16[m[K RESERVED1;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:446:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  446 |   [01;31m[Kvu16[m[K BRR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:447:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  447 |   [01;31m[Ku16[m[K RESERVED2;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:448:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  448 |   [01;31m[Kvu16[m[K CR1;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:449:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  449 |   [01;31m[Ku16[m[K RESERVED3;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:450:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  450 |   [01;31m[Kvu16[m[K CR2;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:451:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  451 |   [01;31m[Ku16[m[K RESERVED4;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:452:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  452 |   [01;31m[Kvu16[m[K CR3;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:453:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  453 |   [01;31m[Ku16[m[K RESERVED5;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:454:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu16[m[K’ does not name a type
+  454 |   [01;31m[Kvu16[m[K GTPR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:455:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+  455 |   [01;31m[Ku16[m[K RESERVED6;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:461:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  461 |   [01;31m[Kvu32[m[K CR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:462:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  462 |   [01;31m[Kvu32[m[K CFR;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_map.h:463:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvu32[m[K’ does not name a type
+  463 |   [01;31m[Kvu32[m[K SR;
+      |   [01;31m[K^~~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:16[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   28 |   [01;31m[KFunctionalState[m[K CAN_TTCM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   29 |   [01;31m[KFunctionalState[m[K CAN_ABOM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   30 |   [01;31m[KFunctionalState[m[K CAN_AWUM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   31 |   [01;31m[KFunctionalState[m[K CAN_NART;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   32 |   [01;31m[KFunctionalState[m[K CAN_RFLM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   33 |   [01;31m[KFunctionalState[m[K CAN_TXFP;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   34 |   [01;31m[Ku8[m[K CAN_Mode;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   35 |   [01;31m[Ku8[m[K CAN_SJW;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   36 |   [01;31m[Ku8[m[K CAN_BS1;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   37 |   [01;31m[Ku8[m[K CAN_BS2;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   38 |   [01;31m[Ku16[m[K CAN_Prescaler;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   44 |   [01;31m[Ku8[m[K CAN_FilterNumber;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   45 |   [01;31m[Ku8[m[K CAN_FilterMode;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   46 |   [01;31m[Ku8[m[K CAN_FilterScale;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   47 |   [01;31m[Ku16[m[K CAN_FilterIdHigh;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   48 |   [01;31m[Ku16[m[K CAN_FilterIdLow;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   49 |   [01;31m[Ku16[m[K CAN_FilterMaskIdHigh;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   50 |   [01;31m[Ku16[m[K CAN_FilterMaskIdLow;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   51 |   [01;31m[Ku16[m[K CAN_FilterFIFOAssignment;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   52 |   [01;31m[KFunctionalState[m[K CAN_FilterActivation;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   58 |   [01;31m[Ku32[m[K StdId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   59 |   [01;31m[Ku32[m[K ExtId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   60 |   [01;31m[Ku8[m[K IDE;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:61:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   61 |   [01;31m[Ku8[m[K RTR;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   62 |   [01;31m[Ku8[m[K DLC;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   63 |   [01;31m[Ku8[m[K Data[8];
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   69 |   [01;31m[Ku32[m[K StdId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   70 |   [01;31m[Ku32[m[K ExtId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   71 |   [01;31m[Ku8[m[K IDE;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   72 |   [01;31m[Ku8[m[K RTR;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   73 |   [01;31m[Ku8[m[K DLC;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   74 |   [01;31m[Ku8[m[K Data[8];
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   75 |   [01;31m[Ku8[m[K FMI;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:244:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  244 | [01;31m[Ku8[m[K CAN_Init(CAN_InitTypeDef* CAN_InitStruct);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:247:19:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_ITConfig[m[K’ declared void
+  247 | void CAN_ITConfig([01;31m[Ku32[m[K CAN_IT, FunctionalState NewState);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:247:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:247:31:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ was not declared in this scope
+  247 | void CAN_ITConfig(u32 CAN_IT, [01;31m[KFunctionalState[m[K NewState);
+      |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:248:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  248 | [01;31m[Ku8[m[K CAN_Transmit(CanTxMsg* TxMessage);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:249:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  249 | [01;31m[Ku8[m[K CAN_TransmitStatus(u8 TransmitMailbox);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:250:25:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_CancelTransmit[m[K’ declared void
+  250 | void CAN_CancelTransmit([01;31m[Ku8[m[K Mailbox);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:250:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:251:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_FIFORelease[m[K’ declared void
+  251 | void CAN_FIFORelease([01;31m[Ku8[m[K FIFONumber);
+      |                      [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:251:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:252:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  252 | [01;31m[Ku8[m[K CAN_MessagePending(u8 FIFONumber);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:18:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_Receive[m[K’ declared void
+  253 | void CAN_Receive([01;31m[Ku8[m[K FIFONumber, CanRxMsg* RxMessage);
+      |                  [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+  253 | void CAN_Receive(u8 FIFONumber, CanRxMsg[01;31m[K*[m[K RxMessage);
+      |                                         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:43:[m[K [01;31m[Kerror: [m[K‘[01m[KRxMessage[m[K’ was not declared in this scope
+  253 | void CAN_Receive(u8 FIFONumber, CanRxMsg* [01;31m[KRxMessage[m[K);
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:254:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  254 | [01;31m[Ku8[m[K CAN_Sleep(void);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:255:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  255 | [01;31m[Ku8[m[K CAN_WakeUp(void);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:256:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFlagStatus[m[K’ does not name a type
+  256 | [01;31m[KFlagStatus[m[K CAN_GetFlagStatus(u32 CAN_FLAG);
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:257:20:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_ClearFlag[m[K’ declared void
+  257 | void CAN_ClearFlag([01;31m[Ku32[m[K CAN_FLAG);
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:257:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:258:1:[m[K [01;31m[Kerror: [m[K‘[01m[KITStatus[m[K’ does not name a type
+  258 | [01;31m[KITStatus[m[K CAN_GetITStatus(u32 CAN_IT);
+      | [01;31m[K^~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:259:28:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_ClearITPendingBit[m[K’ declared void
+  259 | void CAN_ClearITPendingBit([01;31m[Ku32[m[K CAN_IT);
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:259:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:92:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |             printf("[01;35m[K%X[m[K", [32m[Kstd::to_string(frame.can_id).c_str()[m[K);
+      |                     [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                      [01;35m[K|[m[K                                     [32m[K|[m[K
+      |                      [01;35m[Kunsigned int[m[K                          [32m[Kconst char*[m[K
+      |                     [32m[K%s[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:98:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+   98 |                 printf("[01;35m[K%X[m[K", [32m[Kstd::to_string(data[i]).c_str()[m[K);
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K                                [32m[K|[m[K
+      |                          [01;35m[Kunsigned int[m[K                     [32m[Kconst char*[m[K
+      |                         [32m[K%s[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::buffer_append_int32(uint8_t*, int32_t, int32_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:187:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  187 |             for (int i = 0; [01;35m[Ki < sizeof(buffer)[m[K; i++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

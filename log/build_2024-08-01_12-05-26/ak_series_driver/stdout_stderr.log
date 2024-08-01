@@ -1,0 +1,182 @@
+[35m[1mScanning dependencies of target ak_series_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:16[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   28 |   [01;31m[KFunctionalState[m[K CAN_TTCM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   29 |   [01;31m[KFunctionalState[m[K CAN_ABOM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   30 |   [01;31m[KFunctionalState[m[K CAN_AWUM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   31 |   [01;31m[KFunctionalState[m[K CAN_NART;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   32 |   [01;31m[KFunctionalState[m[K CAN_RFLM;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   33 |   [01;31m[KFunctionalState[m[K CAN_TXFP;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   34 |   [01;31m[Ku8[m[K CAN_Mode;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   35 |   [01;31m[Ku8[m[K CAN_SJW;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   36 |   [01;31m[Ku8[m[K CAN_BS1;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   37 |   [01;31m[Ku8[m[K CAN_BS2;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   38 |   [01;31m[Ku16[m[K CAN_Prescaler;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   44 |   [01;31m[Ku8[m[K CAN_FilterNumber;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   45 |   [01;31m[Ku8[m[K CAN_FilterMode;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   46 |   [01;31m[Ku8[m[K CAN_FilterScale;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   47 |   [01;31m[Ku16[m[K CAN_FilterIdHigh;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   48 |   [01;31m[Ku16[m[K CAN_FilterIdLow;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   49 |   [01;31m[Ku16[m[K CAN_FilterMaskIdHigh;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   50 |   [01;31m[Ku16[m[K CAN_FilterMaskIdLow;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku16[m[K’ does not name a type
+   51 |   [01;31m[Ku16[m[K CAN_FilterFIFOAssignment;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ does not name a type
+   52 |   [01;31m[KFunctionalState[m[K CAN_FilterActivation;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   58 |   [01;31m[Ku32[m[K StdId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   59 |   [01;31m[Ku32[m[K ExtId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   60 |   [01;31m[Ku8[m[K IDE;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:61:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   61 |   [01;31m[Ku8[m[K RTR;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   62 |   [01;31m[Ku8[m[K DLC;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   63 |   [01;31m[Ku8[m[K Data[8];
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   69 |   [01;31m[Ku32[m[K StdId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ does not name a type
+   70 |   [01;31m[Ku32[m[K ExtId;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:71:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   71 |   [01;31m[Ku8[m[K IDE;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   72 |   [01;31m[Ku8[m[K RTR;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:73:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   73 |   [01;31m[Ku8[m[K DLC;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   74 |   [01;31m[Ku8[m[K Data[8];
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:75:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+   75 |   [01;31m[Ku8[m[K FMI;
+      |   [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:244:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  244 | [01;31m[Ku8[m[K CAN_Init(CAN_InitTypeDef* CAN_InitStruct);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:247:19:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_ITConfig[m[K’ declared void
+  247 | void CAN_ITConfig([01;31m[Ku32[m[K CAN_IT, FunctionalState NewState);
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:247:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:247:31:[m[K [01;31m[Kerror: [m[K‘[01m[KFunctionalState[m[K’ was not declared in this scope
+  247 | void CAN_ITConfig(u32 CAN_IT, [01;31m[KFunctionalState[m[K NewState);
+      |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:248:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  248 | [01;31m[Ku8[m[K CAN_Transmit(CanTxMsg* TxMessage);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:249:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  249 | [01;31m[Ku8[m[K CAN_TransmitStatus(u8 TransmitMailbox);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:250:25:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_CancelTransmit[m[K’ declared void
+  250 | void CAN_CancelTransmit([01;31m[Ku8[m[K Mailbox);
+      |                         [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:250:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:251:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_FIFORelease[m[K’ declared void
+  251 | void CAN_FIFORelease([01;31m[Ku8[m[K FIFONumber);
+      |                      [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:251:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:252:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  252 | [01;31m[Ku8[m[K CAN_MessagePending(u8 FIFONumber);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:18:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_Receive[m[K’ declared void
+  253 | void CAN_Receive([01;31m[Ku8[m[K FIFONumber, CanRxMsg* RxMessage);
+      |                  [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+  253 | void CAN_Receive(u8 FIFONumber, CanRxMsg[01;31m[K*[m[K RxMessage);
+      |                                         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:253:43:[m[K [01;31m[Kerror: [m[K‘[01m[KRxMessage[m[K’ was not declared in this scope
+  253 | void CAN_Receive(u8 FIFONumber, CanRxMsg* [01;31m[KRxMessage[m[K);
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:254:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  254 | [01;31m[Ku8[m[K CAN_Sleep(void);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:255:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ku8[m[K’ does not name a type
+  255 | [01;31m[Ku8[m[K CAN_WakeUp(void);
+      | [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:256:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFlagStatus[m[K’ does not name a type
+  256 | [01;31m[KFlagStatus[m[K CAN_GetFlagStatus(u32 CAN_FLAG);
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:257:20:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_ClearFlag[m[K’ declared void
+  257 | void CAN_ClearFlag([01;31m[Ku32[m[K CAN_FLAG);
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:257:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:258:1:[m[K [01;31m[Kerror: [m[K‘[01m[KITStatus[m[K’ does not name a type
+  258 | [01;31m[KITStatus[m[K CAN_GetITStatus(u32 CAN_IT);
+      | [01;31m[K^~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:259:28:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KCAN_ClearITPendingBit[m[K’ declared void
+  259 | void CAN_ClearITPendingBit([01;31m[Ku32[m[K CAN_IT);
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/stm32f10x_can.h:259:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ku32[m[K’ was not declared in this scope
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(uint32_t, uint8_t, uint8_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:92:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+   92 |             printf("[01;35m[K%X[m[K", [32m[Kstd::to_string(frame.can_id).c_str()[m[K);
+      |                     [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                      [01;35m[K|[m[K                                     [32m[K|[m[K
+      |                      [01;35m[Kunsigned int[m[K                          [32m[Kconst char*[m[K
+      |                     [32m[K%s[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:98:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+   98 |                 printf("[01;35m[K%X[m[K", [32m[Kstd::to_string(data[i]).c_str()[m[K);
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K                                [32m[K|[m[K
+      |                          [01;35m[Kunsigned int[m[K                     [32m[Kconst char*[m[K
+      |                         [32m[K%s[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::buffer_append_int32(uint8_t*, int32_t, int32_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:187:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  187 |             for (int i = 0; [01;35m[Ki < sizeof(buffer)[m[K; i++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.embeddedhtml": "html",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
