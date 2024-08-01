@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[0.035s] [35m[1mScanning dependencies of target ak_series_driver[0m
+[0.049s] [ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[0.960s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In member function ‘[01m[Kvoid SingleMotor::timer_callback()[m[K’:
+[0.960s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:84:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > AKDriver::get_can_frame()[m[K’ is private within this context
+[0.961s]    84 |             std::vector<uint8_t> can = driver.get_can_frame([01;31m[K)[m[K;
+[0.961s]       |                                                             [01;31m[K^[m[K
+[0.961s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[0.961s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:215:30:[m[K [01;36m[Knote: [m[Kdeclared private here
+[0.961s]   215 |         std::vector<uint8_t> [01;36m[Kget_can_frame[m[K()
+[0.961s]       |                              [01;36m[K^~~~~~~~~~~~~[m[K
+[0.961s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:85:39:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kcan.std::vector<unsigned char, std::allocator<unsigned char> >::data()[m[K’, which is of non-class type ‘[01m[Kunsigned char*[m[K’
+[0.961s]    85 |             message.data = can.data().[01;31m[Kc_str[m[K();
+[0.961s]       |                                       [01;31m[K^~~~~[m[K
+[1.961s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+[1.961s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.961s] make: *** [Makefile:141: all] Error 2
+[1.963s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32

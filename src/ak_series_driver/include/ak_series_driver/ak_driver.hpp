@@ -55,7 +55,20 @@ class AKDriver
                 start_motor(addr);
             }
         }
-
+        void comm_can_set_duty(uint8_t controller_id, float duty) {
+            int32_t send_index = 0;
+            uint8_t buffer[4];
+            buffer_append_int32(buffer, (int32_t)(duty * 100000.0), &send_index);
+            comm_can_transmit_eid(controller_id |
+            ((uint32_t)CAN_PACKET_SET_DUTY << 8), buffer, send_index);
+        }
+        void comm_can_set_current(uint8_t controller_id, float current) {
+            int32_t send_index = 0;
+            uint8_t buffer[4];
+            buffer_append_int32(buffer, (int32_t)(current * 1000.0), &send_index);
+            comm_can_transmit_eid(controller_id |
+            ((uint32_t)CAN_PACKET_SET_CURRENT << 8), buffer, send_index);
+        }
         void comm_can_set_pos(uint8_t controller_id, float pos) {
             int32_t send_index = 0;
             uint8_t buffer[4];
@@ -75,6 +88,20 @@ class AKDriver
             comm_can_transmit_eid(controller_id |
                     ((uint32_t)CAN_PACKET_SET_POS_SPD << 8), buffer, send_index1);
             
+        }
+        void comm_can_set_cb(uint8_t controller_id, float current) {
+            int32_t send_index = 0;
+            uint8_t buffer[4];
+            buffer_append_int32(buffer, (int32_t)(current * 1000.0), &send_index);
+            comm_can_transmit_eid(controller_id |
+            ((uint32_t)CAN_PACKET_SET_CURRENT_BRAKE << 8), buffer, send_index);
+        }
+        void comm_can_set_origin(uint8_t controller_id, uint8_t set_origin_mode) {
+            int32_t send_index = 0;
+            uint8_t buffer;
+            buffer=set_origin_mode;
+            comm_can_transmit_eid(controller_id |
+            ((uint32_t) CAN_PACKET_SET_ORIGIN_HERE << 8), &buffer, send_index);
         }
         void comm_can_set_rpm(uint8_t controller_id, float rpm) {
             int32_t send_index = 0;
@@ -109,6 +136,18 @@ class AKDriver
             data[3] = motor_temp_;
             data[4] = error_code_;
             
+        }
+        std::vector<uint8_t> get_can_frame()
+        {
+            can_.can_read();
+            std::vector<uint8_t> data;
+            data.push_back((uint8_t)can_.frame.can_id);
+            for (auto i : can_.frame.data)
+            {
+                data.push_back(i);   
+            }
+            
+            return data;
         }
 
 
@@ -184,6 +223,8 @@ class AKDriver
             float offset = x_min;
             return ((float)x_int)*span/((float)((1<<bits)-1)) + offset;     
         }
+
+        
 
         void unpack_reply()
         {
