@@ -1,0 +1,77 @@
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:28:26:[m[K [01;31m[Kerror: [m[Kusing-declaration for non-member at class scope
+   28 | using std::placeholders::[01;31m[K_1[m[K;
+      |                          [01;31m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:29:7:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[Knamespace[m[K’
+   29 | using [01;31m[Knamespace[m[K std::chrono_literals;
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:74:18:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kdriver[m[K’ has incomplete type ‘[01m[KAKDriver[m[K’
+   74 |         AKDriver [01;31m[Kdriver[m[K;
+      |                  [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:20:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass AKDriver[m[K’
+   20 | class [01;36m[KAKDriver[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:173:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  173 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:21:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::set_motor_param(int, float, float, float, float, float)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpack_cmd[m[K’ was not declared in this scope
+   45 |             [01;31m[Kpack_cmd[m[K(addr, position, velocity, Kp, Kd, torque);
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::get_data(std::vector<float>&)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:90:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kunpack_reply[m[K’ was not declared in this scope
+   90 |             [01;31m[Kunpack_reply[m[K();
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_transmit_eid(uint32_t, const uint8_t*, uint8_t)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:115:65:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  115 |         void comm_can_set_pos(uint8_t controller_id, float pos) [01;31m[K{[m[K
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:124:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  124 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:135:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  135 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:149:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  149 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:157:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  157 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:186:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  186 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:111:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  111 |             uint8_t [01;35m[Ki[m[K=0;
+      |                     [01;35m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:110:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 |         void comm_can_transmit_eid([01;35m[Kuint32_t id[m[K, const uint8_t *data, uint8_t len) {
+      |                                    [01;35m[K~~~~~~~~~^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:110:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 |         void comm_can_transmit_eid(uint32_t id, [01;35m[Kconst uint8_t *data[m[K, uint8_t len) {
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In constructor ‘[01m[KAKDriver::SingleMotor::SingleMotor()[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:50:78:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   50 |                 "control", 10, std::bind(&SingleMotor::topic_callback, this, [01;31m[K_1[m[K));
+      |                                                                              [01;31m[K^~[m[K
+      |                                                                              [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K At global scope:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:173:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  173 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

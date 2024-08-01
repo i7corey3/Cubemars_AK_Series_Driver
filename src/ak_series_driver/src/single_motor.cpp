@@ -50,7 +50,8 @@ class SingleMotor : public rclcpp::Node
                 "control", 10, std::bind(&SingleMotor::topic_callback, this, _1));
 
             // publisher_ = this->create_publisher<std_msgs::msg::String>("test_node", 10);
-            //std::thread t(&TestNode::read, this);
+            // std::thread t(&SingleMotor::read, this);
+           
             setup();
             
             
@@ -59,20 +60,35 @@ class SingleMotor : public rclcpp::Node
         void setup()
         {
             driver.setup(0, 1000000);
-            driver.reset_position(addr);
-            driver.start_motor(addr);
+            //driver.reset_position(addr);
+            // 
+            // driver.setup_motor("motor1", 0, 0.0, 17.0);
+            printf("Setup Complete\r\n");
+            //driver.comm_can_set_pos_spd(0, 10.0, 10000, 10000);
+            driver.comm_can_set_rpm(0, 20);
+            
+            //driver.start_motor(addr);
+            
         }
 
  
 
     private:
         AKDriver driver;
-        int addr = 1;
+        int addr = 0;
         std::vector<float> data = {0.0, 0.0, 0.0, 0.0, 0.0};
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
         // rclcpp::TimerBase::SharedPtr timer_;
         // rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
        
+        void read()
+        {
+            while (1)
+            {
+               
+                
+            }
+        } 
 
         void topic_callback(const std_msgs::msg::String::SharedPtr msg) 
         {
@@ -92,9 +108,12 @@ class SingleMotor : public rclcpp::Node
             {
                 driver.reset_position(addr);
             }
+            
             else if (cmd == "")
             {
-                driver.start_motor(addr);
+               
+               
+               driver.start_motor(addr);
                 //  driver.set_motor_param(std::atof(stored_inputs[0].c_str()), std::atof(stored_inputs[1].c_str()), 
                 //     std::atof(stored_inputs[2].c_str()), std::atof(stored_inputs[3].c_str()), std::atof(stored_inputs[4].c_str()));
                 
@@ -115,23 +134,25 @@ class SingleMotor : public rclcpp::Node
                     inputs.push_back( cmd.substr( initialPos, std::min( pos, cmd.size() ) - initialPos + 1 ) );
                     
                     
-                    
+                   // driver.move_to_position(addr, std::atof(inputs[0].c_str()));
                     driver.set_motor_param(addr, std::atof(inputs[0].c_str()), std::atof(inputs[1].c_str()), 
                         std::atof(inputs[2].c_str()), std::atof(inputs[3].c_str()), std::atof(inputs[4].c_str()));
-                    
+                    driver.start_motor(addr);
                 }
 
                 catch(const std::exception& e)
                 {
-                    //std::cerr << e.what() << '\n';
+                    std::cerr << e.what() << '\n';
                     driver.start_motor(addr);
                 }
                 
             }
+            
             driver.get_data(data);
             std::cout << "Position: " << data[0] << "\nVelocity: " << data[1] 
             << "\nTorque: " << data[2] << "\nTemp " << data[3] << "\nError: " << data[4] << "\n" 
             << std::endl;
+            std::cout << driver.motor1_.angle << std::endl;
             //printf("Position %f Velocity %f Torque %f", data[0], data[1], data[2]);
             
         }

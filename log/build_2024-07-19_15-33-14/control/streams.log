@@ -1,0 +1,17 @@
+[0.294s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/control': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/control/build --no-deps symlink_data
+[0.397s] running develop
+[0.461s] running egg_info
+[0.461s] writing control.egg-info/PKG-INFO
+[0.461s] writing dependency_links to control.egg-info/dependency_links.txt
+[0.461s] writing entry points to control.egg-info/entry_points.txt
+[0.461s] writing requirements to control.egg-info/requires.txt
+[0.461s] writing top-level names to control.egg-info/top_level.txt
+[0.475s] reading manifest file 'control.egg-info/SOURCES.txt'
+[0.476s] writing manifest file 'control.egg-info/SOURCES.txt'
+[0.491s] running build_ext
+[0.492s] Creating /home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages/control.egg-link (link to .)
+[0.492s] Installing control script to /home/corey/Cubemars_AK_Series_Driver/install/control/lib/control
+[0.492s] 
+[0.492s] Installed /home/corey/Cubemars_AK_Series_Driver/build/control
+[0.492s] running symlink_data
+[0.505s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/control' returned '0': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/control/build --no-deps symlink_data

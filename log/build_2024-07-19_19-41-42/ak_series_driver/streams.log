@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[0.046s] [ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[0.728s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[0.728s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_set_pos(uint8_t, float)[m[K’:
+[0.728s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_append_int32[m[K’ was not declared in this scope
+[0.728s]   114 |             [01;31m[Kbuffer_append_int32[m[K(buffer, (int32_t)(pos * 10000.0), &send_index);
+[0.728s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.730s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:115:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm_can_transmit_eid[m[K’ was not declared in this scope
+[0.730s]   115 |             [01;31m[Kcomm_can_transmit_eid[m[K(controller_id |
+[0.730s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.728s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+[1.728s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.728s] make: *** [Makefile:141: all] Error 2
+[1.730s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32

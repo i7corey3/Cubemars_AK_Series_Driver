@@ -1,0 +1,12 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_set_pos(uint8_t, float)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_append_int32[m[K’ was not declared in this scope
+  114 |             [01;31m[Kbuffer_append_int32[m[K(buffer, (int32_t)(pos * 10000.0), &send_index);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:115:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomm_can_transmit_eid[m[K’ was not declared in this scope
+  115 |             [01;31m[Kcomm_can_transmit_eid[m[K(controller_id |
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target ak_series_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_transmit_eid(uint32_t, const uint8_t*, uint8_t)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:114:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kp_int[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+  114 |             msg[1] = [01;31m[Kp_int[m[K&0xFF; // Position 8 lower
+      |                      [01;31m[K^~~~~[m[K
+      |                      [32m[Ku_int[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:115:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_int[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+  115 |             msg[2] = [01;31m[Kv_int[m[K>>4; // Speed 8 higher
+      |                      [01;31m[K^~~~~[m[K
+      |                      [32m[Ku_int[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:116:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp_int[m[K’ was not declared in this scope; did you mean ‘[01m[Ku_int[m[K’?
+  116 |             msg[3] = ((v_int&0xF)<<4)|([01;31m[Kkp_int[m[K>>8); //Speed 4 bit lower KP 4bit higher
+      |                                        [01;31m[K^~~~~~[m[K
+      |                                        [32m[Ku_int[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:119:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddr[m[K’ was not declared in this scope
+  119 |             can_.send_cmd([01;31m[Kaddr[m[K, sizeof(msg), msg); //CAN port sends TxMessage data
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:110:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 |         void comm_can_transmit_eid([01;35m[Kuint32_t id[m[K, const uint8_t *data, uint8_t len) {
+      |                                    [01;35m[K~~~~~~~~~^~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:110:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 |         void comm_can_transmit_eid(uint32_t id, [01;35m[Kconst uint8_t *data[m[K, uint8_t len) {
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:110:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  110 |         void comm_can_transmit_eid(uint32_t id, const uint8_t *data, [01;35m[Kuint8_t len[m[K) {
+      |                                                                      [01;35m[K~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

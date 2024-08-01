@@ -1,0 +1,39 @@
+[0.009s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[0.046s] [35m[1mScanning dependencies of target ak_series_driver[0m
+[0.060s] [ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[0.784s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[0.784s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::move_to_position(int, float)[m[K’:
+[0.784s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:47:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[0.784s]    47 |                 printf("[01;35m[K%d[m[K\r\n", [32m[Kmotor1_.angle[m[K);
+[0.784s]       |                         [01;35m[K~^[m[K       [32m[K~~~~~~~~~~~~~[m[K
+[0.784s]       |                          [01;35m[K|[m[K               [32m[K|[m[K
+[0.784s]       |                          [01;35m[Kint[m[K             [32m[Kdouble[m[K
+[0.784s]       |                         [32m[K%f[m[K
+[0.784s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kdouble AKDriver::get_position(float)[m[K’:
+[0.784s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:66:40:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[0.784s]    66 |             return [01;31m[Kmotor1_.get_position(position_, desired_position)[m[K;
+[0.784s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.784s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kint AKDriver::float_to_uint(float, float, float, unsigned int)[m[K’:
+[0.784s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:115:24:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K-Wformat=[m[K]
+[0.784s]   115 |             printf("[01;35m[K%02X[m[K ", [32m[Ks.c_str()[m[K);
+[0.784s]       |                     [01;35m[K~~~^[m[K    [32m[K~~~~~~~~~[m[K
+[0.784s]       |                        [01;35m[K|[m[K           [32m[K|[m[K
+[0.784s]       |                        [01;35m[K|[m[K           [32m[Kconst char*[m[K
+[0.784s]       |                        [01;35m[Kunsigned int[m[K
+[0.784s]       |                     [32m[K%02s[m[K
+[0.785s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::unpack_reply()[m[K’:
+[0.785s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:129:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[0.785s]   129 |             for (int i=0; [01;35m[Ki<sizeof(can_.frame.data)[m[K; i++)
+[0.785s]       |                           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.894s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In member function ‘[01m[Kvoid SingleMotor::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.894s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:156:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kfloat[m[K’
+[0.894s]   156 |                 driver.move_to_position(addr, inputs[1][01;31m[K)[m[K
+[0.894s]       |                                                        [01;31m[K^[m[K
+[0.894s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[0.894s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:38:47:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid AKDriver::move_to_position(int, float)[m[K’
+[0.894s]    38 |         void move_to_position(int addr, [01;36m[Kfloat pos[m[K)
+[0.894s]       |                                         [01;36m[K~~~~~~^~~[m[K
+[1.796s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+[1.796s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+[1.796s] make: *** [Makefile:141: all] Error 2
+[1.798s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32

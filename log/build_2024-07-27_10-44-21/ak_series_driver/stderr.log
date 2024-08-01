@@ -1,0 +1,15 @@
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:34:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 |         int start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                      [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:34:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 |         int start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                      [01;35m[K~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/dual_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:34:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbitrate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 |         int start(const int channel, [01;35m[Kconst int bitrate[m[K)
+      |                                      [01;35m[K~~~~~~~~~~^~~~~~~[m[K

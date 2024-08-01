@@ -1,0 +1,38 @@
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kvoid CanCommunication::send_cmd(uint8_t, uint8_t, uint8_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:80:51:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+   80 |             printf(std::to_string(can_dlc).c_str()[01;35m[K)[m[K;
+      |                                                   [01;35m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:82:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   82 |             for (int i = 0; [01;35m[Ki < sizeof(data)[m[K; i++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:91:50:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+   91 |             printf(std::to_string(nbytes).c_str()[01;35m[K)[m[K;
+      |                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_set_pos(uint8_t, float)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:78:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAKDriver::comm_can_transmit_eid(uint32_t, uint8_t [4], int32_t&)[m[K’
+   78 |             ((uint32_t)CAN_PACKET_SET_POS << 8), buffer, send_index[01;31m[K)[m[K;
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:128:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid AKDriver::comm_can_transmit_eid(uint32_t, const uint8_t*)[m[K’
+  128 |         void [01;36m[Kcomm_can_transmit_eid[m[K(uint32_t id, const uint8_t *data) {
+      |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:128:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_set_pos_spd(uint8_t, float, int16_t, int16_t)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:88:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAKDriver::comm_can_transmit_eid(uint32_t, uint8_t [8], int16_t&)[m[K’
+   88 |             ((uint32_t)CAN_PACKET_SET_POS_SPD << 8), buffer, send_index1[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:128:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid AKDriver::comm_can_transmit_eid(uint32_t, const uint8_t*)[m[K’
+  128 |         void [01;36m[Kcomm_can_transmit_eid[m[K(uint32_t id, const uint8_t *data) {
+      |              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:128:14:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::comm_can_transmit_eid(uint32_t, const uint8_t*)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:131:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  131 |             for (int i = 0; [01;35m[Ki < sizeof(msg)[m[K; i++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:128:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  128 |         void comm_can_transmit_eid([01;35m[Kuint32_t id[m[K, const uint8_t *data) {
+      |                                    [01;35m[K~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
