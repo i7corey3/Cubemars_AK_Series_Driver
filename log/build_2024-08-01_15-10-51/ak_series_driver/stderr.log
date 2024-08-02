@@ -1,0 +1,10 @@
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In member function ‘[01m[Kvoid SingleMotor::setup()[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:68:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdriver[m[K’
+   68 |             driver.comm_can_set_current(0x69, 10000)
+      |                                                     [01;31m[K^[m[K
+      |                                                     [32m[K;[m[K
+   69 |             [32m[Kdriver[m[K.comm_can_set_rpm(0x69, 20000);
+      |             [32m[K~~~~~~[m[K                                   
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

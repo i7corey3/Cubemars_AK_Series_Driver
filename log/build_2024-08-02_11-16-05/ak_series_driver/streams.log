@@ -1,0 +1,60 @@
+[0.015s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16
+[0.070s] [35m[1mScanning dependencies of target ak_series_driver[0m
+[0.092s] [ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[1.529s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[1.529s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In static member function ‘[01m[Kstatic void AKDriver::get_can_frame()[m[K’:
+[1.529s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:147:20:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::is_connected[m[K’ in static member function
+[1.529s]   147 |             while ([01;31m[Kis_connected[m[K)
+[1.530s]       |                    [01;31m[K^~~~~~~~~~~~[m[K
+[1.530s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:28:14:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.530s]    28 |         bool [01;36m[Kis_connected[m[K = false;
+[1.530s]       |              [01;36m[K^~~~~~~~~~~~[m[K
+[1.531s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:150:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kformat[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.531s]   150 |                 auto status = std::system(std::[01;31m[Kformat[m[K("candump can0 | grep {}", motor_addr));
+[1.531s]       |                                                [01;31m[K^~~~~~[m[K
+[1.531s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:150:81:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::motor_addr[m[K’ in static member function
+[1.531s]   150 |       auto status = std::system(std::format("candump can0 | grep {}", [01;31m[Kmotor_addr[m[K));
+[1.531s]       |                                                                       [01;31m[K^~~~~~~~~~[m[K
+[1.531s] 
+[1.531s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:29:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.531s]    29 |         std::string [01;36m[Kmotor_addr[m[K = "00";
+[1.531s]       |                     [01;36m[K^~~~~~~~~~[m[K
+[1.531s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:156:21:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::can_frame[m[K’ in static member function
+[1.531s]   156 |                 if ([01;31m[Kcan_frame[m[K != preFrame)
+[1.531s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.531s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:27:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.532s]    27 |         std::vector<uint8_t> [01;36m[Kcan_frame[m[K;
+[1.532s]       |                              [01;36m[K^~~~~~~~~[m[K
+[1.532s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:158:21:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::can_frame[m[K’ in static member function
+[1.532s]   158 |                     [01;31m[Kcan_frame[m[K.clear();
+[1.532s]       |                     [01;31m[K^~~~~~~~~[m[K
+[1.532s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:27:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.532s]    27 |         std::vector<uint8_t> [01;36m[Kcan_frame[m[K;
+[1.532s]       |                              [01;36m[K^~~~~~~~~[m[K
+[1.532s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:159:44:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto&&[m[K’ from ‘[01m[KpreFrame.std::vector<unsigned char, std::allocator<unsigned char> >::data[m[K’
+[1.532s]   159 |                     for (auto i : preFrame.[01;31m[Kdata[m[K)
+[1.532s]       |                                            [01;31m[K^~~~[m[K
+[1.532s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:159:44:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[1.532s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:161:25:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::can_frame[m[K’ in static member function
+[1.532s]   161 |                         [01;31m[Kcan_frame[m[K.push_back(i);
+[1.532s]       |                         [01;31m[K^~~~~~~~~[m[K
+[1.532s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:27:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.532s]    27 |         std::vector<uint8_t> [01;36m[Kcan_frame[m[K;
+[1.532s]       |                              [01;36m[K^~~~~~~~~[m[K
+[1.533s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:164:57:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::can_frame[m[K’ in static member function
+[1.533s]   164 |                     std::cout << std::string(std::begin([01;31m[Kcan_frame[m[K), std::end(can_frame)) << std::endl;
+[1.533s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[1.533s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:27:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.533s]    27 |         std::vector<uint8_t> [01;36m[Kcan_frame[m[K;
+[1.533s]       |                              [01;36m[K^~~~~~~~~[m[K
+[1.533s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:164:78:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KAKDriver::can_frame[m[K’ in static member function
+[1.533s]   164 |         std::cout << std::string(std::begin(can_frame), std::end([01;31m[Kcan_frame[m[K)) << std::endl;
+[1.533s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[1.533s] 
+[1.533s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:27:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.533s]    27 |         std::vector<uint8_t> [01;36m[Kcan_frame[m[K;
+[1.533s]       |                              [01;36m[K^~~~~~~~~[m[K
+[3.448s] make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+[3.449s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+[3.449s] make: *** [Makefile:141: all] Error 2
+[3.453s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /home/corey/.local/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j16 -l16

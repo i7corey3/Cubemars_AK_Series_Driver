@@ -6,6 +6,8 @@
 #include "ak_series_driver/motor.hpp"
 #include <cmath>
 #include <vector>
+#include <thread>
+#include <iostream>
 
 
 typedef enum {
@@ -23,10 +25,14 @@ class AKDriver
 
     public:
         Motor motor1_;
-        
+        std::vector<uint8_t> can_frame;
+       
+        std::string motor_addr = "00";
         void setup(int channel, int bitrate)
         {
             can_.start(channel, bitrate);
+           
+           
         }
 
         void setup_motor(std::string name, int can_id, double angle_offset, double gear_ratio)
@@ -137,17 +143,28 @@ class AKDriver
             data[4] = error_code_;
             
         }
-        std::vector<uint8_t> get_can_frame()
+        void get_can_frame()
         {
-            can_.can_read();
-            std::vector<uint8_t> data;
-            data.push_back((uint8_t)can_.frame.can_id);
-            for (auto i : can_.frame.data)
-            {
-                data.push_back(i);   
-            }
             
-            return data;
+            std::vector<uint8_t> preFrame;
+            can_.can_read();
+            for (long unsigned int i = 0; i<sizeof(can_.frame.data); i++)
+            {
+                preFrame.push_back(can_.frame.data[i]);
+            }
+
+            if (can_frame != preFrame)
+            {
+                can_frame.clear();    
+                for (long unsigned int i=0; i<preFrame.size(); i++)  
+                {
+                    can_frame.push_back(preFrame[i]);
+                        
+                }
+                // std::cout << std::string(std::begin(can_frame), std::end(can_frame)) << std::endl;
+            }
+            unpack_reply();
+            
         }
 
 
@@ -228,10 +245,10 @@ class AKDriver
 
         void unpack_reply()
         {
-            // for (int i=0; i<sizeof(can_.frame.data); i++)
-            // {
-            //     printf("data[%d] = %d\r\n", i, can_.frame.data[i]);
-            // }
+            for (int i=0; i<sizeof(can_.frame.data); i++)
+            {
+                printf("data[%d] = %d\r\n", i, can_.frame.data[i]);
+            }
             /// unpack ints from can buffer ///
             int id = can_.frame.data[0]; //驱动 ID 号
             int p_int = (can_.frame.data[1]<<8)|can_.frame.data[2]; //Motor position data

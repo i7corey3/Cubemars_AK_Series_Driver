@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target ak_series_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In constructor ‘[01m[KSingleMotor::SingleMotor()[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:54:61:[m[K [01;31m[Kerror: [m[Kinvalid use of void expression
+   54 |             std::thread status(SingleMotor::publish_status()[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

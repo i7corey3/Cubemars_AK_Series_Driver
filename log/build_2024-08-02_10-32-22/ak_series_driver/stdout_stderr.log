@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target ak_series_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In static member function ‘[01m[Kstatic void SingleMotor::publish_status()[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:84:40:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KSingleMotor::driver[m[K’ in static member function
+   84 |             std::vector<uint8_t> can = [01;31m[Kdriver[m[K.get_can_frame();
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:71:18:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 |         AKDriver [01;36m[Kdriver[m[K;
+      |                  [01;36m[K^~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:92:13:[m[K [01;31m[Kerror: [m[Kinvalid use of member ‘[01m[KSingleMotor::publisher_[m[K’ in static member function
+   92 |             [01;31m[Kpublisher_[m[K->publish(message);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:77:61:[m[K [01;36m[Knote: [m[Kdeclared here
+   77 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;36m[Kpublisher_[m[K;
+      |                                                             [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
