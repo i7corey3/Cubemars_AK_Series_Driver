@@ -1,7 +1,0 @@
-[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:[m[K In constructor ‘[01m[KSingleMotor::SingleMotor()[m[K’:
-[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:54:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
-   54 |             std::thread status(&SingleMotor::get_status, &[01;31m[Kx[m[K);
-      |                                                           [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

@@ -1,9 +1,0 @@
-source;share/ak_driver_status/hook/pythonpath.ps1
-source;share/ak_driver_status/hook/pythonpath.dsv
-source;share/ak_driver_status/hook/pythonpath.sh
-source;share/ak_driver_status/hook/ament_prefix_path.ps1
-source;share/ak_driver_status/hook/ament_prefix_path.dsv
-source;share/ak_driver_status/hook/ament_prefix_path.sh
-source;../../build/ak_driver_status/share/ak_driver_status/hook/pythonpath_develop.ps1
-source;../../build/ak_driver_status/share/ak_driver_status/hook/pythonpath_develop.dsv
-source;../../build/ak_driver_status/share/ak_driver_status/hook/pythonpath_develop.sh

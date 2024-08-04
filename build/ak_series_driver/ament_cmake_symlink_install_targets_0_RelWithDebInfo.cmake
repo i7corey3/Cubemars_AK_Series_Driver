@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/libak_series_driver.so" "TARGETS" "ak_series_driver" "DESTINATION" "lib/ak_series_driver")
