@@ -36,12 +36,12 @@ ament_target_dependencies(
   
 )
 
-add_executable(single 
+add_executable(demo 
   src/motor_demo.cpp
 )
-ament_target_dependencies(single rclcpp)
+ament_target_dependencies(demo rclcpp)
 target_link_libraries(
-  single
+  demo
   ${PROJECT_NAME}
 
 )
@@ -60,7 +60,7 @@ install(
 
 install(
   TARGETS 
-  single
+  demo
   DESTINATION lib/${PROJECT_NAME}
 )
 

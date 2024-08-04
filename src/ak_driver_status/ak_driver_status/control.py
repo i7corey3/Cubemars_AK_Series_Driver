@@ -14,7 +14,7 @@ class Control(Node):
       
       self.publisher = self.create_publisher(
          String,
-         "control",
+         "/ak_driver/motor_control",
          10
       )
 

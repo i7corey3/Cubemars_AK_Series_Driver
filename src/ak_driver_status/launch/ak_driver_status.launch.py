@@ -26,7 +26,7 @@ def generate_launch_description():
  
 	driver = Node(
 		package="ak_series_driver",
-		executable='single'
+		executable='demo'
 
 	)
  

@@ -68,18 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -135,6 +123,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/progress.marks
@@ -168,17 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named single
+# Target rules for targets named demo
 
 # Build rule for target.
-single: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 single
-.PHONY : single
+demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo
+.PHONY : demo
 
 # fast build rule for target.
-single/fast:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/build
-.PHONY : single/fast
+demo/fast:
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
+.PHONY : demo/fast
 
 #=============================================================================
 # Target rules for targets named ak_series_driver
@@ -225,7 +225,7 @@ src/motor_demo.o: src/motor_demo.cpp.o
 
 # target to build an object file
 src/motor_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/motor_demo.cpp.o
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/motor_demo.cpp.o
 	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o
 .PHONY : src/motor_demo.cpp.o
 
@@ -235,7 +235,7 @@ src/motor_demo.i: src/motor_demo.cpp.i
 
 # target to preprocess a source file
 src/motor_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/motor_demo.cpp.i
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/motor_demo.cpp.i
 	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.i
 .PHONY : src/motor_demo.cpp.i
 
@@ -245,7 +245,7 @@ src/motor_demo.s: src/motor_demo.cpp.s
 
 # target to generate assembly for a file
 src/motor_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/motor_demo.cpp.s
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/motor_demo.cpp.s
 	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.s
 .PHONY : src/motor_demo.cpp.s
 
@@ -256,13 +256,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... single"
+	@echo "... install/local"
+	@echo "... demo"
 	@echo "... ak_series_driver"
 	@echo "... ak_series_driver_uninstall"
 	@echo "... uninstall"

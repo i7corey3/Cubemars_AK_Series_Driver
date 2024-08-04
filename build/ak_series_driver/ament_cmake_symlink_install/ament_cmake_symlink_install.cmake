@@ -316,7 +316,7 @@ include("/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmak
 # install(DIRECTORY "include/ak_series_driver/" "DESTINATION" "include/ak_series_driver/")
 ament_cmake_symlink_install_directory("/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver" DIRECTORY "include/ak_series_driver/" "DESTINATION" "include/ak_series_driver/")
 
-# install("TARGETS" "single" "DESTINATION" "lib/ak_series_driver")
+# install("TARGETS" "demo" "DESTINATION" "lib/ak_series_driver")
 include("/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/opt/ros/galactic/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/ak_series_driver/environment")

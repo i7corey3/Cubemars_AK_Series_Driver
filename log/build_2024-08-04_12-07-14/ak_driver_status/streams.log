@@ -1,0 +1,18 @@
+[0.286s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/build --no-deps symlink_data
+[0.388s] running develop
+[0.449s] running egg_info
+[0.449s] writing ak_driver_status.egg-info/PKG-INFO
+[0.449s] writing dependency_links to ak_driver_status.egg-info/dependency_links.txt
+[0.449s] writing entry points to ak_driver_status.egg-info/entry_points.txt
+[0.449s] writing requirements to ak_driver_status.egg-info/requires.txt
+[0.449s] writing top-level names to ak_driver_status.egg-info/top_level.txt
+[0.463s] reading manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+[0.463s] writing manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+[0.479s] running build_ext
+[0.479s] Creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages/ak-driver-status.egg-link (link to .)
+[0.479s] Installing control script to /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/ak_driver_status
+[0.479s] Installing status script to /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/ak_driver_status
+[0.479s] 
+[0.479s] Installed /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status
+[0.479s] running symlink_data
+[0.492s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status' returned '0': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/build --no-deps symlink_data

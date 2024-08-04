@@ -47,7 +47,7 @@ class SingleMotor : public rclcpp::Node
         : Node("driver")
         { 
             subscription_ = this->create_subscription<std_msgs::msg::String>(
-                "control", 10, std::bind(&SingleMotor::topic_callback, this, _1));
+                "/ak_driver/motor_control", 10, std::bind(&SingleMotor::topic_callback, this, _1));
 
             
             publisher_ = this->create_publisher<std_msgs::msg::String>("/ak_driver/motor_status", 10);

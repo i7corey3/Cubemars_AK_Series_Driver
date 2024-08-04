@@ -588,7 +588,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/single.dir/DependInfo.cmake"
+  "CMakeFiles/demo.dir/DependInfo.cmake"
   "CMakeFiles/ak_series_driver.dir/DependInfo.cmake"
   "CMakeFiles/ak_series_driver_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
