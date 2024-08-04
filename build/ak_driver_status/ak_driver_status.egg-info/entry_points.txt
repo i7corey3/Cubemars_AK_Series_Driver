@@ -1,0 +1,4 @@
+[console_scripts]
+control = ak_driver_status.control:main
+status = ak_driver_status.ak_driver_status:main
+

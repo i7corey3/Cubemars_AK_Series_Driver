@@ -25,14 +25,14 @@ class AKDriver
 
     public:
         Motor motor1_;
-        std::vector<uint8_t> can_frame;
+        std::string can_frame;
        
         std::string motor_addr = "00";
+
         void setup(int channel, int bitrate)
         {
             can_.start(channel, bitrate);
-           
-           
+            
         }
 
         void setup_motor(std::string name, int can_id, double angle_offset, double gear_ratio)
@@ -102,14 +102,16 @@ class AKDriver
             comm_can_transmit_eid(controller_id |
             ((uint32_t)CAN_PACKET_SET_CURRENT_BRAKE << 8), buffer, send_index);
         }
-        void comm_can_set_origin(uint8_t controller_id, uint8_t set_origin_mode) {
+        void comm_can_set_origin(uint8_t controller_id, uint8_t set_origin_mode) 
+        {
             int32_t send_index = 0;
             uint8_t buffer;
             buffer=set_origin_mode;
             comm_can_transmit_eid(controller_id |
             ((uint32_t) CAN_PACKET_SET_ORIGIN_HERE << 8), &buffer, send_index);
         }
-        void comm_can_set_rpm(uint8_t controller_id, float rpm) {
+        void comm_can_set_rpm(uint8_t controller_id, float rpm) 
+        {
             int32_t send_index = 0;
             uint8_t buffer[4];
             buffer_append_int32(buffer, (int32_t)rpm, &send_index);
@@ -131,11 +133,50 @@ class AKDriver
             can_.send_cmd(addr, sizeof(msg), msg);
         }
         
-      
+
+        std::string GetCmdOutput()
+        {
+            char buffer[128];
+            
+            std::string result = "";
+            FILE* pipe = popen("candump can0 | grep 0000296A", "r");
+        
+            int counter=0;
+            if(!pipe) throw std::runtime_error("popen() failed!");
+            try {
+                if (fgets(buffer, 128, pipe) != NULL)
+                {
+                    while (counter < 1)
+                    {
+                        result += buffer;
+                        counter++;
+                    }
+                    
+                }
+            }
+            catch (...)
+            {
+                pclose(pipe);
+                throw;
+            }
+            // pclose(pipe);
+            return result;
+            
+        }
+
         void get_data(std::vector<float> &data)
         {
-            can_.can_read();
-            unpack_reply();
+            // std::string dump = "candump can0 | grep 0000296A";
+            // const char *cmd;
+            // cmd = dump.c_str();
+            // pipe = popen(cmd,"r");
+            std::string output = GetCmdOutput();
+            std::cout << output + "\n";
+            //can_.can_read();
+            //  for (long unsigned int i=0; i<sizeof(can_.frame.data); i++)
+            // {
+            //     printf("data[%d] = %X\r\n", (int)i, can_.frame.data[i]);
+            // }
             data[0] = position_;
             data[1] = speed_;
             data[2] = torque_;
@@ -145,25 +186,35 @@ class AKDriver
         }
         void get_can_frame()
         {
-            
-            std::vector<uint8_t> preFrame;
-            can_.can_read();
-            for (long unsigned int i = 0; i<sizeof(can_.frame.data); i++)
-            {
-                preFrame.push_back(can_.frame.data[i]);
-            }
+            // std::string message;
 
-            if (can_frame != preFrame)
-            {
-                can_frame.clear();    
-                for (long unsigned int i=0; i<preFrame.size(); i++)  
-                {
-                    can_frame.push_back(preFrame[i]);
+            // while(std::getline(std::cin, message))
+            // {
+            //    for (int i = 0; i<can_frame.size(); i++)
+            //    {
+            //     can_frame[i] = message;
+            //     std::cout << message << " ";
+            //    }
+            //    std::cout << std::endl;
+            // }
+            // std::vector<uint8_t> preFrame;
+            
+            // for (long unsigned int i = 0; i<sizeof(can_.frame.data); i++)
+            // {
+            //     preFrame.push_back(can_.frame.data[i]);
+            // }
+
+            // if (can_frame != preFrame)
+            // {
+            //     can_frame.clear();    
+            //     for (long unsigned int i=0; i<preFrame.size(); i++)  
+            //     {
+            //         can_frame.push_back(preFrame[i]);
                         
-                }
-                // std::cout << std::string(std::begin(can_frame), std::end(can_frame)) << std::endl;
-            }
-            unpack_reply();
+            //     }
+            //     std::cout << std::string(std::begin(can_frame), std::end(can_frame)) << std::endl;
+            // }
+          
             
         }
 
@@ -245,10 +296,7 @@ class AKDriver
 
         void unpack_reply()
         {
-            for (int i=0; i<sizeof(can_.frame.data); i++)
-            {
-                printf("data[%d] = %d\r\n", i, can_.frame.data[i]);
-            }
+           
             /// unpack ints from can buffer ///
             int id = can_.frame.data[0]; //驱动 ID 号
             int p_int = (can_.frame.data[1]<<8)|can_.frame.data[2]; //Motor position data

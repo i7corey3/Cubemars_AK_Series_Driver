@@ -57,27 +57,27 @@ include CMakeFiles/ak_series_driver.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ak_series_driver.dir/flags.make
 
-CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o: CMakeFiles/ak_series_driver.dir/flags.make
-CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o: /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o -c /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp
+CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o: CMakeFiles/ak_series_driver.dir/flags.make
+CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o: /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/motor_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o -c /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/motor_demo.cpp
 
-CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp > CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.i
+CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/motor_demo.cpp > CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.i
 
-CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp -o CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.s
+CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/motor_demo.cpp -o CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.s
 
 # Object files for target ak_series_driver
 ak_series_driver_OBJECTS = \
-"CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o"
+"CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o"
 
 # External object files for target ak_series_driver
 ak_series_driver_EXTERNAL_OBJECTS =
 
-libak_series_driver.so: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o
+libak_series_driver.so: CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o
 libak_series_driver.so: CMakeFiles/ak_series_driver.dir/build.make
 libak_series_driver.so: /opt/ros/galactic/lib/librclcpp.so
 libak_series_driver.so: /opt/ros/galactic/lib/libament_index_cpp.so

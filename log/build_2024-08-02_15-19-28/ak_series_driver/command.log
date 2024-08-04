@@ -1,0 +1,4 @@
+Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
+Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver

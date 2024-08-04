@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ak_driver_status.egg-info/PKG-INFO
+writing dependency_links to ak_driver_status.egg-info/dependency_links.txt
+writing entry points to ak_driver_status.egg-info/entry_points.txt
+writing requirements to ak_driver_status.egg-info/requires.txt
+writing top-level names to ak_driver_status.egg-info/top_level.txt
+reading manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+writing manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages/ak-driver-status.egg-link (link to .)
+Installing control script to /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/ak_driver_status
+Installing status script to /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/ak_driver_status
+
+Installed /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status
+running symlink_data

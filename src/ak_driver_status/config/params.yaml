@@ -1,0 +1,5 @@
+status:
+  ros__parameters:
+    use_sim_time: false
+    motor_name: ['motor1', 'motor2']
+    motor_addr: [106, 104]

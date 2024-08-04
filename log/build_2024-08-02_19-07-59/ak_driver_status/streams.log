@@ -1,0 +1,30 @@
+[0.283s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/build --no-deps symlink_data
+[0.384s] running develop
+[0.445s] running egg_info
+[0.445s] creating ak_driver_status.egg-info
+[0.445s] writing ak_driver_status.egg-info/PKG-INFO
+[0.445s] writing dependency_links to ak_driver_status.egg-info/dependency_links.txt
+[0.445s] writing entry points to ak_driver_status.egg-info/entry_points.txt
+[0.445s] writing requirements to ak_driver_status.egg-info/requires.txt
+[0.445s] writing top-level names to ak_driver_status.egg-info/top_level.txt
+[0.445s] writing manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+[0.459s] reading manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+[0.459s] writing manifest file 'ak_driver_status.egg-info/SOURCES.txt'
+[0.475s] running build_ext
+[0.475s] Creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages/site.py
+[0.476s] Creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages/ak-driver-status.egg-link (link to .)
+[0.476s] Installing control script to /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/ak_driver_status
+[0.476s] Installing status script to /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/ak_driver_status
+[0.476s] 
+[0.476s] Installed /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status
+[0.476s] running symlink_data
+[0.476s] creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ament_index
+[0.476s] creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ament_index/resource_index
+[0.476s] creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ament_index/resource_index/packages
+[0.476s] symbolically linking /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/resource/ak_driver_status -> /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ament_index/resource_index/packages
+[0.476s] symbolically linking /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/package.xml -> /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ak_driver_status
+[0.476s] creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ak_driver_status/launch
+[0.476s] symbolically linking /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/launch/ak_driver_status.launch.py -> /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ak_driver_status/launch
+[0.476s] creating /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ak_driver_status/config
+[0.476s] symbolically linking /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/config/params.yaml -> /home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/share/ak_driver_status/config
+[0.489s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status' returned '0': PYTHONPATH=/home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/corey/Cubemars_AK_Series_Driver/build/ak_driver_status/build --no-deps symlink_data

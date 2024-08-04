@@ -1,0 +1,857 @@
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::get_can_frame(std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator!=[m[K’ (operand types are ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’)
+  167 |             if ([32m[Kcan_frame[m[K [01;31m[K!=[m[K [34m[KpreFrame[m[K)
+      |                 [32m[K~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~[m[K
+      |                 [32m[K|[m[K            [34m[K|[m[K
+      |                 [32m[K|[m[K            [34m[Kvector<unsigned char,allocator<unsigned char>>[m[K
+      |                 [32m[Kvector<std::__cxx11::basic_string<char>,allocator<std::__cxx11::basic_string<char>>>[m[K
+In file included from [01m[K/usr/include/c++/9/thread:38[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/chrono:569:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr bool std::chrono::operator!=(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+  569 |       [01;36m[Koperator[m[K!=(const duration<_Rep1, _Period1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/chrono:569:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/thread:38[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/chrono:774:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr bool std::chrono::operator!=(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)[m[K’
+  774 |       [01;36m[Koperator[m[K!=(const time_point<_Clock, _Dur1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/chrono:774:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::chrono::time_point<_Clock, _Duration1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_pair.h:461:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+  461 |     [01;36m[Koperator[m[K!=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_pair.h:461:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:337:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+  337 |     [01;36m[Koperator[m[K!=(const reverse_iterator<_Iterator>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:337:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:375:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  375 |     [01;36m[Koperator[m[K!=(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:375:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1148 |     [01;36m[Koperator[m[K!=(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1154:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+ 1154 |     [01;36m[Koperator[m[K!=(const move_iterator<_Iterator>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1154:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator!=(const std::allocator<_Tp1>&, const std::allocator<_T2>&)[m[K’
+  173 |     [01;36m[Koperator[m[K!=(const allocator<_T1>&, const allocator<_T2>&)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::allocator<_Tp1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1912:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+ 1912 |     [01;36m[Koperator[m[K!=(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1912:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_Tp[m[K’ (‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ and ‘[01m[Kunsigned char[m[K’)
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/iosfwd:40[m[K,
+                 from [01m[K/usr/include/c++/9/memory:72[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/postypes.h:227:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+  227 |     [01;36m[Koperator[m[K!=(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/postypes.h:227:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/string_view:489:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator!=(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+  489 |     [01;36m[Koperator[m[K!=(basic_string_view<_CharT, _Traits> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:489:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/string_view:495:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator!=(std::basic_string_view<_CharT, _Traits>, std::__detail::__idt<std::basic_string_view<_CharT, _Traits> >)[m[K’
+  495 |     [01;36m[Koperator[m[K!=(basic_string_view<_CharT, _Traits> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:495:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/string_view:501:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator!=(std::__detail::__idt<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+  501 |     [01;36m[Koperator[m[K!=(__detail::__idt<basic_string_view<_CharT, _Traits>> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:501:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6191:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6191 |     [01;36m[Koperator[m[K!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6191:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6204:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6204 |     [01;36m[Koperator[m[K!=(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6204:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6216:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6216 |     [01;36m[Koperator[m[K!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6216:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/array:257:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator!=(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+  257 |     [01;36m[Koperator[m[K!=(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/array:257:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/tuple:1445:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator!=(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)[m[K’
+ 1445 |     [01;36m[Koperator[m[K!=(const tuple<_TElements...>& __t,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1445:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:732:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator!=(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+  732 |     [01;36m[Koperator[m[K!=(const unique_ptr<_Tp, _Dp>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:732:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:738:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator!=(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+  738 |     [01;36m[Koperator[m[K!=(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:738:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:743:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator!=(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+  743 |     [01;36m[Koperator[m[K!=(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:743:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1428:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator!=(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+ 1428 |     [01;36m[Koperator[m[K!=(const __shared_ptr<_Tp1, _Lp>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1428:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1434:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator!=(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+ 1434 |     [01;36m[Koperator[m[K!=(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1434:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1439:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator!=(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+ 1439 |     [01;36m[Koperator[m[K!=(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1439:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:398:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator!=(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+  398 |     [01;36m[Koperator[m[K!=(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:398:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:403:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator!=(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+  403 |     [01;36m[Koperator[m[K!=(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:403:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:408:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator!=(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+  408 |     [01;36m[Koperator[m[K!=(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:408:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/thread:286:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(std::thread::id, std::thread::id)[m[K’
+  286 |   [01;36m[Koperator[m[K!=(thread::id __x, thread::id __y) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/thread:286:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kstd::thread::id[m[K’
+  286 |   operator!=([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+      |              [01;36m[K~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/9/functional:59[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:764:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator!=(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+  764 |     [01;36m[Koperator[m[K!=(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:764:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/functional:59[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:770:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator!=(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+  770 |     [01;36m[Koperator[m[K!=(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:770:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/optional:992:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Tp>() != declval<_Up>()))> std::operator!=(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+  992 |     [01;36m[Koperator[m[K!=(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:992:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/optional:1044:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator!=(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+ 1044 |     [01;36m[Koperator[m[K!=(const optional<_Tp>& __lhs, nullopt_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1044:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/optional:1049:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator!=(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+ 1049 |     [01;36m[Koperator[m[K!=(nullopt_t, const optional<_Tp>& __rhs) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1049:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/optional:1107:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Tp>() != declval<_Up>()))> std::operator!=(const std::optional<_Tp>&, const _Up&)[m[K’
+ 1107 |     [01;36m[Koperator[m[K!=(const optional<_Tp>& __lhs, const _Up& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1107:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/optional:1113:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Up>() != declval<_Tp>()))> std::operator!=(const _Up&, const std::optional<_Tp>&)[m[K’
+ 1113 |     [01;36m[Koperator[m[K!=(const _Up& __lhs, const optional<_Tp>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1113:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2099:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 2099 |     [01;36m[Koperator[m[K!=(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2099:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2111:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 2111 |     [01;36m[Koperator[m[K!=(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2111:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/iomanip:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__traits.hpp:10[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:9[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/system_error:319:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::error_code&, const std::error_code&)[m[K’
+  319 |   [01;36m[Koperator[m[K!=(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:319:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+  319 |   operator!=([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:323:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::error_code&, const std::error_condition&)[m[K’
+  323 |   [01;36m[Koperator[m[K!=(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:323:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+  323 |   operator!=([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:327:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::error_condition&, const std::error_code&)[m[K’
+  327 |   [01;36m[Koperator[m[K!=(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:327:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+  327 |   operator!=([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:331:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::error_condition&, const std::error_condition&)[m[K’
+  331 |   [01;36m[Koperator[m[K!=(const error_condition& __lhs,
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:331:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+  331 |   operator!=([01;36m[Kconst error_condition& __lhs[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/locale_facets.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/locale:40[m[K,
+                 from [01m[K/usr/include/c++/9/iomanip:43[m[K,
+                 from [01m[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/detail/string__traits.hpp:10[m[K,
+                 from [01m[K/opt/ros/galactic/include/std_msgs/msg/string.hpp:9[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:14[m[K:
+[01m[K/usr/include/c++/9/bits/streambuf_iterator.h:214:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+  214 |     [01;36m[Koperator[m[K!=(const istreambuf_iterator<_CharT, _Traits>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/streambuf_iterator.h:214:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/set:61[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_set.h:1003:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+ 1003 |     [01;36m[Koperator[m[K!=(const set<_Key, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_set.h:1003:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/set:62[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_multiset.h:988:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+  988 |     [01;36m[Koperator[m[K!=(const multiset<_Key, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_multiset.h:988:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/list:63[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_list.h:2032:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator!=(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+ 2032 |     [01;36m[Koperator[m[K!=(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_list.h:2032:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_map.h:1479:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+ 1479 |     [01;36m[Koperator[m[K!=(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_map.h:1479:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/map:62[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stl_multimap.h:1143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+ 1143 |     [01;36m[Koperator[m[K!=(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_multimap.h:1143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_set:47[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/context.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1711:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 1711 |     [01;36m[Koperator[m[K!=(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1711:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_set:47[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/context.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1723:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 1723 |     [01;36m[Koperator[m[K!=(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1723:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/iterator:66[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcpputils/join.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/exceptions/exceptions.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/exceptions.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/bits/stream_iterator.h:141:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)[m[K’
+  141 |     [01;36m[Koperator[m[K!=(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stream_iterator.h:141:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::istream_iterator<_Tp, _CharT, _Traits, _Dist>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/any_subscription_callback.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/variant:1187:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator!=(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+ 1187 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(!=, not_equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/variant:1187:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/any_subscription_callback.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:29[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:17[m[K:
+[01m[K/usr/include/c++/9/variant:1187:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator!=(std::monostate, std::monostate)[m[K’
+ 1187 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(!=, not_equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/variant:1187:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kstd::monostate[m[K’
+ 1187 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(!=, not_equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:159:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::allocator<unsigned char>&, const std::allocator<unsigned char>&)[m[K’
+  159 |       [01;36m[Koperator[m[K!=(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:159:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::allocator<unsigned char>&[m[K’
+  159 |       operator!=([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+      |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:897:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+  897 |     [01;36m[Koperator[m[K!=(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:897:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/vector:60[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:904:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+  904 |     [01;36m[Koperator[m[K!=(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:904:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/ext/new_allocator.h:172:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<unsigned char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+  172 |  [01;36m[Koperator[m[K!=(const new_allocator&, const new_allocator<_Up>&)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/ext/new_allocator.h:172:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:159:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::allocator<char>&, const std::allocator<char>&)[m[K’
+  159 |       [01;36m[Koperator[m[K!=(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:159:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::allocator<char>&[m[K’
+  159 |       operator!=([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+      |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/ext/new_allocator.h:172:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+  172 |  [01;36m[Koperator[m[K!=(const new_allocator&, const new_allocator<_Up>&)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/ext/new_allocator.h:172:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:159:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator!=(const std::allocator<std::__cxx11::basic_string<char> >&, const std::allocator<std::__cxx11::basic_string<char> >&)[m[K’
+  159 |       [01;36m[Koperator[m[K!=(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:159:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst std::allocator<std::__cxx11::basic_string<char> >&[m[K’
+  159 |       operator!=([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+      |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/vector:64[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/ext/new_allocator.h:172:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<std::__cxx11::basic_string<char> >&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+  172 |  [01;36m[Koperator[m[K!=(const new_allocator&, const new_allocator<_Up>&)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/ext/new_allocator.h:172:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:167:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’
+  167 |             if (can_frame != [01;36m[KpreFrame[m[K)
+      |                              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:172:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::push_back(__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type&)[m[K’
+  172 |                     can_frame.push_back(preFrame[i][01;31m[K)[m[K;
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:10[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1184:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>][m[K’
+ 1184 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1184:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+ 1184 |       push_back([01;36m[Kconst value_type& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1200:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>][m[K’
+ 1200 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1200:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::value_type&&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&&[m[K’}
+ 1200 |       push_back([01;36m[Kvalue_type&& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::unpack_reply()[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:259:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  259 |             for (int i=0; [01;35m[Ki<sizeof(can_.frame.data)[m[K; i++)
+      |                           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+/usr/include/c++/9/bits/basic_string.h: In instantiation of ‘[01m[Kstatic void std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_S_copy_chars(_CharT*, _Iterator, _Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’:
+[01m[K/usr/include/c++/9/bits/basic_string.tcc:225:6:[m[K   required from ‘[01m[Kvoid std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator, std::forward_iterator_tag) [with _FwdIterator = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[01m[K/usr/include/c++/9/bits/basic_string.h:251:11:[m[K   required from ‘[01m[Kvoid std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct_aux(_InIterator, _InIterator, std::__false_type) [with _InIterator = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[01m[K/usr/include/c++/9/bits/basic_string.h:270:4:[m[K   required from ‘[01m[Kvoid std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::_M_construct(_InIterator, _InIterator) [with _InIterator = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[01m[K/usr/include/c++/9/bits/basic_string.h:632:4:[m[K   required from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&) [with _InputIterator = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; <template-parameter-2-2> = void; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:175:84:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/basic_string.h:383:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::char_traits<char>::assign(char&, std::__cxx11::basic_string<char>&)[m[K’
+  383 |      [01;31m[Ktraits_type::assign(*__p, *__k1)[m[K; // These types are off.
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:40[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/include/c++/9/thread:39[m[K,
+                 from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:11[m[K:
+[01m[K/usr/include/c++/9/bits/char_traits.h:299:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic constexpr void std::char_traits<char>::assign(std::char_traits<char>::char_type&, const char_type&)[m[K’
+  299 |       [01;36m[Kassign[m[K(char_type& __c1, const char_type& __c2) _GLIBCXX_NOEXCEPT
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/char_traits.h:299:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char_type&[m[K’ {aka ‘[01m[Kconst char&[m[K’}
+  299 |       assign(char_type& __c1, [01;36m[Kconst char_type& __c2[m[K) _GLIBCXX_NOEXCEPT
+      |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/c++/9/bits/char_traits.h:376:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic std::char_traits<char>::char_type* std::char_traits<char>::assign(std::char_traits<char>::char_type*, std::size_t, std::char_traits<char>::char_type)[m[K’
+  376 |       [01;36m[Kassign[m[K(char_type* __s, size_t __n, char_type __a)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/char_traits.h:376:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:41:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   41 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+      |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:43:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   43 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+      |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:45:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   45 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+      |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

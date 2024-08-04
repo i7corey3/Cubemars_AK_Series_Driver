@@ -1,0 +1,105 @@
+[0.008s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver
+[0.016s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.029s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.057s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.060s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.079s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.160s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.161s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.169s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.268s] -- Configuring done
+[0.274s] -- Generating done
+[0.275s] -- Build files have been written to: /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
+[0.280s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake /home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver
+[0.281s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[0.307s] [ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+[1.155s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[1.155s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::unpack_reply()[m[K’:
+[1.155s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:248:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[1.155s]   248 |             for (int i=0; [01;35m[Ki<sizeof(can_.frame.data)[m[K; i++)
+[1.155s]       |                           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[2.191s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[2.191s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:41:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[2.191s]    41 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[2.191s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:43:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[2.191s]    43 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[2.191s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.192s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:45:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[2.192s]    45 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[2.192s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[7.183s] [ 33%] [32m[1mLinking CXX shared library libak_series_driver.so[0m
+[7.289s] [ 33%] Built target ak_series_driver
+[7.302s] [ 50%] [32mBuilding CXX object CMakeFiles/dual.dir/src/dual_motor.cpp.o[0m
+[7.302s] [ 66%] [32mBuilding CXX object CMakeFiles/single.dir/src/single_motor.cpp.o[0m
+[8.169s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[8.169s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::unpack_reply()[m[K’:
+[8.169s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:248:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[8.169s]   248 |             for (int i=0; [01;35m[Ki<sizeof(can_.frame.data)[m[K; i++)
+[8.169s]       |                           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.178s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/dual_motor.cpp:19[m[K:
+[8.178s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::unpack_reply()[m[K’:
+[8.178s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:248:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[8.178s]   248 |             for (int i=0; [01;35m[Ki<sizeof(can_.frame.data)[m[K; i++)
+[8.178s]       |                           [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.208s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/dual_motor.cpp:18[m[K:
+[9.208s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[9.208s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:41:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[9.208s]    41 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[9.208s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[9.208s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:43:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[9.208s]    43 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[9.208s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[9.208s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:45:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[9.208s]    45 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[9.208s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[9.229s] In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:18[m[K:
+[9.229s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:[m[K In member function ‘[01m[Kint CanCommunication::start(int, int)[m[K’:
+[9.229s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:41:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[9.229s]    41 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[9.229s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[9.229s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:43:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[9.229s]    43 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[9.229s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[9.229s] [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/can_communication.hpp:45:19:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[9.229s]    45 |             [01;35m[Ksystem(cmd.str().c_str())[m[K;
+[9.229s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.626s] [ 83%] [32m[1mLinking CXX executable dual[0m
+[13.738s] [ 83%] Built target dual
+[14.082s] [100%] [32m[1mLinking CXX executable single[0m
+[14.197s] [100%] Built target single
+[14.209s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[14.248s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --install /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
+[14.254s] -- Install configuration: "RelWithDebInfo"
+[14.255s] -- Execute custom install script
+[14.255s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so
+[14.256s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//ak_driver.hpp
+[14.256s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//can_communication.hpp
+[14.256s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
+[14.256s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//motor.hpp
+[14.257s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/single
+[14.257s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/dual
+[14.258s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
+[14.258s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
+[14.258s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
+[14.258s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver
+[14.258s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh
+[14.259s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv
+[14.259s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/path.sh
+[14.259s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/path.dsv
+[14.259s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.bash
+[14.259s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.sh
+[14.260s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.zsh
+[14.260s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.dsv
+[14.260s] -- Symlinking: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/package.dsv
+[14.268s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver
+[14.268s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.268s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[14.269s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.269s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake
+[14.269s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake
+[14.270s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/package.xml
+[14.272s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --install /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver

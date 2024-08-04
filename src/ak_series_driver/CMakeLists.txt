@@ -17,7 +17,7 @@ include_directories(include)
 add_library(
   ${PROJECT_NAME}
   SHARED
-  src/single_motor.cpp
+  src/motor_demo.cpp
  
 
 )
@@ -37,21 +37,11 @@ ament_target_dependencies(
 )
 
 add_executable(single 
-  src/single_motor.cpp
+  src/motor_demo.cpp
 )
 ament_target_dependencies(single rclcpp)
 target_link_libraries(
   single
-  ${PROJECT_NAME}
-
-)
-
-add_executable(dual 
-  src/dual_motor.cpp
-)
-ament_target_dependencies(dual rclcpp)
-target_link_libraries(
-  dual
   ${PROJECT_NAME}
 
 )
@@ -71,7 +61,6 @@ install(
 install(
   TARGETS 
   single
-  dual
   DESTINATION lib/${PROJECT_NAME}
 )
 

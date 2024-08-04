@@ -26,45 +26,36 @@ Next, build the ros workspace
 colcon build --symlink-install
 ```
 
-## Single Motor Demo
+# Run Demo
 
-To control one motor, source the ros workspace then in one terminal run:
+To run this demo start by launching the launch file located in the ak_driver_status package
+This will launch the ak_series_driver and a python package that will capture the can frames and create the respected topics in real time!
 
-```
-ros2 run ak_series_driver single
-```
+Make sure to setup the motor names and motor address in the params.yaml file inside the ak_driver_status package. The address is defined using the CubeMars upper computer software. Look for the controller id setting and enter that in the motor_addr parameter.
 
-Then in another terminal run:
+The motors are assumbed to be running in servo mode and connected via canbus.
 
-```
-ros2 run control control
-```
-
-Inside the second terminal, follow the instructions to set the motors parameters and run the motor.
-
-Make sure to add spaces between each of the five values before sending.
-Additional commands to use are start, stop and reset.
-
-## Dual Motor Demo
-
-To control two motors, source the ros workspace then in one terminal run:
+To launch the launch file:
 
 ```
-ros2 run ak_series_driver dual
+ros2 launch ak_driver_status ak_driver_status.launch.py
 ```
 
-Then in another terminal run:
+To send commands to the motors run the following ros2 node:
 
 ```
-ros2 run control control
+ros2 run ak_driver_status control
 ```
 
-Inside the second terminal, follow the instructions to set the motors parameters and run the motor.
-To change the motor to control type m1 or m2
+# Viewing the current motor state
 
-# Disclaimer
+To view the motor status, echo the topic /ak_driver/motor_status/{motor_name}
 
-This code has not been fully tested, Use at your own risk!
+```
+ros2 topic echo /ak_driver/motor_status/<motor_name>
+```
+
+
 
 
 

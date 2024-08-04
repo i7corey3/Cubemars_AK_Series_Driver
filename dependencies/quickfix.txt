@@ -1,0 +1,5 @@
+Run these commands to unlock premissions to open can..
+(Not the best way to do this but it works)
+
+sudo chmod 4755 /sbin/ifconfig
+sudo chmod 4755 /sbin/ip

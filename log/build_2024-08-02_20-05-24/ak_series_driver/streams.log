@@ -1,0 +1,53 @@
+[0.111s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[0.126s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.140s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.168s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.171s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.189s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.273s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.281s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.383s] -- Configuring done
+[0.388s] -- Generating done
+[0.388s] -- Build files have been written to: /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
+[0.403s] [35m[1mScanning dependencies of target ak_series_driver[0m
+[0.417s] [ 25%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o[0m
+[7.182s] [ 50%] [32m[1mLinking CXX shared library libak_series_driver.so[0m
+[7.292s] [ 50%] Built target ak_series_driver
+[7.299s] [35m[1mScanning dependencies of target single[0m
+[7.312s] [ 75%] [32mBuilding CXX object CMakeFiles/single.dir/src/motor_demo.cpp.o[0m
+[13.934s] [100%] [32m[1mLinking CXX executable single[0m
+[14.052s] [100%] Built target single
+[14.063s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --build /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver -- -j32 -l32
+[14.082s] Invoking command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --install /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver
+[14.085s] -- Install configuration: "RelWithDebInfo"
+[14.085s] -- Execute custom install script
+[14.086s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/libak_series_driver.so
+[14.086s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//ak_driver.hpp
+[14.086s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//can_communication.hpp
+[14.086s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
+[14.086s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//motor.hpp
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/single
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/parent_prefix_path/ak_series_driver
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.sh
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/ament_prefix_path.dsv
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/path.sh
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/path.dsv
+[14.087s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.bash
+[14.088s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.sh
+[14.088s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.zsh
+[14.088s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/local_setup.dsv
+[14.088s] -- Symlinking: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/package.dsv
+[14.092s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/packages/ak_series_driver
+[14.092s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.092s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[14.092s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.092s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig.cmake
+[14.092s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/cmake/ak_series_driverConfig-version.cmake
+[14.093s] -- Up-to-date symlink: /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/package.xml
+[14.094s] Invoked command in '/home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/corey/Cubemars_AK_Series_Driver/install/ak_driver_status:/home/corey/Cubemars_AK_Series_Driver/install/control:/opt/ros/galactic /usr/bin/cmake --install /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver

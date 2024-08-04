@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 control/__init__.py
 control/control.py
+control/monitor_positions.py
 control.egg-info/PKG-INFO
 control.egg-info/SOURCES.txt
 control.egg-info/dependency_links.txt

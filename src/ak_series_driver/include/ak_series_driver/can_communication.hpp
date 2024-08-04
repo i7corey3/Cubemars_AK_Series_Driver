@@ -31,18 +31,18 @@ class CanCommunication
         struct sockaddr_can addr;
         struct ifreq ifr;
         struct can_frame frame;
-        
+        int return_;
         int start(const int channel, const int bitrate)
         {
             memset(&frame, 0, sizeof(struct can_frame));
 
             std::stringstream cmd;
-            cmd << "sudo ifconfig can" << channel << " down && sudo ip link set can" << channel << " up type can bitrate " << bitrate;
-           // system(cmd.str().c_str());
-            cmd << "sudo ip link set can" << channel << " up type can bitrate " << bitrate << " dbitrate 800000 fd on";
-            //system(cmd.str().c_str());
-            cmd << "sudo ifconfig can" << channel << " up\n";
-            //system(cmd.str().c_str());
+            cmd << "ifconfig can" << channel << " down" << "\n";
+            return_ = system(cmd.str().c_str());
+            cmd << "ip link set can" << channel << " up type can bitrate " << bitrate << "\n";
+            return_ = system(cmd.str().c_str());
+            cmd << "ifconfig can" << channel << " up\n";
+            return_ = system(cmd.str().c_str());
 
             s = socket(PF_CAN, SOCK_RAW, CAN_RAW);
             if (s < 0) {
@@ -78,7 +78,7 @@ class CanCommunication
                 perror("Setting CAN_RAW_FD_FRAMES Failed");
                 return 1;
             } 
-         
+            //  sleep_for(nanoseconds(1000000000));
             return 0;
            
         }
@@ -88,29 +88,16 @@ class CanCommunication
             
             frame.can_id = can_id | CAN_EFF_FLAG;
             frame.can_dlc = can_dlc;
-            // std::cout << "Can ID ";
-            // printf("%X", std::to_string(frame.can_id).c_str());
-            //    std::cout << std::endl;
             
-            // int offset = 8 - sizeof(data);
-            // for (unsigned int i = 0; i < offset; i++)
-            // {
-            //     frame.data[i] = 0;
-            // }
             for (unsigned int i = 0; i < can_dlc; i++)
             {
                 
                 frame.data[i] = data[i];
-                // printf("%X", std::to_string(data[i]).c_str());
-                // std::cout << std::endl;
+                
             }
-            // std::cout << std::endl;
-            
+           
             /*Send message out */
             nbytes = write(s, &frame, sizeof(struct can_frame)); 
-            
-            // printf("%s", std::to_string(nbytes).c_str());
-            // std::cout << std::endl;
             
             if(nbytes == -1) {
                 
@@ -133,6 +120,7 @@ class CanCommunication
                 fprintf(stderr, "read: incomplete CAN frame\n");
                 //return 1;
             }
+           
             
         }
 

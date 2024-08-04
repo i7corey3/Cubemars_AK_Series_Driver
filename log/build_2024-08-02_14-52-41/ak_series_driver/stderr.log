@@ -1,0 +1,15 @@
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::setup(int, int)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:34:25:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid AKDriver::get_can_frame()[m[K’
+   34 |             std::thread([01;31m[Kget_can_frame[m[K, can_frame);
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:192:14:[m[K [01;36m[Knote: [m[Kdeclared here
+  192 |         void [01;36m[Kget_can_frame[m[K()
+      |              [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::get_data(std::vector<float>&)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:174:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  174 |         void get_data([01;35m[Kstd::vector<float> &data[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

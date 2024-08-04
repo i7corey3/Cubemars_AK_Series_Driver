@@ -1,3 +1,4 @@
 [console_scripts]
 control = control.control:main
+status = control.monitor_positions:main
 

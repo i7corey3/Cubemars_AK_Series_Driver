@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target ak_series_driver[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o[0m
+In file included from [01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp:19[m[K:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:136:39:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[KGetCmdOutput[m[K’
+  136 |         std::string void GetCmdOutput([01;31m[K)[m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:[m[K In member function ‘[01m[Kvoid AKDriver::get_data(std::vector<float>&)[m[K’:
+[01m[K/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/include/ak_series_driver/ak_driver.hpp:177:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGetCmdOutput[m[K’ was not declared in this scope
+  177 |             std::string output = [01;31m[KGetCmdOutput[m[K(cmd);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ak_series_driver.dir/build.make:63: CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/ak_series_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

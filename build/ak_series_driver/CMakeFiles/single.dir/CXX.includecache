@@ -60,7 +60,7 @@ vector
 string.h
 -
 
-/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/single_motor.cpp
+/home/corey/Cubemars_AK_Series_Driver/src/ak_series_driver/src/motor_demo.cpp
 stdio.h
 -
 stdlib.h

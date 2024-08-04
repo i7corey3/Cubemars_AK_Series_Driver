@@ -80,28 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -135,6 +113,28 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles /home/corey/Cubemars_AK_Series_Driver/build/ak_series_driver/CMakeFiles/progress.marks
@@ -166,19 +166,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named dual
-
-# Build rule for target.
-dual: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dual
-.PHONY : dual
-
-# fast build rule for target.
-dual/fast:
-	$(MAKE) -f CMakeFiles/dual.dir/build.make CMakeFiles/dual.dir/build
-.PHONY : dual/fast
 
 #=============================================================================
 # Target rules for targets named single
@@ -232,62 +219,35 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/dual_motor.o: src/dual_motor.cpp.o
+src/motor_demo.o: src/motor_demo.cpp.o
 
-.PHONY : src/dual_motor.o
-
-# target to build an object file
-src/dual_motor.cpp.o:
-	$(MAKE) -f CMakeFiles/dual.dir/build.make CMakeFiles/dual.dir/src/dual_motor.cpp.o
-.PHONY : src/dual_motor.cpp.o
-
-src/dual_motor.i: src/dual_motor.cpp.i
-
-.PHONY : src/dual_motor.i
-
-# target to preprocess a source file
-src/dual_motor.cpp.i:
-	$(MAKE) -f CMakeFiles/dual.dir/build.make CMakeFiles/dual.dir/src/dual_motor.cpp.i
-.PHONY : src/dual_motor.cpp.i
-
-src/dual_motor.s: src/dual_motor.cpp.s
-
-.PHONY : src/dual_motor.s
-
-# target to generate assembly for a file
-src/dual_motor.cpp.s:
-	$(MAKE) -f CMakeFiles/dual.dir/build.make CMakeFiles/dual.dir/src/dual_motor.cpp.s
-.PHONY : src/dual_motor.cpp.s
-
-src/single_motor.o: src/single_motor.cpp.o
-
-.PHONY : src/single_motor.o
+.PHONY : src/motor_demo.o
 
 # target to build an object file
-src/single_motor.cpp.o:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/single_motor.cpp.o
-	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.o
-.PHONY : src/single_motor.cpp.o
+src/motor_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/motor_demo.cpp.o
+	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.o
+.PHONY : src/motor_demo.cpp.o
 
-src/single_motor.i: src/single_motor.cpp.i
+src/motor_demo.i: src/motor_demo.cpp.i
 
-.PHONY : src/single_motor.i
+.PHONY : src/motor_demo.i
 
 # target to preprocess a source file
-src/single_motor.cpp.i:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/single_motor.cpp.i
-	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.i
-.PHONY : src/single_motor.cpp.i
+src/motor_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/motor_demo.cpp.i
+	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.i
+.PHONY : src/motor_demo.cpp.i
 
-src/single_motor.s: src/single_motor.cpp.s
+src/motor_demo.s: src/motor_demo.cpp.s
 
-.PHONY : src/single_motor.s
+.PHONY : src/motor_demo.s
 
 # target to generate assembly for a file
-src/single_motor.cpp.s:
-	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/single_motor.cpp.s
-	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/single_motor.cpp.s
-.PHONY : src/single_motor.cpp.s
+src/motor_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/single.dir/build.make CMakeFiles/single.dir/src/motor_demo.cpp.s
+	$(MAKE) -f CMakeFiles/ak_series_driver.dir/build.make CMakeFiles/ak_series_driver.dir/src/motor_demo.cpp.s
+.PHONY : src/motor_demo.cpp.s
 
 # Help Target
 help:
@@ -297,22 +257,18 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... dual"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... single"
 	@echo "... ak_series_driver"
 	@echo "... ak_series_driver_uninstall"
 	@echo "... uninstall"
-	@echo "... src/dual_motor.o"
-	@echo "... src/dual_motor.i"
-	@echo "... src/dual_motor.s"
-	@echo "... src/single_motor.o"
-	@echo "... src/single_motor.i"
-	@echo "... src/single_motor.s"
+	@echo "... src/motor_demo.o"
+	@echo "... src/motor_demo.i"
+	@echo "... src/motor_demo.s"
 .PHONY : help
 
 

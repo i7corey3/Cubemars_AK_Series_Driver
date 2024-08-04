@@ -4,7 +4,6 @@
 /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//mit_params.hpp
 /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/include/ak_series_driver//motor.hpp
 /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/single
-/home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/lib/ak_series_driver/dual
 /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.sh
 /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ak_series_driver/environment/library_path.dsv
 /home/corey/Cubemars_AK_Series_Driver/install/ak_series_driver/share/ament_index/resource_index/package_run_dependencies/ak_series_driver
